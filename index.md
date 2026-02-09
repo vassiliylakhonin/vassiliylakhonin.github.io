@@ -3,7 +3,7 @@ Almaty, Kazakhstan
 LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/  
 Contact: Available on request
 
-PDF download: /Vassiliy-Lakhonin_CV.pdf
+PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
 ## Summary
 Target roles: Program/Portfolio Manager (Evidence & Compliance, Cross-Border) — onsite or remote.  
