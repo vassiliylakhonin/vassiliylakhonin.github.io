@@ -1,7 +1,7 @@
 # Vassiliy Lakhonin
 Almaty, Kazakhstan  
 LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/  
-Contact: Available on request
+Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
