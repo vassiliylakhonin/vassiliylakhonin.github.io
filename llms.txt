@@ -6,6 +6,7 @@
 - [CV (web)](https://vassiliylakhonin.github.io/): One-page CV.
 - [CV (PDF)](https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf): Downloadable PDF.
 - [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/): Profile.
+- [Collaboration intake](https://vassiliylakhonin.github.io/intake.html): Structured project request form.
 - [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app): Sample reporting page.
 - [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app): Sample KPI tracking page.
 - [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor): Domain-specific advisory GPT.
