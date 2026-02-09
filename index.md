@@ -87,4 +87,3 @@ Jan 2014 – Dec 2018
 - [CustomGPT sample: Fitness Wellness Metrics Insights](https://chatgpt.com/g/g-67c6e2ead288819186d3be7d91466783-fitness-wellness-metrics-insights)
 
 References, work samples, publications, and supporting materials available upon request.
-(From your CV PDF, with contact details removed for public posting.)
