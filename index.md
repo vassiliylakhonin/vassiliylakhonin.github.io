@@ -2,6 +2,7 @@
 Almaty, Kazakhstan  
 LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/  
 Contact: Available on request
+Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
@@ -24,8 +25,9 @@ Languages: Russian (native), English (professional working proficiency).
 
 ## Leadership
 - Led partner capacity-building across 15+ local implementing organizations.
-- Managed multi-stakeholder coordination across donors, HQ/country teams, government, and private-sector counterparts.
-- Drove reporting quality standards, escalation decisions, and delivery timelines for donor-facing outputs.
+- Chaired multi-stakeholder coordination across donors, HQ/country teams, government, and private-sector counterparts; set priorities and resolved delivery blockers.
+- Owned reporting quality standards and go/no-go escalation decisions on donor-facing submissions.
+- Oversaw budget monitoring and vendor deliverable tracking for portfolio activities, aligning spending execution with compliance requirements.
 
 ## Target role variants
 - Development/INGO: Program or Portfolio Manager (Evidence, Compliance, Cross-Border Delivery).
@@ -81,8 +83,8 @@ Jan 2014 – Dec 2018
 ## Reporting sample
 - [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
 - [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
-- [CustomGPT sample](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor)
-- [CustomGPT sample](https://chatgpt.com/g/g-67c6e2ead288819186d3be7d91466783-fitness-wellness-metrics-insights)
+- [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor)
+- [CustomGPT sample: Fitness Wellness Metrics Insights](https://chatgpt.com/g/g-67c6e2ead288819186d3be7d91466783-fitness-wellness-metrics-insights)
 
 References, work samples, publications, and supporting materials available upon request.
 (From your CV PDF, with contact details removed for public posting.)
