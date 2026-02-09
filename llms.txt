@@ -1,4 +1,8 @@
-site: https://vassiliylakhonin.github.io/
-ownership: Vassiliy Lakhonin
-github: https://github.com/vassiliylakhonin
-primary_document: /Vassiliy%20Lakhonin_CV.pdf
+# Vassiliy Lakhonin
+
+> Program/Portfolio Manager (Evidence & Compliance, Cross-Border). CV, experience, and background.
+
+## Key pages
+- [CV (web)](https://vassiliylakhonin.github.io/): One-page CV.
+- [CV (PDF)](https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf): Downloadable PDF.
+- [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/): Profile.
