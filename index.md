@@ -54,6 +54,7 @@ Jan 2014 – Dec 2018
 
 ## Selected articles
 - [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41)
+- [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832)
 
 References, work samples, publications, and supporting materials available upon request.
 (From your CV PDF, with contact details removed for public posting.)
