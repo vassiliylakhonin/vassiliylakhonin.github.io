@@ -60,6 +60,7 @@ Jan 2014 – Dec 2018
 ## Reporting sample
 - [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
 - [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
+- [CustomGPT sample](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor)
 
 References, work samples, publications, and supporting materials available upon request.
 (From your CV PDF, with contact details removed for public posting.)

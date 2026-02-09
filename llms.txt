@@ -8,6 +8,7 @@
 - [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/): Profile.
 - [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app): Sample reporting page.
 - [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app): Sample KPI tracking page.
+- [CustomGPT sample](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor): Development and humanitarian aid advisor GPT.
 
 ## Writing
 - [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41)
