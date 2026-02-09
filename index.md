@@ -10,6 +10,27 @@ Target roles: Program/Portfolio Manager (Evidence & Compliance, Cross-Border) �
 End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.  
 Languages: Russian (native), English (professional working proficiency).
 
+## Selected impact
+- Managed performance and reporting for a $14M USAID-funded regional program across 4 Central Asian countries.
+- Supported 4 donor audits (2019, 2020, and 2 USAID audits during 2023-2025) with zero findings.
+- Coordinated cross-functional KPI tracking across 4 country offices plus HQ, with 15+ implementing partners.
+
+## Tools and systems
+- MEL/performance monitoring systems, indicator frameworks, and partner data collection workflows.
+- Donor reporting stacks, audit documentation packages, and compliance evidence tracking.
+- KPI dashboards and reporting templates for cross-country portfolio monitoring.
+- PM tooling: sprint cadences (2-week iterations), risk logs, action trackers, and vendor coordination workflows.
+- AI-assisted reporting workflows with quality-control checkpoints.
+
+## Leadership
+- Led partner capacity-building across 15+ local implementing organizations.
+- Managed multi-stakeholder coordination across donors, HQ/country teams, government, and private-sector counterparts.
+- Drove reporting quality standards, escalation decisions, and delivery timelines for donor-facing outputs.
+
+## Target role variants
+- Development/INGO: Program or Portfolio Manager (Evidence, Compliance, Cross-Border Delivery).
+- Private sector: PMO / Program Operations / Compliance Program Manager (risk, controls, reporting, multi-market coordination).
+
 ## Work experience
 
 ### Regional Monitoring and Evaluation (Performance) Manager — DAI (Almaty, Kazakhstan)
@@ -53,9 +74,9 @@ Jan 2014 – Dec 2018
 - JPO internship — MFA Kazakhstan, Dept. of Multilateral Cooperation — 2016
 
 ## Selected articles
-- [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41)
-- [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832)
-- [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1)
+- [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41) - Research on development policy and regional governance dynamics in Central Asia.
+- [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832) - Open-access output relevant to evidence-driven development practice.
+- [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1) - Full-text publication focused on regional development and policy analysis.
 
 ## Reporting sample
 - [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)

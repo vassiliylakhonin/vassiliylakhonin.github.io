@@ -1,6 +1,6 @@
 # Vassiliy Lakhonin
 
-> Program/Portfolio Manager (Evidence & Compliance, Cross-Border). CV, experience, and background.
+> Program/Portfolio Manager (Evidence & Compliance, Cross-Border), also open to PMO/Compliance Program Manager roles in private sector.
 
 ## Key pages
 - [CV (web)](https://vassiliylakhonin.github.io/): One-page CV.
@@ -15,3 +15,7 @@
 - [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41)
 - [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832)
 - [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1)
+
+## Focus keywords
+- MEL systems, donor reporting, compliance evidence, audit readiness, KPI dashboards.
+- Cross-border portfolio delivery, PMO operations, risk tracking, stakeholder management.
