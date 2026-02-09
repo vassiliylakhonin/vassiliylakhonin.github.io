@@ -52,5 +52,8 @@ Jan 2014 – Dec 2018
 - CEU SPP: Action Research, Effective Writing, Visualization and Advocacy — 2018
 - JPO internship — MFA Kazakhstan, Dept. of Multilateral Cooperation — 2016
 
+## Selected articles
+- [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41)
+
 References, work samples, publications, and supporting materials available upon request.
 (From your CV PDF, with contact details removed for public posting.)
