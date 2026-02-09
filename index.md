@@ -55,7 +55,7 @@ Jan 2014 – Dec 2018
 ## Selected articles
 - [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41)
 - [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832)
-- [Journal article (DOI: 10.1353/jda.2016.0153)](https://doi.org/10.1353/jda.2016.0153)
+- [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1)
 
 References, work samples, publications, and supporting materials available upon request.
 (From your CV PDF, with contact details removed for public posting.)
