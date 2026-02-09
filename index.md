@@ -86,6 +86,9 @@ Jan 2014 – Dec 2018
 - [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor)
 - [CustomGPT sample: Fitness Wellness Metrics Insights](https://chatgpt.com/g/g-67c6e2ead288819186d3be7d91466783-fitness-wellness-metrics-insights)
 
+## Case study
+- [Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
+
 References, work samples, publications, and supporting materials available upon request.
 
 <script type="application/ld+json">
