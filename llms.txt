@@ -1,0 +1,4 @@
+site: https://vassiliylakhonin.github.io/
+ownership: Vassiliy Lakhonin
+github: https://github.com/vassiliylakhonin
+primary_document: /Vassiliy%20Lakhonin_CV.pdf
