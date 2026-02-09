@@ -3,6 +3,7 @@ Almaty, Kazakhstan
 LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/  
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
+Last updated: February 2026
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
@@ -10,6 +11,11 @@ PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 Target roles: Program/Portfolio Manager (Evidence & Compliance, Cross-Border) — onsite or remote.  
 End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.  
 Languages: Russian (native), English (professional working proficiency).
+
+## I help with
+- Donor reporting quality assurance and evidence-ready submission cycles.
+- Cross-country KPI tracking and performance governance for multi-partner portfolios.
+- Audit-readiness systems: documentation controls, risk tracking, and corrective action workflows.
 
 ## Selected impact
 - Managed performance and reporting for a $14M USAID-funded regional program across 4 Central Asian countries.
@@ -84,7 +90,6 @@ Jan 2014 – Dec 2018
 - [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
 - [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 - [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor)
-- [CustomGPT sample: Fitness Wellness Metrics Insights](https://chatgpt.com/g/g-67c6e2ead288819186d3be7d91466783-fitness-wellness-metrics-insights)
 
 ## Case study
 - [Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
