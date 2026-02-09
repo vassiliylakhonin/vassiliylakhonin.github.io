@@ -87,3 +87,30 @@ Jan 2014 – Dec 2018
 - [CustomGPT sample: Fitness Wellness Metrics Insights](https://chatgpt.com/g/g-67c6e2ead288819186d3be7d91466783-fitness-wellness-metrics-insights)
 
 References, work samples, publications, and supporting materials available upon request.
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": {
+    "@type": "Person",
+    "name": "Vassiliy Lakhonin",
+    "url": "https://vassiliylakhonin.github.io/",
+    "email": "mailto:vassiliy.lakhonin@gmail.com",
+    "jobTitle": "Program/Portfolio Manager",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Independent consultant / International development programs"
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Almaty",
+      "addressCountry": "Kazakhstan"
+    },
+    "sameAs": [
+      "https://www.linkedin.com/in/vassiliy-lakhonin/",
+      "https://github.com/vassiliylakhonin"
+    ]
+  }
+}
+</script>
