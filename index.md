@@ -57,5 +57,8 @@ Jan 2014 – Dec 2018
 - [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832)
 - [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1)
 
+## Reporting sample
+- [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
+
 References, work samples, publications, and supporting materials available upon request.
 (From your CV PDF, with contact details removed for public posting.)
