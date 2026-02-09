@@ -88,6 +88,7 @@ Jan 2014 – Dec 2018
 
 ## Case study
 - [Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
+- [Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 
 References, work samples, publications, and supporting materials available upon request.
 
