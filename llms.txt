@@ -10,3 +10,4 @@
 ## Writing
 - [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41)
 - [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832)
+- [Journal article (DOI: 10.1353/jda.2016.0153)](https://doi.org/10.1353/jda.2016.0153)
