@@ -1,3 +1,8 @@
+---
+title: Vassiliy Lakhonin
+description: Program/Portfolio Manager focused on evidence, compliance, and cross-border delivery. CV, case studies, and proof samples.
+---
+
 # Vassiliy Lakhonin
 Almaty, Kazakhstan  
 LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/  
@@ -32,7 +37,7 @@ Languages: Russian (native), English (professional working proficiency).
 ## Search keywords (for recruiters and agents)
 - Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager.
 - Focus: donor compliance, audit readiness, internal controls, evidence management, KPI governance, performance management, risk tracking, stakeholder management, vendor oversight, budget monitoring, cross-border delivery.
-- Common tool keywords: Excel, Google Sheets, Power BI, Tableau, Jira, Asana, Trello, SharePoint, Google Drive.
+- Tool keywords (common in job postings): Excel, Google Sheets, Power BI, Tableau, Jira, Asana, Trello, SharePoint, Google Drive.
 
 ## Leadership
 - Led partner capacity-building across 15+ local implementing organizations.
