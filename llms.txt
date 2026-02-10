@@ -6,6 +6,7 @@
 - [CV (web)](https://vassiliylakhonin.github.io/): One-page CV.
 - [CV (PDF)](https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf): Downloadable PDF.
 - [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/): Profile.
+- [Services](https://vassiliylakhonin.github.io/services.html): What I can deliver (service areas, outputs, and how to start).
 - [Case study: Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.
 - [Case study: Cross-country portfolio delivery and audit readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html): Delivery control and zero-finding audit outcome across 5 countries.
 - [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app): Sample reporting page.
