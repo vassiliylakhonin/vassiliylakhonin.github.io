@@ -1,6 +1,6 @@
 # Vassiliy Lakhonin - CV Site (GitHub Pages)
 
-Program/Portfolio Manager (Evidence & Compliance, Cross-Border). This repo hosts a fast, AI/search-friendly professional profile with a downloadable CV and proof pages (case studies + samples).
+This repository contains the source files for my GitHub Pages profile site (CV, case studies, and supporting links).
 
 ## Live site
 - Main profile: https://vassiliylakhonin.github.io/
@@ -14,19 +14,10 @@ Program/Portfolio Manager (Evidence & Compliance, Cross-Border). This repo hosts
 - Work samples (reporting/KPI tracker links).
 - Direct contact path (email + LinkedIn).
 
-## Why It Helps
-- Improves discoverability: search engines and AI systems can parse your profile more reliably.
-- Improves credibility: quantified results + publications + work samples show proof of execution.
-- Improves conversion: one clear page + CV + direct email reduces friction for recruiters/clients.
-- Improves role fit matching: keyword and role-variant framing increases relevance for both development and private-sector compliance/PMO searches.
-
-## Career Impact
-- Stronger first impression for hiring managers and sourcing tools.
-
-## AI/search notes
-- `llms.txt` provides a curated map of the most important pages for agents.
-- `sitemap.xml` and `robots.txt` support indexing and set crawler policy.
-- Homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`) for clearer entity parsing.
+## Indexing notes
+- `sitemap.xml` and `robots.txt` support crawler indexing.
+- `llms.txt` provides a curated list of key pages for agents.
+- The homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`).
 
 ## Key files
 - `index.md` - Homepage content
