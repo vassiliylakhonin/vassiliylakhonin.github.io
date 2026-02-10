@@ -87,7 +87,7 @@ Jan 2014 – Dec 2018
 - [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1) - Full-text publication focused on regional development and policy analysis.
 
 ## Reporting sample
-- [Reporting sample](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
+- [Activity report](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
 - [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 - [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor)
 
