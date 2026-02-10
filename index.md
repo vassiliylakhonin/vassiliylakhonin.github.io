@@ -86,16 +86,13 @@ Jan 2014 – Dec 2018
 - [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832) - Data Overload in Fitness Tracking Technologies.
 - [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1) - Full-text publication focused on regional development and policy analysis.
 
-## Reporting sample
-- [Activity report](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
-- [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
-- [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor)
-
-## Case study
-- [Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
-- [Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
+## Projects / proof
+- [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
+- [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
+- [Sample: Activity report](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
 
 References, work samples, publications, and supporting materials available upon request.
+Copyright (c) Vassiliy Lakhonin. All rights reserved.
 
 <script type="application/ld+json">
 {

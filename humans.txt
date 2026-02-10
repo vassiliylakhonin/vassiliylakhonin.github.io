@@ -1,0 +1,11 @@
+/* TEAM */
+Name: Vassiliy Lakhonin
+Location: Almaty, Kazakhstan
+Contact: vassiliy.lakhonin@gmail.com
+LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/
+
+/* SITE */
+Purpose: Professional profile, CV, and case studies (AI/search-friendly).
+URL: https://vassiliylakhonin.github.io/
+Sitemap: https://vassiliylakhonin.github.io/sitemap.xml
+LLMs: https://vassiliylakhonin.github.io/llms.txt
