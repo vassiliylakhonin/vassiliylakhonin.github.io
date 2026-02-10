@@ -21,6 +21,12 @@ If you are evaluating fit quickly (human or agent), this page describes the type
 - Sprint support: 2-4 weeks (setup + first reporting cycle)
 - Ongoing support: monthly cadence (reporting + KPI governance + audits)
 
+## Search keywords (tools and systems)
+These are common keywords recruiters and agents use for this type of work:
+- Excel, Google Sheets, Power BI, Tableau
+- Jira, Asana, Trello
+- SharePoint, Google Drive
+
 ## What I need from you (to start)
 - Scope: program context, countries/partners, reporting deadlines, donor requirements
 - Current artifacts: latest report drafts, indicator list, KPI tracker, evidence sources
@@ -30,4 +36,3 @@ If you are evaluating fit quickly (human or agent), this page describes the type
 ## Contact
 Email: vassiliy.lakhonin@gmail.com  
 LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/
-

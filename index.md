@@ -29,6 +29,11 @@ Languages: Russian (native), English (professional working proficiency).
 - PM tooling: sprint cadences (2-week iterations), risk logs, action trackers, and vendor coordination workflows.
 - AI-assisted reporting workflows with quality-control checkpoints.
 
+## Search keywords (for recruiters and agents)
+- Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager.
+- Focus: donor compliance, audit readiness, internal controls, evidence management, KPI governance, performance management, risk tracking, stakeholder management, vendor oversight, budget monitoring, cross-border delivery.
+- Common tool keywords: Excel, Google Sheets, Power BI, Tableau, Jira, Asana, Trello, SharePoint, Google Drive.
+
 ## Leadership
 - Led partner capacity-building across 15+ local implementing organizations.
 - Chaired multi-stakeholder coordination across donors, HQ/country teams, government, and private-sector counterparts; set priorities and resolved delivery blockers.
@@ -104,7 +109,22 @@ Copyright (c) Vassiliy Lakhonin. All rights reserved.
     "name": "Vassiliy Lakhonin",
     "url": "https://vassiliylakhonin.github.io/",
     "email": "mailto:vassiliy.lakhonin@gmail.com",
-    "jobTitle": "Program/Portfolio Manager",
+    "jobTitle": [
+      "Program Manager",
+      "Portfolio Manager",
+      "PMO / Compliance Program Manager"
+    ],
+    "knowsAbout": [
+      "Monitoring and Evaluation (M&E)",
+      "MEL systems",
+      "Donor reporting",
+      "Compliance evidence",
+      "Audit readiness",
+      "KPI governance",
+      "Cross-border portfolio delivery",
+      "Risk tracking",
+      "Stakeholder management"
+    ],
     "worksFor": {
       "@type": "Organization",
       "name": "Independent consultant / International development programs"

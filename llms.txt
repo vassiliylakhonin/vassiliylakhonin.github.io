@@ -19,5 +19,6 @@
 - [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1)
 
 ## Focus keywords
-- MEL systems, donor reporting, compliance evidence, audit readiness, KPI dashboards.
-- Cross-border portfolio delivery, PMO operations, risk tracking, stakeholder management.
+- MEL/MEAL, Monitoring and Evaluation (M&E), donor reporting, compliance evidence, audit readiness, KPI dashboards.
+- Cross-border portfolio delivery, PMO operations, risk tracking, stakeholder management, vendor oversight, budget monitoring.
+- Internal controls, evidence management, reporting QA/QC, governance cadence, RAG status, corrective actions.
