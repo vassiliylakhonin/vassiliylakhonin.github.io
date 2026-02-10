@@ -1,12 +1,18 @@
-# Vassiliy Lakhonin - Professional Profile Site
+# Vassiliy Lakhonin - CV Site (GitHub Pages)
 
-This repository powers the GitHub Pages site for profile, CV, case studies, and supporting links.
+Program/Portfolio Manager (Evidence & Compliance, Cross-Border). This repo hosts a fast, AI/search-friendly professional profile with a downloadable CV and proof pages (case studies + samples).
 
 ## Live site
 - Main profile: https://vassiliylakhonin.github.io/
 - CV PDF: https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf
 - Donor reporting case study: https://vassiliylakhonin.github.io/case-study-donor-reporting.html
 - Portfolio audit-readiness case study: https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html
+
+## What’s included
+- One-page CV with quantified outcomes and role variants (development + private-sector PMO/compliance).
+- Proof pages in problem-action-result format (case studies).
+- Work samples (reporting/KPI tracker links).
+- Direct contact path (email + LinkedIn).
 
 ## Why It Helps
 - Improves discoverability: search engines and AI systems can parse your profile more reliably.
@@ -17,6 +23,11 @@ This repository powers the GitHub Pages site for profile, CV, case studies, and 
 ## Career Impact
 - Stronger first impression for hiring managers and sourcing tools.
 
+## AI/search notes
+- `llms.txt` provides a curated map of the most important pages for agents.
+- `sitemap.xml` and `robots.txt` support indexing and set crawler policy.
+- Homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`) for clearer entity parsing.
+
 ## Key files
 - `index.md` - Homepage content
 - `llms.txt` - AI-agent oriented key pages
@@ -26,7 +37,8 @@ This repository powers the GitHub Pages site for profile, CV, case studies, and 
 
 ## Update workflow
 ```bash
-cd "/Users/vassiliylakhonin/Documents/New project/cv-site"
+git clone https://github.com/vassiliylakhonin/vassiliylakhonin.github.io.git
+cd vassiliylakhonin.github.io
 git add .
 git commit -m "Update site content"
 git push
