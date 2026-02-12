@@ -104,6 +104,7 @@ Jan 2014 – Dec 2018
 
 References, work samples, publications, and supporting materials available upon request.
 Copyright (c) Vassiliy Lakhonin. All rights reserved.
+Source repository: [vassiliylakhonin.github.io](https://github.com/vassiliylakhonin/vassiliylakhonin.github.io)
 
 <script type="application/ld+json">
 {
