@@ -93,9 +93,9 @@ Jan 2014 – Dec 2018
 - JPO internship — MFA Kazakhstan, Dept. of Multilateral Cooperation — 2016
 
 ## Selected articles
-- [Journal article (DOI: 10.15722/jds.17.3.201903.41)](https://doi.org/10.15722/jds.17.3.201903.41) - Digital Transformations to Improve the Work and Distribution of the State Scholarships Programs.
-- [Research article (DOI: 10.5281/zenodo.17215832)](https://doi.org/10.5281/zenodo.17215832) - Data Overload in Fitness Tracking Technologies.
-- [Journal article (full text PDF)](https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1) - Full-text publication focused on regional development and policy analysis.
+- [Article brief: Digital Transformations to Improve the Work and Distribution of the State Scholarships Programs](/article-state-scholarships-digital-transformation.html) - Includes summary, relevance, and source DOI.
+- [Article brief: Data Overload in Fitness Tracking Technologies](/article-data-overload-fitness-tracking.html) - Includes summary, relevance, and source DOI.
+- [Article brief: Regional Development and Policy Analysis](/article-regional-development-policy-analysis.html) - Includes summary, relevance, and source full-text link.
 
 ## Projects / proof
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
