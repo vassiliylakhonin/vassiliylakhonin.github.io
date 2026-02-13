@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-02-13",
+  "profile": {
+    "name": "Vassiliy Lakhonin",
+    "title": "Program/Portfolio Manager",
+    "title_variants": [
+      "Program Manager",
+      "Portfolio Manager",
+      "PMO Manager",
+      "Compliance Program Manager",
+      "Monitoring and Evaluation (M&E) Manager"
+    ],
+    "summary": "Program/Portfolio Manager focused on evidence, compliance, and cross-border delivery.",
+    "location": "Almaty, Kazakhstan",
+    "open_to": [
+      "Central Asia",
+      "MENA",
+      "Europe",
+      "Remote global teams"
+    ],
+    "work_modes": [
+      "onsite",
+      "hybrid",
+      "remote"
+    ],
+    "languages": [
+      "Russian (native)",
+      "English (professional working proficiency)"
+    ]
+  },
+  "contact": {
+    "email": "vassiliy.lakhonin@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vassiliy-lakhonin/",
+    "github": "https://github.com/vassiliylakhonin",
+    "website": "https://vassiliylakhonin.github.io/"
+  },
+  "services": [
+    {
+      "name": "Donor reporting support",
+      "description": "QA, narrative support, and evidence-readiness for donor submissions.",
+      "typical_outputs": [
+        "donor report QA memo",
+        "evidence gap list",
+        "submission checklist"
+      ],
+      "typical_timeline": "1-3 days (one-off) or 2-4 weeks (sprint)"
+    },
+    {
+      "name": "MEL governance and KPI tracking",
+      "description": "Indicator frameworks, KPI governance, and cross-country tracking cadence.",
+      "typical_outputs": [
+        "indicator reference sheet",
+        "KPI governance notes",
+        "portfolio performance status pack"
+      ],
+      "typical_timeline": "2-4 weeks setup, then monthly cadence"
+    },
+    {
+      "name": "Compliance evidence and audit readiness",
+      "description": "Documentation control and traceability structures for audit-ready operations.",
+      "typical_outputs": [
+        "evidence pack structure",
+        "controls checklist",
+        "risk and corrective-action tracker"
+      ],
+      "typical_timeline": "1-4 weeks depending on scope"
+    },
+    {
+      "name": "PMO-style delivery control",
+      "description": "Cadence, dependencies, risk tracking, and stakeholder alignment for multi-stream execution.",
+      "typical_outputs": [
+        "RAG status pack",
+        "action/dependency tracker",
+        "decision log"
+      ],
+      "typical_timeline": "Ongoing program cadence"
+    }
+  ],
+  "evidence": {
+    "selected_metrics": [
+      "Managed performance/reporting for a $14M USAID-funded regional program across 4 countries.",
+      "Delivered 100% on-time donor reporting across 8 consecutive quarters.",
+      "Supported donor audits with zero findings.",
+      "Reduced partner submission delays by 40%.",
+      "Improved partner data confidence from 6.2/10 to 8.7/10."
+    ],
+    "case_studies": [
+      "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
+      "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
+      "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    ],
+    "article_briefs": [
+      "https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html",
+      "https://vassiliylakhonin.github.io/article-data-overload-fitness-tracking.html",
+      "https://vassiliylakhonin.github.io/article-regional-development-policy-analysis.html"
+    ]
+  },
+  "tools_and_keywords": [
+    "M365 Teams",
+    "Outlook",
+    "SharePoint",
+    "OneDrive",
+    "Google Apps",
+    "Trello",
+    "LLM chatbots",
+    "MEL/MEAL",
+    "donor reporting",
+    "audit readiness",
+    "compliance evidence",
+    "KPI governance",
+    "PMO operations",
+    "cross-border delivery"
+  ],
+  "engagement_notes": {
+    "inputs_needed": [
+      "program scope and deadlines",
+      "report drafts and indicator lists",
+      "current KPI tracker and evidence sources",
+      "decision owner for final approval",
+      "data access constraints"
+    ],
+    "availability": "Open to consulting and full-time opportunities."
+  }
+}

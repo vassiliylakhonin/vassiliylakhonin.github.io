@@ -24,6 +24,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `sitemap.xml` and `robots.txt` support crawler indexing.
 - `llms.txt` provides a curated list of key pages for agents.
 - `humans.txt` provides a concise human-readable site summary.
+- `capabilities.json` provides machine-readable service and engagement metadata.
 - The homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`).
 - Article brief pages include `ScholarlyArticle` JSON-LD.
 
@@ -31,6 +32,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `index.md` - Homepage content
 - `llms.txt` - AI-agent oriented key pages
 - `humans.txt` - Human-readable site metadata
+- `capabilities.json` - Machine-readable capability profile
 - `robots.txt` - Crawl policy
 - `sitemap.xml` - Indexable URL list
 - `services.html` - Services and deliverables page
