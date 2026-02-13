@@ -101,7 +101,7 @@ Jan 2014 – Dec 2018
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
-- [Sample: Activity report](https://6969b765e613b56bb78e91c6--visionary-sunflower-a27912.netlify.app)
+- [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
 References, work samples, publications, and supporting materials available upon request.
