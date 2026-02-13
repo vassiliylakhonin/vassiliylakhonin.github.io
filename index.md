@@ -85,8 +85,8 @@ Jan 2014 – Dec 2018
 - Bachelor in Sociology (Dual-degree with Bard College, NY, U.S.), American University of Central Asia — 2012
 
 ## Professional development
-- Perplexity’s AI Business Fellowship & Agents Intensive with Google — 2025
 - Future of AI — BlueDot Impact (2026): foundational AI systems, AGI pathways, and societal implications.
+- Perplexity’s AI Business Fellowship & Agents Intensive with Google — 2025
 - Procurement and Cybersecurity Trainings — DAI (2023–2024)
 - Project/Program Management for Development Professionals — Humentum / PM4NGOs (2019, 2022)
 - CEU SPP: Action Research, Effective Writing, Visualization and Advocacy — 2018
