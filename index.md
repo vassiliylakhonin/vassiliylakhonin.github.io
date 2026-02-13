@@ -5,7 +5,7 @@ description: Program/Portfolio Manager focused on evidence, compliance, and cros
 
 # Vassiliy Lakhonin
 Almaty, Kazakhstan  
-LinkedIn: https://www.linkedin.com/in/vassiliy-lakhonin/  
+LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
 Last updated: February 2026
@@ -104,7 +104,7 @@ Jan 2014 – Dec 2018
 
 References, work samples, publications, and supporting materials available upon request.
 Copyright (c) Vassiliy Lakhonin. All rights reserved.
-GitHub https://github.com/vassiliylakhonin
+GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
 
 <script type="application/ld+json">
 {
