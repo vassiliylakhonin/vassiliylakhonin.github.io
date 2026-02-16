@@ -24,7 +24,6 @@ Languages: Russian (native), English (professional working proficiency).
 
 ## Selected impact
 - Managed performance and reporting for a $14M USAID-funded regional program across 4 Central Asian countries.
-- Supported 4 donor audits (2019, 2020, and 2 USAID audits during 2023-2025) with zero findings.
 - Coordinated cross-functional KPI tracking across 4 country offices plus HQ, with 15+ implementing partners.
 
 ## Tools and systems
