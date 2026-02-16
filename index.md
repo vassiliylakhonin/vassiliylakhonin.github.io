@@ -36,7 +36,7 @@ Languages: Russian (native), English (professional working proficiency).
 ## Search keywords (for recruiters and agents)
 - Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager.
 - Focus: donor compliance, audit readiness, internal controls, evidence management, KPI governance, performance management, risk tracking, stakeholder management, vendor oversight, budget monitoring, cross-border delivery.
-- Tools: M365 Teams, Outlook, SharePoint, OneDrive, Google Apps, Trello, LLM chatbots.
+- Tools: M365 Teams, Outlook, SharePoint, OneDrive, Google Apps, Trello, LLM chatbots & coding agents.
 
 ## Leadership
 - Led partner capacity-building across 15+ local implementing organizations.
