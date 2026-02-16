@@ -53,24 +53,38 @@ jobs:
           fi
 
   google-sitemap-submit:
-    if: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON != '' && secrets.GSC_SITE_URL != '' }}
     runs-on: ubuntu-latest
+    env:
+      GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+      GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
     steps:
+      - name: Check Google Search Console secrets
+        id: gsc_check
+        run: |
+          set -euo pipefail
+          if [ -n "${GSC_SERVICE_ACCOUNT_JSON:-}" ] && [ -n "${GSC_SITE_URL:-}" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+            echo "Google Search Console secrets detected."
+          else
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "Google Search Console secrets missing. Skipping sitemap submit step."
+          fi
+
       - name: Setup Python
+        if: steps.gsc_check.outputs.ready == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
       - name: Install Google API client
+        if: steps.gsc_check.outputs.ready == 'true'
         run: |
           set -euo pipefail
           python3 -m pip install --upgrade pip
           python3 -m pip install google-api-python-client google-auth
 
       - name: Submit sitemap to Google Search Console
-        env:
-          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
-          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+        if: steps.gsc_check.outputs.ready == 'true'
         run: |
           set -euo pipefail
           python3 - <<'PY'
