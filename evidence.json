@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-02-16",
+  "owner": "Vassiliy Lakhonin",
+  "claims": [
+    {
+      "id": "impact-001",
+      "claim": "Managed performance and reporting for a 14M USD USAID-funded regional program across 4 countries.",
+      "period": {
+        "start": "2023-04",
+        "end": "2025-04"
+      },
+      "metric": {
+        "value": 14000000,
+        "unit": "USD",
+        "dimension": "portfolio_value"
+      },
+      "source_urls": [
+        "https://vassiliylakhonin.github.io/",
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+      ],
+      "evidence_type": [
+        "work_experience",
+        "case_study"
+      ]
+    },
+    {
+      "id": "impact-002",
+      "claim": "Delivered 100% on-time donor reporting across 8 consecutive quarterly/annual cycles.",
+      "period": {
+        "start": "2023-04",
+        "end": "2025-04"
+      },
+      "metric": {
+        "value": 100,
+        "unit": "percent",
+        "dimension": "on_time_reporting_rate"
+      },
+      "source_urls": [
+        "https://vassiliylakhonin.github.io/",
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+      ],
+      "evidence_type": [
+        "work_experience",
+        "case_study"
+      ]
+    },
+    {
+      "id": "impact-003",
+      "claim": "Reduced partner submission delays by 40% after workflow standardization.",
+      "period": {
+        "start": "2023-04",
+        "end": "2025-04"
+      },
+      "metric": {
+        "value": 40,
+        "unit": "percent",
+        "dimension": "delay_reduction"
+      },
+      "source_urls": [
+        "https://vassiliylakhonin.github.io/",
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+      ],
+      "evidence_type": [
+        "work_experience",
+        "case_study"
+      ]
+    },
+    {
+      "id": "impact-004",
+      "claim": "Improved partner self-reported data confidence from 6.2/10 to 8.7/10.",
+      "period": {
+        "start": "2023-04",
+        "end": "2025-04"
+      },
+      "metric": {
+        "baseline": 6.2,
+        "result": 8.7,
+        "unit": "score_out_of_10",
+        "dimension": "data_confidence"
+      },
+      "source_urls": [
+        "https://vassiliylakhonin.github.io/",
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+      ],
+      "evidence_type": [
+        "work_experience",
+        "case_study"
+      ]
+    },
+    {
+      "id": "impact-005",
+      "claim": "Supported two USAID audits during 2023-2025 with zero findings.",
+      "period": {
+        "start": "2023-04",
+        "end": "2025-04"
+      },
+      "metric": {
+        "value": 2,
+        "unit": "audits",
+        "dimension": "audits_supported"
+      },
+      "source_urls": [
+        "https://vassiliylakhonin.github.io/",
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+      ],
+      "evidence_type": [
+        "work_experience",
+        "case_study"
+      ]
+    },
+    {
+      "id": "impact-006",
+      "claim": "Delivered 25+ portfolio outputs on time over 24 months across 5 countries.",
+      "period": {
+        "start": "2019-03",
+        "end": "2021-02"
+      },
+      "metric": {
+        "value": 25,
+        "unit": "deliverables_minimum",
+        "dimension": "on_time_deliverables"
+      },
+      "source_urls": [
+        "https://vassiliylakhonin.github.io/",
+        "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html"
+      ],
+      "evidence_type": [
+        "work_experience",
+        "case_study"
+      ]
+    }
+  ],
+  "samples": [
+    {
+      "name": "Activity report sample",
+      "url": "https://moonlit-bavarois-971054.netlify.app"
+    },
+    {
+      "name": "KPI tracker sample",
+      "url": "https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app"
+    }
+  ]
+}

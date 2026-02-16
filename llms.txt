@@ -6,6 +6,9 @@
 - [CV (web)](https://vassiliylakhonin.github.io/): One-page CV.
 - [CV (PDF)](https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf): Downloadable PDF.
 - [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/): Profile.
+- [Resume (JSON Resume)](https://vassiliylakhonin.github.io/resume.json): Standardized machine-readable resume.
+- [Evidence (JSON)](https://vassiliylakhonin.github.io/evidence.json): Claim-to-metric mapping with source pages.
+- [Availability (JSON)](https://vassiliylakhonin.github.io/availability.json): Role targets, work modes, region coverage, and response SLA.
 - [Capabilities (JSON)](https://vassiliylakhonin.github.io/capabilities.json): Machine-readable service scope, outputs, and contact data.
 - [Services](https://vassiliylakhonin.github.io/services.html): What I can deliver (service areas, outputs, and how to start).
 - [Case study: Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.

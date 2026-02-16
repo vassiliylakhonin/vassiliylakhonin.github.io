@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-02-16",
+  "name": "Vassiliy Lakhonin",
+  "target_roles": [
+    "Program Manager",
+    "Portfolio Manager",
+    "PMO Manager",
+    "Program Operations Manager",
+    "Compliance Program Manager",
+    "Monitoring and Evaluation (M&E) Manager"
+  ],
+  "role_variants": {
+    "development_ingo": "Program or Portfolio Manager (Evidence, Compliance, Cross-Border Delivery)",
+    "private_sector": "PMO / Program Operations / Compliance Program Manager (risk, controls, reporting, multi-market coordination)"
+  },
+  "employment_types": [
+    "Full-time",
+    "Consulting / Contract"
+  ],
+  "work_modes": [
+    "Onsite",
+    "Hybrid",
+    "Remote"
+  ],
+  "regions": [
+    "Central Asia",
+    "MENA",
+    "Europe",
+    "Remote-global teams"
+  ],
+  "time_zone": {
+    "iana": "Asia/Almaty",
+    "utc_offset": "+05:00"
+  },
+  "start_availability": "Available now",
+  "response_sla": "Usually within 24 hours",
+  "languages": [
+    "Russian (native)",
+    "English (professional working proficiency)"
+  ],
+  "contact": {
+    "email": "vassiliy.lakhonin@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vassiliy-lakhonin/",
+    "website": "https://vassiliylakhonin.github.io/",
+    "github": "https://github.com/vassiliylakhonin"
+  }
+}

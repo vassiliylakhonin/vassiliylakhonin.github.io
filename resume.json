@@ -1,0 +1,164 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Vassiliy Lakhonin",
+    "label": "Program/Portfolio Manager (Evidence, Compliance, Cross-Border)",
+    "email": "vassiliy.lakhonin@gmail.com",
+    "url": "https://vassiliylakhonin.github.io/",
+    "summary": "Program and portfolio manager focused on evidence, compliance, and cross-border delivery. Experienced in donor reporting, KPI governance, audit readiness, and multi-stakeholder coordination across international and private-sector contexts.",
+    "location": {
+      "city": "Almaty",
+      "region": "Kazakhstan",
+      "countryCode": "KZ"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "url": "https://www.linkedin.com/in/vassiliy-lakhonin/"
+      },
+      {
+        "network": "GitHub",
+        "url": "https://github.com/vassiliylakhonin"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "DAI",
+      "location": "Almaty, Kazakhstan",
+      "position": "Regional Monitoring and Evaluation (Performance) Manager",
+      "url": "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
+      "startDate": "2023-04",
+      "endDate": "2025-04",
+      "summary": "Managed performance monitoring and reporting systems for a 14M USD USAID-funded regional program across four Central Asian countries with 15+ implementing partners.",
+      "highlights": [
+        "Delivered 100% on-time quarterly and annual donor reports for 8 consecutive quarters.",
+        "Reduced partner submission delays by 40% through workflow standardization.",
+        "Improved partner self-reported data confidence from 6.2/10 to 8.7/10.",
+        "Maintained audit-ready documentation supporting two USAID audits with zero findings."
+      ]
+    },
+    {
+      "name": "Independent consulting assignments",
+      "location": "Almaty, Kazakhstan",
+      "position": "Consultant",
+      "url": "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html",
+      "startDate": "2021-04",
+      "endDate": "2023-03",
+      "summary": "Delivered project coordination, program design, and facilitation services for international organizations and private-sector clients.",
+      "highlights": [
+        "Coordinated SaaS and e-commerce platform launch activities, including sprint testing cycles and KPI tracking.",
+        "Supported women in transport and logistics program design and community growth activities.",
+        "Facilitated youth civic engagement mentoring for U.S. Consulate programming."
+      ]
+    },
+    {
+      "name": "DAI",
+      "location": "Almaty, Kazakhstan",
+      "position": "Project Management Specialist / Training Consultant",
+      "url": "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
+      "startDate": "2019-03",
+      "endDate": "2021-02",
+      "summary": "Coordinated a USAID-funded portfolio across five Central Asian countries, managing timelines, budgets, and stakeholder relationships.",
+      "highlights": [
+        "Delivered 25+ portfolio deliverables on time over 24 months.",
+        "Supported donor audits in 2019 and 2020 with zero findings."
+      ]
+    },
+    {
+      "name": "Multiple clients",
+      "location": "Central Asia",
+      "position": "Researcher and Research Expertise Services",
+      "startDate": "2014-01",
+      "endDate": "2018-12",
+      "summary": "Contributed to policy-focused research projects through desk research, fieldwork support, data collection, and publication development."
+    }
+  ],
+  "education": [
+    {
+      "institution": "OSCE Academy in Bishkek",
+      "studyType": "Master",
+      "area": "Politics and Security (Central Asia)",
+      "endDate": "2013"
+    },
+    {
+      "institution": "American University of Central Asia",
+      "studyType": "Bachelor",
+      "area": "Sociology (dual-degree with Bard College, NY, U.S.)",
+      "endDate": "2012"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "Future of AI",
+      "issuer": "BlueDot Impact",
+      "date": "2026"
+    },
+    {
+      "name": "Perplexity AI Business Fellowship and Agents Intensive",
+      "issuer": "Perplexity with Google",
+      "date": "2025"
+    },
+    {
+      "name": "Project and Program Management for Development Professionals",
+      "issuer": "Humentum / PM4NGOs",
+      "date": "2019, 2022"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Digital Transformations to Improve the Work and Distribution of the State Scholarships Programs",
+      "url": "https://doi.org/10.15722/jds.17.3.201903.41"
+    },
+    {
+      "name": "Data Overload in Fitness Tracking Technologies",
+      "url": "https://doi.org/10.5281/zenodo.17215832"
+    },
+    {
+      "name": "Regional Development and Policy Analysis",
+      "url": "https://zenodo.org/records/17215763/files/lakhonin@muse.jhu.edu@generic-C3CA4A9B9BE7.pdf?download=1"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Program and portfolio delivery",
+      "keywords": [
+        "Cross-border coordination",
+        "PMO operations",
+        "Risk tracking",
+        "Stakeholder management"
+      ]
+    },
+    {
+      "name": "Evidence and compliance",
+      "keywords": [
+        "Donor reporting",
+        "Audit readiness",
+        "Compliance evidence tracking",
+        "KPI governance"
+      ]
+    },
+    {
+      "name": "Tools and systems",
+      "keywords": [
+        "M365 Teams",
+        "Outlook",
+        "SharePoint",
+        "OneDrive",
+        "Google Apps",
+        "Trello",
+        "LLM chatbots and coding agents"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Russian",
+      "fluency": "Native"
+    },
+    {
+      "language": "English",
+      "fluency": "Professional working proficiency"
+    }
+  ]
+}

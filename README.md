@@ -25,6 +25,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `llms.txt` provides a curated list of key pages for agents.
 - `humans.txt` provides a concise human-readable site summary.
 - `capabilities.json` provides machine-readable service and engagement metadata.
+- `resume.json`, `evidence.json`, and `availability.json` provide machine-readable hiring and verification data for AI/retrieval systems.
 - The homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`).
 - Article brief pages include `ScholarlyArticle` JSON-LD.
 - GitHub Actions internal link checks run on push/pull request (`.github/workflows/link-check.yml`) to validate sitemap-to-file integrity and block deprecated sample URLs.
@@ -34,6 +35,9 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `llms.txt` - AI-agent oriented key pages
 - `humans.txt` - Human-readable site metadata
 - `capabilities.json` - Machine-readable capability profile
+- `resume.json` - JSON Resume profile
+- `evidence.json` - Claim and metric evidence map
+- `availability.json` - Role/availability metadata
 - `robots.txt` - Crawl policy
 - `sitemap.xml` - Indexable URL list
 - `og-image.svg` - Social preview card used by Open Graph/Twitter tags
