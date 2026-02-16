@@ -36,6 +36,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `capabilities.json` - Machine-readable capability profile
 - `robots.txt` - Crawl policy
 - `sitemap.xml` - Indexable URL list
+- `og-image.svg` - Social preview card used by Open Graph/Twitter tags
 - `services.html` - Services and deliverables page
 - `article-*.html` - AI-friendly article summaries with source links
 - `Vassiliy-Lakhonin_CV.pdf` - Downloadable CV

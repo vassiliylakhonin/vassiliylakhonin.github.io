@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
+    {% assign social_image = page.og_image | default: '/og-image.svg' | absolute_url %}
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,9 +13,14 @@
     <meta property="og:description" content="{{ page.description | default: site.description | default: 'Professional profile, CV, and case studies.' }}">
     <meta property="og:url" content="{{ page.url | absolute_url }}">
     <meta property="og:site_name" content="{{ site.title | default: 'Vassiliy Lakhonin' }}">
-    <meta name="twitter:card" content="summary">
+    <meta property="og:image" content="{{ social_image }}">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="Vassiliy Lakhonin professional profile preview">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="{{ page.title | default: site.title | default: 'Vassiliy Lakhonin' }}">
     <meta name="twitter:description" content="{{ page.description | default: site.description | default: 'Professional profile, CV, and case studies.' }}">
+    <meta name="twitter:image" content="{{ social_image }}">
     <title>{{ page.title | default: site.title | default: "Vassiliy Lakhonin" }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>

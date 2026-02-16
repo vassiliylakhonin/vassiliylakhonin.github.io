@@ -9,6 +9,7 @@ LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassil
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
 Last updated: February 2026
+Private-sector PMO/compliance value: I help organizations establish reporting control, risk visibility, and execution discipline across multi-team and multi-market delivery.
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 

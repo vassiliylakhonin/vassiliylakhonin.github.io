@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Vassiliy Lakhonin professional profile preview</title>
+  <desc id="desc">Program and portfolio manager profile card with delivery, compliance, and cross-border impact metrics.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#0b1324"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="120" r="190" fill="#22d3ee" opacity="0.12"/>
+  <circle cx="1140" cy="520" r="180" fill="#34d399" opacity="0.12"/>
+  <rect x="70" y="80" width="1060" height="470" rx="18" fill="#0b1222" stroke="#334155" stroke-width="2"/>
+  <rect x="70" y="80" width="1060" height="10" fill="url(#accent)" rx="18"/>
+
+  <text x="120" y="170" fill="#f8fafc" font-size="58" font-family="Georgia, Times New Roman, serif" font-weight="700">
+    Vassiliy Lakhonin
+  </text>
+  <text x="120" y="225" fill="#cbd5e1" font-size="30" font-family="Trebuchet MS, Arial, sans-serif">
+    Program and Portfolio Manager | Evidence and Compliance | Cross-border delivery
+  </text>
+
+  <text x="120" y="305" fill="#a7f3d0" font-size="28" font-family="Trebuchet MS, Arial, sans-serif">
+    $14M regional program portfolio managed
+  </text>
+  <text x="120" y="355" fill="#a7f3d0" font-size="28" font-family="Trebuchet MS, Arial, sans-serif">
+    8 consecutive on-time donor reporting cycles
+  </text>
+  <text x="120" y="405" fill="#a7f3d0" font-size="28" font-family="Trebuchet MS, Arial, sans-serif">
+    4-country KPI coordination with 15+ partners
+  </text>
+
+  <text x="120" y="500" fill="#94a3b8" font-size="25" font-family="Trebuchet MS, Arial, sans-serif">
+    vassiliylakhonin.github.io
+  </text>
+</svg>
