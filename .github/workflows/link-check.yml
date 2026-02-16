@@ -29,7 +29,7 @@ jobs:
               echo "Missing file for $url -> $target"
               missing=1
             fi
-          done < <(sed -n 's:.*<loc>\(https://vassiliylakhonin.github.io[^<]*\)</loc>.*:\1:p' sitemap.xml)
+          done < <(sed -n 's|.*<loc>\(https://vassiliylakhonin.github.io[^<]*\)</loc>.*|\1|p' sitemap.xml)
           if [ "$missing" -ne 0 ]; then
             exit 1
           fi

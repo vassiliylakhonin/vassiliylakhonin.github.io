@@ -16,7 +16,7 @@ jobs:
       - name: Build URL list from sitemap
         run: |
           set -euo pipefail
-          sed -n 's:.*<loc>\(https://vassiliylakhonin.github.io[^<]*\)</loc>.*:\1:p' sitemap.xml > urls.txt
+          sed -n 's|.*<loc>\(https://vassiliylakhonin.github.io[^<]*\)</loc>.*|\1|p' sitemap.xml > urls.txt
           echo "Prepared $(wc -l < urls.txt | tr -d ' ') URLs for IndexNow"
 
       - name: Create IndexNow payload
