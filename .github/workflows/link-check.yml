@@ -62,9 +62,11 @@ jobs:
             --exclude https://www.linkedin.com/.*
             --exclude https://chatgpt.com/.*
             --exclude https://doi.org/.*
+            --exclude https://humans.txt/.*
+            --exclude http://humans.txt/.*
+            --exclude https://humanstxt.org/.*
             ./index.md
             ./llms.txt
-            ./README.md
             ./services.html
             ./case-study-donor-reporting.html
             ./case-study-portfolio-audit-readiness.html
@@ -73,7 +75,6 @@ jobs:
             ./article-data-overload-fitness-tracking.html
             ./article-regional-development-policy-analysis.html
             ./capabilities.json
-            ./humans.txt
             ./robots.txt
             ./sitemap.xml
         env:
