@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-02-16",
+  "name": "Vassiliy Lakhonin",
+  "purpose": "Structured intake for recruiters, clients, and AI agents evaluating fit for program, portfolio, PMO, and compliance roles.",
+  "required_fields": [
+    "organization_name",
+    "contact_name",
+    "contact_email",
+    "role_type",
+    "employment_type",
+    "work_mode",
+    "region_scope",
+    "start_timeline",
+    "top_priorities"
+  ],
+  "fields": [
+    {
+      "id": "organization_name",
+      "label": "Organization name",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "contact_name",
+      "label": "Primary contact",
+      "type": "string",
+      "required": true
+    },
+    {
+      "id": "contact_email",
+      "label": "Contact email",
+      "type": "email",
+      "required": true
+    },
+    {
+      "id": "role_type",
+      "label": "Role type",
+      "type": "enum",
+      "required": true,
+      "options": [
+        "Program Manager",
+        "Portfolio Manager",
+        "PMO Manager",
+        "Program Operations Manager",
+        "Compliance Program Manager",
+        "M&E / MEL Manager"
+      ]
+    },
+    {
+      "id": "employment_type",
+      "label": "Employment type",
+      "type": "enum",
+      "required": true,
+      "options": [
+        "Full-time",
+        "Consulting / Contract"
+      ]
+    },
+    {
+      "id": "work_mode",
+      "label": "Work mode",
+      "type": "enum",
+      "required": true,
+      "options": [
+        "Onsite",
+        "Hybrid",
+        "Remote"
+      ]
+    },
+    {
+      "id": "region_scope",
+      "label": "Region scope",
+      "type": "array",
+      "required": true,
+      "options": [
+        "Central Asia",
+        "MENA",
+        "Europe",
+        "Remote-global"
+      ]
+    },
+    {
+      "id": "start_timeline",
+      "label": "Expected start timeline",
+      "type": "string",
+      "required": true,
+      "example": "Immediate / within 30 days / within quarter"
+    },
+    {
+      "id": "top_priorities",
+      "label": "Top 3 delivery priorities",
+      "type": "array",
+      "required": true,
+      "example": [
+        "Audit readiness",
+        "KPI governance",
+        "Cross-country reporting quality"
+      ]
+    },
+    {
+      "id": "budget_or_level",
+      "label": "Budget range or seniority level",
+      "type": "string",
+      "required": false
+    },
+    {
+      "id": "key_constraints",
+      "label": "Key constraints",
+      "type": "array",
+      "required": false,
+      "example": [
+        "Data access restrictions",
+        "Donor deadlines",
+        "Multi-country dependencies"
+      ]
+    }
+  ],
+  "submission": {
+    "preferred_channel": "email",
+    "address": "vassiliy.lakhonin@gmail.com",
+    "subject_template": "[Role Inquiry] {role_type} - {organization_name}",
+    "response_sla": "Usually within 24 hours"
+  },
+  "reference_links": [
+    "https://vassiliylakhonin.github.io/",
+    "https://vassiliylakhonin.github.io/resume.json",
+    "https://vassiliylakhonin.github.io/evidence.json",
+    "https://vassiliylakhonin.github.io/availability.json"
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0",
+  "name": "Vassiliy Lakhonin Profile Agent Card",
+  "description": "Machine-readable profile endpoint for recruiter and AI agent discovery of delivery, compliance, and PMO capabilities.",
+  "url": "https://vassiliylakhonin.github.io/agent-card.json",
+  "provider": {
+    "name": "Vassiliy Lakhonin",
+    "url": "https://vassiliylakhonin.github.io/",
+    "contact": "mailto:vassiliy.lakhonin@gmail.com"
+  },
+  "version": "2026-02-16",
+  "authentication": {
+    "schemes": [
+      "none"
+    ]
+  },
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "skills": [
+    {
+      "id": "profile-summary",
+      "name": "Profile Summary",
+      "description": "Returns concise profile summary, role targets, and contact details.",
+      "tags": [
+        "resume",
+        "profile",
+        "recruiting"
+      ],
+      "examples": [
+        "Summarize candidate fit for PMO/compliance role.",
+        "Return contact and availability details."
+      ],
+      "output_resources": [
+        "https://vassiliylakhonin.github.io/resume.json",
+        "https://vassiliylakhonin.github.io/availability.json"
+      ]
+    },
+    {
+      "id": "evidence-lookup",
+      "name": "Evidence Lookup",
+      "description": "Maps impact claims to metrics, time periods, and source pages.",
+      "tags": [
+        "evidence",
+        "metrics",
+        "verification"
+      ],
+      "examples": [
+        "Show evidence for donor reporting impact claims.",
+        "List cross-country delivery metrics with sources."
+      ],
+      "output_resources": [
+        "https://vassiliylakhonin.github.io/evidence.json",
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
+        "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
+        "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+      ]
+    },
+    {
+      "id": "engagement-intake",
+      "name": "Engagement Intake",
+      "description": "Provides structured intake requirements for recruiters and clients.",
+      "tags": [
+        "intake",
+        "hiring",
+        "engagement"
+      ],
+      "examples": [
+        "Prepare role outreach request with required fields.",
+        "Generate first-contact checklist for candidate evaluation."
+      ],
+      "output_resources": [
+        "https://vassiliylakhonin.github.io/engage.json"
+      ]
+    }
+  ],
+  "resources": [
+    "https://vassiliylakhonin.github.io/llms.txt",
+    "https://vassiliylakhonin.github.io/resume.json",
+    "https://vassiliylakhonin.github.io/evidence.json",
+    "https://vassiliylakhonin.github.io/availability.json",
+    "https://vassiliylakhonin.github.io/engage.json",
+    "https://vassiliylakhonin.github.io/capabilities.json"
+  ]
+}

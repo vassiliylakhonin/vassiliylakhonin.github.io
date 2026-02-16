@@ -1,0 +1,96 @@
+name: Indexing Push
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  indexnow-submit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Build URL list from sitemap
+        run: |
+          set -euo pipefail
+          sed -n 's:.*<loc>\(https://vassiliylakhonin.github.io[^<]*\)</loc>.*:\1:p' sitemap.xml > urls.txt
+          echo "Prepared $(wc -l < urls.txt | tr -d ' ') URLs for IndexNow"
+
+      - name: Create IndexNow payload
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          key = "b8f4e0b43e38ee17c13c3a4b6cf8ea21"
+          urls = [line.strip() for line in Path("urls.txt").read_text(encoding="utf-8").splitlines() if line.strip()]
+          payload = {
+              "host": "vassiliylakhonin.github.io",
+              "key": key,
+              "keyLocation": f"https://vassiliylakhonin.github.io/{key}.txt",
+              "urlList": urls,
+          }
+          Path("indexnow-payload.json").write_text(json.dumps(payload, ensure_ascii=True), encoding="utf-8")
+          print(f"Wrote payload with {len(urls)} URLs")
+          PY
+
+      - name: Submit to IndexNow (best effort)
+        run: |
+          set -euo pipefail
+          status="$(curl -sS --retry 2 --retry-delay 2 --max-time 25 \
+            -o indexnow-response.txt -w '%{http_code}' \
+            -H 'Content-Type: application/json; charset=utf-8' \
+            --data @indexnow-payload.json \
+            'https://api.indexnow.org/indexnow' || true)"
+          echo "IndexNow HTTP status: ${status}"
+          cat indexnow-response.txt || true
+          if [ "${status}" != "200" ] && [ "${status}" != "202" ]; then
+            echo "Warning: IndexNow submission did not return 200/202. Non-blocking."
+          fi
+
+  google-sitemap-submit:
+    if: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON != '' && secrets.GSC_SITE_URL != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Google API client
+        run: |
+          set -euo pipefail
+          python3 -m pip install --upgrade pip
+          python3 -m pip install google-api-python-client google-auth
+
+      - name: Submit sitemap to Google Search Console
+        env:
+          GSC_SERVICE_ACCOUNT_JSON: ${{ secrets.GSC_SERVICE_ACCOUNT_JSON }}
+          GSC_SITE_URL: ${{ secrets.GSC_SITE_URL }}
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+          from google.oauth2 import service_account
+          from googleapiclient.discovery import build
+
+          creds_path = Path("/tmp/gsc-service-account.json")
+          creds_path.write_text(os.environ["GSC_SERVICE_ACCOUNT_JSON"], encoding="utf-8")
+
+          credentials = service_account.Credentials.from_service_account_file(
+              str(creds_path),
+              scopes=["https://www.googleapis.com/auth/webmasters"],
+          )
+          service = build("searchconsole", "v1", credentials=credentials, cache_discovery=False)
+
+          site_url = os.environ["GSC_SITE_URL"]
+          sitemap_url = "https://vassiliylakhonin.github.io/sitemap.xml"
+          service.sitemaps().submit(siteUrl=site_url, feedpath=sitemap_url).execute()
+          print(json.dumps({"submitted_site": site_url, "submitted_sitemap": sitemap_url}))
+          PY

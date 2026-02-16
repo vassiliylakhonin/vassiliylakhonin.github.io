@@ -1,3 +1,8 @@
+# Crawl policy:
+# - OAI-SearchBot allowed for discoverability in AI/search interfaces.
+# - GPTBot allowed; no training restrictions are requested on this site.
+# - General web crawlers allowed.
+
 User-agent: OAI-SearchBot
 Allow: /
 

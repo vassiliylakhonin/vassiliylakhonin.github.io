@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-02-13",
+  "updated_at": "2026-02-16",
   "profile": {
     "name": "Vassiliy Lakhonin",
     "title": "Program/Portfolio Manager",
@@ -121,5 +121,13 @@
       "data access constraints"
     ],
     "availability": "Open to consulting and full-time opportunities."
+  },
+  "machine_endpoints": {
+    "llms": "https://vassiliylakhonin.github.io/llms.txt",
+    "agent_card": "https://vassiliylakhonin.github.io/agent-card.json",
+    "resume": "https://vassiliylakhonin.github.io/resume.json",
+    "evidence": "https://vassiliylakhonin.github.io/evidence.json",
+    "availability": "https://vassiliylakhonin.github.io/availability.json",
+    "engage": "https://vassiliylakhonin.github.io/engage.json"
   }
 }

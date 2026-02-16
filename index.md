@@ -118,6 +118,50 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
 {
   "@context": "https://schema.org",
   "@type": "ProfilePage",
+  "url": "https://vassiliylakhonin.github.io/",
+  "dateModified": "2026-02-16",
+  "hasPart": [
+    {
+      "@type": "WebPage",
+      "name": "Case Study: Donor Reporting Quality and Delivery Reliability",
+      "url": "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Case Study: Cross-Country Portfolio Delivery and Audit Readiness",
+      "url": "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Case Study: SaaS / E-Commerce Platform Launch Delivery Control",
+      "url": "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Resume JSON",
+      "url": "https://vassiliylakhonin.github.io/resume.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Evidence JSON",
+      "url": "https://vassiliylakhonin.github.io/evidence.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Availability JSON",
+      "url": "https://vassiliylakhonin.github.io/availability.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Agent Card JSON",
+      "url": "https://vassiliylakhonin.github.io/agent-card.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Engagement Intake JSON",
+      "url": "https://vassiliylakhonin.github.io/engage.json"
+    }
+  ],
   "mainEntity": {
     "@type": "Person",
     "name": "Vassiliy Lakhonin",
