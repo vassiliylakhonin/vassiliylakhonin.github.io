@@ -12,6 +12,12 @@ Last updated: February 2026
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
+## Quick contact
+- Open roles: Program Manager, Portfolio Manager, PMO Manager, Compliance Program Manager.
+- Email: [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com)
+- Time zone: Almaty (UTC+5), available for Central Asia, MENA, Europe, and remote-global teams.
+- Response time: usually within 24 hours.
+
 ## Summary
 Target roles: Program/Portfolio Manager (Evidence & Compliance, Cross-Border) — onsite or remote.  
 End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.  
