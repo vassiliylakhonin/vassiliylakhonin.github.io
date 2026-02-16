@@ -27,6 +27,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `capabilities.json` provides machine-readable service and engagement metadata.
 - The homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`).
 - Article brief pages include `ScholarlyArticle` JSON-LD.
+- GitHub Actions link checks run on push/pull request (`.github/workflows/link-check.yml`).
 
 ## Key files
 - `index.md` - Homepage content
