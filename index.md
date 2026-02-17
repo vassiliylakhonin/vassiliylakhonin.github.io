@@ -8,19 +8,19 @@ Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: February 2026
+Last updated: February 17, 2026
 Private-sector PMO/compliance value: I help organizations establish reporting control, risk visibility, and execution discipline across multi-team and multi-market delivery.
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
 ## Quick contact
-- Open roles: Program Manager, Portfolio Manager, PMO Manager, Compliance Program Manager.
+- Open roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Compliance Program Manager.
 - Email: [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com)
 - Time zone: Almaty (UTC+5), available for Central Asia, MENA, Europe, and remote-global teams.
 - Response time: usually within 24 hours.
 
 ## Summary
-Target roles: Program/Portfolio Manager (Evidence & Compliance, Cross-Border) — onsite or remote.  
+Target roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, or Compliance Program Manager (Evidence & Compliance, Cross-Border) — onsite or remote.  
 End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.  
 Languages: Russian (native), English (professional working proficiency).
 
@@ -170,7 +170,10 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
     "jobTitle": [
       "Program Manager",
       "Portfolio Manager",
-      "PMO / Compliance Program Manager"
+      "PMO Manager",
+      "Program Operations Manager",
+      "Compliance Program Manager",
+      "Monitoring and Evaluation (M&E) Manager"
     ],
     "knowsAbout": [
       "Monitoring and Evaluation (M&E)",

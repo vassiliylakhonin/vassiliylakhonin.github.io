@@ -1,13 +1,14 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-02-16",
+  "updated_at": "2026-02-17",
   "profile": {
     "name": "Vassiliy Lakhonin",
-    "title": "Program/Portfolio Manager",
+    "title": "Program and Portfolio Manager",
     "title_variants": [
       "Program Manager",
       "Portfolio Manager",
       "PMO Manager",
+      "Program Operations Manager",
       "Compliance Program Manager",
       "Monitoring and Evaluation (M&E) Manager"
     ],

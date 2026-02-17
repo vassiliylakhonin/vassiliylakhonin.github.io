@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
   "name": "Vassiliy Lakhonin Profile Agent Card",
-  "description": "Machine-readable profile endpoint for recruiter and AI agent discovery of delivery, compliance, and PMO capabilities.",
+  "description": "Machine-readable profile endpoint for recruiter and AI agent discovery of program, portfolio, PMO, compliance, and cross-border delivery capabilities.",
   "url": "https://vassiliylakhonin.github.io/agent-card.json",
   "provider": {
     "name": "Vassiliy Lakhonin",
     "url": "https://vassiliylakhonin.github.io/",
     "contact": "mailto:vassiliy.lakhonin@gmail.com"
   },
-  "version": "2026-02-16",
+  "version": "2026-02-17",
   "authentication": {
     "schemes": [
       "none"
@@ -43,7 +43,8 @@
       ],
       "output_resources": [
         "https://vassiliylakhonin.github.io/resume.json",
-        "https://vassiliylakhonin.github.io/availability.json"
+        "https://vassiliylakhonin.github.io/availability.json",
+        "https://vassiliylakhonin.github.io/verification.json"
       ]
     },
     {
@@ -90,6 +91,7 @@
     "https://vassiliylakhonin.github.io/evidence.json",
     "https://vassiliylakhonin.github.io/availability.json",
     "https://vassiliylakhonin.github.io/engage.json",
-    "https://vassiliylakhonin.github.io/capabilities.json"
+    "https://vassiliylakhonin.github.io/capabilities.json",
+    "https://vassiliylakhonin.github.io/verification.json"
   ]
 }
