@@ -11,6 +11,7 @@
 - [Evidence (JSON)](https://vassiliylakhonin.github.io/evidence.json): Claim-to-metric mapping with source pages.
 - [Availability (JSON)](https://vassiliylakhonin.github.io/availability.json): Role targets, work modes, region coverage, and response SLA.
 - [Engagement intake (JSON)](https://vassiliylakhonin.github.io/engage.json): Structured fields for outreach and role intake.
+- [Verification (JSON)](https://vassiliylakhonin.github.io/verification.json): Identity and proof links across public artifacts.
 - [Capabilities (JSON)](https://vassiliylakhonin.github.io/capabilities.json): Machine-readable service scope, outputs, and contact data.
 - [Services](https://vassiliylakhonin.github.io/services.html): What I can deliver (service areas, outputs, and how to start).
 - [Case study: Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.

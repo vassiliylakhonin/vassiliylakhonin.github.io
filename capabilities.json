@@ -29,6 +29,38 @@
       "English (professional working proficiency)"
     ]
   },
+  "target_roles": [
+    "Program Manager",
+    "Portfolio Manager",
+    "PMO Manager",
+    "Program Operations Manager",
+    "Compliance Program Manager",
+    "Monitoring and Evaluation (M&E) Manager"
+  ],
+  "role_levels": [
+    "Senior",
+    "Lead",
+    "Manager"
+  ],
+  "industries": [
+    "International development",
+    "Donor-funded programs",
+    "NGO/INGO operations",
+    "Private-sector SaaS and e-commerce"
+  ],
+  "capability_tags": [
+    "governance-cadence",
+    "compliance-evidence",
+    "audit-readiness",
+    "donor-reporting",
+    "kpi-governance",
+    "cross-border-delivery",
+    "risk-tracking",
+    "stakeholder-management",
+    "pmo-operations",
+    "vendor-coordination",
+    "program-operations"
+  ],
   "contact": {
     "email": "vassiliy.lakhonin@gmail.com",
     "linkedin": "https://www.linkedin.com/in/vassiliy-lakhonin/",
@@ -75,6 +107,31 @@
         "decision log"
       ],
       "typical_timeline": "Ongoing program cadence"
+    }
+  ],
+  "strengths": [
+    {
+      "name": "Donor reporting quality and compliance evidence",
+      "summary": "Establishes reporting controls, evidence traceability, and quality checks that improve delivery reliability and audit readiness.",
+      "evidence_urls": [
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
+        "https://vassiliylakhonin.github.io/evidence.json"
+      ]
+    },
+    {
+      "name": "Cross-country portfolio governance",
+      "summary": "Coordinates multi-country execution through cadence management, KPI visibility, and early escalation of delivery risk.",
+      "evidence_urls": [
+        "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
+        "https://vassiliylakhonin.github.io/evidence.json"
+      ]
+    },
+    {
+      "name": "PMO-style launch and execution control",
+      "summary": "Uses sprint cadence, dependency tracking, and stakeholder alignment to keep rollout execution on track.",
+      "evidence_urls": [
+        "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+      ]
     }
   ],
   "evidence": {
@@ -128,6 +185,7 @@
     "resume": "https://vassiliylakhonin.github.io/resume.json",
     "evidence": "https://vassiliylakhonin.github.io/evidence.json",
     "availability": "https://vassiliylakhonin.github.io/availability.json",
-    "engage": "https://vassiliylakhonin.github.io/engage.json"
+    "engage": "https://vassiliylakhonin.github.io/engage.json",
+    "verification": "https://vassiliylakhonin.github.io/verification.json"
   }
 }

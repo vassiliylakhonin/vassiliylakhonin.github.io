@@ -10,6 +10,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - Evidence JSON: https://vassiliylakhonin.github.io/evidence.json
 - Availability JSON: https://vassiliylakhonin.github.io/availability.json
 - Engagement intake JSON: https://vassiliylakhonin.github.io/engage.json
+- Verification JSON: https://vassiliylakhonin.github.io/verification.json
 - Services: https://vassiliylakhonin.github.io/services.html
 - Donor reporting case study: https://vassiliylakhonin.github.io/case-study-donor-reporting.html
 - Portfolio audit-readiness case study: https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html
@@ -31,7 +32,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `humans.txt` provides a concise human-readable site summary.
 - `capabilities.json` provides machine-readable service and engagement metadata.
 - `agent-card.json` provides A2A-style capability discovery metadata for agent workflows.
-- `resume.json`, `evidence.json`, `availability.json`, and `engage.json` provide machine-readable hiring, verification, and intake data for AI/retrieval systems.
+- `resume.json`, `evidence.json`, `availability.json`, `engage.json`, and `verification.json` provide machine-readable hiring, verification, and intake data for AI/retrieval systems.
 - The homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`).
 - Article brief pages include `ScholarlyArticle` JSON-LD.
 - GitHub Actions internal link checks run on push/pull request (`.github/workflows/link-check.yml`) to validate sitemap-to-file integrity and block deprecated sample URLs.
@@ -52,6 +53,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `evidence.json` - Claim and metric evidence map
 - `availability.json` - Role/availability metadata
 - `engage.json` - Structured outreach intake schema
+- `verification.json` - Identity and cross-source proof mapping
 - `robots.txt` - Crawl policy
 - `sitemap.xml` - Indexable URL list
 - `b8f4e0b43e38ee17c13c3a4b6cf8ea21.txt` - IndexNow key file

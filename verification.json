@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-02-17",
+  "identity": {
+    "name": "Vassiliy Lakhonin",
+    "canonical_url": "https://vassiliylakhonin.github.io/",
+    "sameAs": [
+      "https://github.com/vassiliylakhonin",
+      "https://www.linkedin.com/in/vassiliy-lakhonin/"
+    ]
+  },
+  "proof_points": [
+    {
+      "type": "case_study",
+      "title": "Donor reporting quality and delivery reliability",
+      "url": "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+    },
+    {
+      "type": "case_study",
+      "title": "Cross-country portfolio delivery and audit readiness",
+      "url": "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html"
+    },
+    {
+      "type": "case_study",
+      "title": "SaaS / E-Commerce platform launch delivery control",
+      "url": "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    },
+    {
+      "type": "work_sample",
+      "title": "Activity report sample",
+      "url": "https://moonlit-bavarois-971054.netlify.app"
+    },
+    {
+      "type": "work_sample",
+      "title": "KPI tracker sample",
+      "url": "https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app"
+    }
+  ],
+  "public_artifacts": [
+    {
+      "type": "repository",
+      "url": "https://github.com/vassiliylakhonin/vassiliylakhonin.github.io"
+    },
+    {
+      "type": "website",
+      "url": "https://vassiliylakhonin.github.io/"
+    },
+    {
+      "type": "resume_json",
+      "url": "https://vassiliylakhonin.github.io/resume.json"
+    },
+    {
+      "type": "evidence_json",
+      "url": "https://vassiliylakhonin.github.io/evidence.json"
+    }
+  ]
+}
