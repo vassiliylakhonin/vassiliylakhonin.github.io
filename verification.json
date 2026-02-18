@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-02-17",
+  "updated_at": "2026-02-18",
   "identity": {
     "name": "Vassiliy Lakhonin",
     "canonical_url": "https://vassiliylakhonin.github.io/",
@@ -8,6 +8,10 @@
       "https://github.com/vassiliylakhonin",
       "https://www.linkedin.com/in/vassiliy-lakhonin/"
     ]
+  },
+  "source_of_truth": {
+    "primary_public_repository": "https://github.com/vassiliylakhonin/vassiliylakhonin.github.io",
+    "deployment_target": "https://vassiliylakhonin.github.io/"
   },
   "proof_points": [
     {

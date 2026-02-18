@@ -119,7 +119,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "url": "https://vassiliylakhonin.github.io/",
-  "dateModified": "2026-02-16",
+  "dateModified": "2026-02-17",
   "hasPart": [
     {
       "@type": "WebPage",

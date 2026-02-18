@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-02-16",
+  "updated_at": "2026-02-18",
   "owner": "Vassiliy Lakhonin",
   "claims": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "impact-002",
-      "claim": "Delivered 100% on-time donor reporting across 8 consecutive quarterly/annual cycles.",
+      "claim": "Delivered 100% on-time donor reporting across 8 consecutive quarters.",
       "period": {
         "start": "2023-04",
         "end": "2025-04"
