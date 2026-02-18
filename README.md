@@ -65,7 +65,8 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 
 ## MCP server (local)
 ```bash
-cd "/Users/vassiliylakhonin/Documents/New project/cv-site"
+git clone https://github.com/vassiliylakhonin/vassiliylakhonin.github.io.git
+cd vassiliylakhonin.github.io
 python3 mcp/server.py
 ```
 

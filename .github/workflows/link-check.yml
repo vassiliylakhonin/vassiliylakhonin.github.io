@@ -37,7 +37,7 @@ jobs:
       - name: Block old reporting sample URL
         run: |
           set -euo pipefail
-          if rg -n "visionary-sunflower-a27912" .; then
+          if grep -R -n "visionary-sunflower-a27912" .; then
             echo "Old reporting sample URL found. Replace with current URL."
             exit 1
           fi
