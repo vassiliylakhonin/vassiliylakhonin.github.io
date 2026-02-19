@@ -111,7 +111,6 @@ Jan 2014 – Dec 2018
 - [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
-References, work samples, publications, and supporting materials available upon request.
 Copyright (c) Vassiliy Lakhonin. All rights reserved.
 GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
 
