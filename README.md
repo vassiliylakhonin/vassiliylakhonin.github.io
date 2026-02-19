@@ -21,6 +21,8 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - Portfolio audit-readiness case study (Markdown): https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.md
 - SaaS / E-commerce launch case study: https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html
 - SaaS / E-commerce launch case study (Markdown): https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.md
+- OpenClaw RBM skill pilot case study: https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html
+- OpenClaw RBM skill pilot case study (Markdown): https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.md
 - Article brief (state scholarships): https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html
 - Article brief (fitness data overload): https://vassiliylakhonin.github.io/article-data-overload-fitness-tracking.html
 - Article brief (regional policy analysis): https://vassiliylakhonin.github.io/article-regional-development-policy-analysis.html
@@ -68,6 +70,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `og-image.svg` - Social preview card used by Open Graph/Twitter tags
 - `services.html` - Services and deliverables page
 - `case-study-*.md` - Agent-friendly markdown versions of case studies
+- `case-study-openclaw-rbm-skill.html` - OpenClaw RBM skill pilot case study
 - `article-*.html` - AI-friendly article summaries with source links
 - `mcp/server.py` - Local read-only MCP server for profile resources
 - `Vassiliy-Lakhonin_CV.pdf` - Downloadable CV

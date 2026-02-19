@@ -18,8 +18,10 @@
 - [Case study: Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.
 - [Case study: Cross-country portfolio delivery and audit readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html): Delivery control and zero-finding audit outcome across 5 countries.
 - [Case study: SaaS / E-Commerce platform launch delivery control](https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html): PMO-style sprint governance, vendor coordination, and KPI-based rollout tracking.
-- [Pet project: Nonprofit RBM logic model skill (OpenClaw agents, Git repo)](https://lnkd.in/d4dbTz6p): Autonomous-agent skill for donor-ready logic model drafting.
-- [Pet project listing: ClawHub skill dock](https://lnkd.in/dYuhhN8r): Published skill listing for agent use.
+- [Case study: OpenClaw RBM logic model skill pilot](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html): Agent-assisted RBM drafting workflow with human-in-the-loop validation.
+- [Case study (Markdown): OpenClaw RBM logic model skill pilot](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.md): Agent-friendly markdown version.
+- [OpenClaw skill repository](https://lnkd.in/d4dbTz6p): Project source.
+- [OpenClaw skill listing on ClawHub](https://lnkd.in/dYuhhN8r): Public listing.
 - [Case study (Markdown): Donor reporting](https://vassiliylakhonin.github.io/case-study-donor-reporting.md): Agent-friendly markdown version.
 - [Case study (Markdown): Portfolio audit-readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.md): Agent-friendly markdown version.
 - [Case study (Markdown): SaaS / E-commerce launch](https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.md): Agent-friendly markdown version.

@@ -107,9 +107,10 @@ Jan 2014 – Dec 2018
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
-- [Pet project: Nonprofit RBM logic model skill (OpenClaw agents, Git repo)](https://lnkd.in/d4dbTz6p) - Autonomous-agent skill for donor-ready logic model drafting (results chain, Theory of Change, SMART indicators, SDG alignment, and monitoring plan) with human-in-the-loop validation.
-- [Pet project listing: ClawHub skill dock](https://lnkd.in/dYuhhN8r)
-- [Earlier GPT-based prototype used before agentic workflow](https://lnkd.in/dbmBAXMB)
+- [Case study: OpenClaw RBM logic model skill pilot](/case-study-openclaw-rbm-skill.html)
+- [OpenClaw skill repository](https://lnkd.in/d4dbTz6p)
+- [OpenClaw skill listing on ClawHub](https://lnkd.in/dYuhhN8r)
+- [Earlier GPT-based prototype](https://lnkd.in/dbmBAXMB)
 - [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
@@ -141,8 +142,8 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
     },
     {
       "@type": "WebPage",
-      "name": "Pet project: Nonprofit RBM logic model skill (OpenClaw agents)",
-      "url": "https://lnkd.in/d4dbTz6p"
+      "name": "Case Study: OpenClaw RBM Logic Model Skill Pilot",
+      "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html"
     },
     {
       "@type": "DigitalDocument",
