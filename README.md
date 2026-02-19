@@ -4,6 +4,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 
 ## Live site
 - Main profile: https://vassiliylakhonin.github.io/
+- Agent profile (Markdown): https://vassiliylakhonin.github.io/profile.md
 - CV PDF: https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf
 - Agent card: https://vassiliylakhonin.github.io/agent-card.json
 - Resume JSON: https://vassiliylakhonin.github.io/resume.json
@@ -13,8 +14,11 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - Verification JSON: https://vassiliylakhonin.github.io/verification.json
 - Services: https://vassiliylakhonin.github.io/services.html
 - Donor reporting case study: https://vassiliylakhonin.github.io/case-study-donor-reporting.html
+- Donor reporting case study (Markdown): https://vassiliylakhonin.github.io/case-study-donor-reporting.md
 - Portfolio audit-readiness case study: https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html
+- Portfolio audit-readiness case study (Markdown): https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.md
 - SaaS / E-commerce launch case study: https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html
+- SaaS / E-commerce launch case study (Markdown): https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.md
 - Article brief (state scholarships): https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html
 - Article brief (fitness data overload): https://vassiliylakhonin.github.io/article-data-overload-fitness-tracking.html
 - Article brief (regional policy analysis): https://vassiliylakhonin.github.io/article-regional-development-policy-analysis.html
@@ -22,6 +26,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 ## What’s included
 - One-page CV with quantified outcomes and role variants (development + private-sector PMO/compliance).
 - Proof pages in problem-action-result format (case studies).
+- Markdown-first profile and case-study copies for agent/crawler parsing.
 - AI-friendly article brief pages with plain-language summaries and source links.
 - Work samples (reporting/KPI tracker links).
 - Direct contact path (email + LinkedIn).
@@ -45,6 +50,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 
 ## Key files
 - `index.md` - Homepage content
+- `profile.md` - Short machine-friendly candidate profile
 - `llms.txt` - AI-agent oriented key pages
 - `humans.txt` - Human-readable site metadata
 - `agent-card.json` - Agent discovery card (A2A-style fields)
@@ -59,6 +65,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `b8f4e0b43e38ee17c13c3a4b6cf8ea21.txt` - IndexNow key file
 - `og-image.svg` - Social preview card used by Open Graph/Twitter tags
 - `services.html` - Services and deliverables page
+- `case-study-*.md` - Agent-friendly markdown versions of case studies
 - `article-*.html` - AI-friendly article summaries with source links
 - `mcp/server.py` - Local read-only MCP server for profile resources
 - `Vassiliy-Lakhonin_CV.pdf` - Downloadable CV
