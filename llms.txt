@@ -5,6 +5,7 @@
 ## Key pages
 - [CV (web)](https://vassiliylakhonin.github.io/): One-page CV.
 - [CV (PDF)](https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf): Downloadable PDF.
+- [Profile (Markdown)](https://vassiliylakhonin.github.io/profile.md): Short machine-friendly candidate profile.
 - [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/): Profile.
 - [Agent card (JSON)](https://vassiliylakhonin.github.io/agent-card.json): A2A-style discovery card for agent capabilities and resources.
 - [Resume (JSON Resume)](https://vassiliylakhonin.github.io/resume.json): Standardized machine-readable resume.
@@ -17,6 +18,9 @@
 - [Case study: Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.
 - [Case study: Cross-country portfolio delivery and audit readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html): Delivery control and zero-finding audit outcome across 5 countries.
 - [Case study: SaaS / E-Commerce platform launch delivery control](https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html): PMO-style sprint governance, vendor coordination, and KPI-based rollout tracking.
+- [Case study (Markdown): Donor reporting](https://vassiliylakhonin.github.io/case-study-donor-reporting.md): Agent-friendly markdown version.
+- [Case study (Markdown): Portfolio audit-readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.md): Agent-friendly markdown version.
+- [Case study (Markdown): SaaS / E-commerce launch](https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.md): Agent-friendly markdown version.
 - [Activity report](https://moonlit-bavarois-971054.netlify.app): Sample reporting page.
 - [KPI tracker sample](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app): Sample KPI tracking page.
 - [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor): Domain-specific advisory GPT.
