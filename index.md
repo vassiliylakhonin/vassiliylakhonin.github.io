@@ -8,7 +8,7 @@ Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: February 17, 2026
+Last updated: February 19, 2026
 Private-sector PMO/compliance value: I help organizations establish reporting control, risk visibility, and execution discipline across multi-team and multi-market delivery.
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
@@ -107,6 +107,9 @@ Jan 2014 – Dec 2018
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
+- [Pet project: Nonprofit RBM logic model skill (OpenClaw agents, Git repo)](https://lnkd.in/d4dbTz6p) - Autonomous-agent skill for donor-ready logic model drafting (results chain, Theory of Change, SMART indicators, SDG alignment, and monitoring plan) with human-in-the-loop validation.
+- [Pet project listing: ClawHub skill dock](https://lnkd.in/dYuhhN8r)
+- [Earlier GPT-based prototype used before agentic workflow](https://lnkd.in/dbmBAXMB)
 - [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
@@ -119,7 +122,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "url": "https://vassiliylakhonin.github.io/",
-  "dateModified": "2026-02-17",
+  "dateModified": "2026-02-19",
   "hasPart": [
     {
       "@type": "WebPage",
@@ -135,6 +138,11 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
       "@type": "WebPage",
       "name": "Case Study: SaaS / E-Commerce Platform Launch Delivery Control",
       "url": "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Pet project: Nonprofit RBM logic model skill (OpenClaw agents)",
+      "url": "https://lnkd.in/d4dbTz6p"
     },
     {
       "@type": "DigitalDocument",

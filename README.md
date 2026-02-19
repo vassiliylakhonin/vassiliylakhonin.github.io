@@ -13,6 +13,8 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - Engagement intake JSON: https://vassiliylakhonin.github.io/engage.json
 - Verification JSON: https://vassiliylakhonin.github.io/verification.json
 - Services: https://vassiliylakhonin.github.io/services.html
+- Pet project (OpenClaw RBM logic model skill, Git repo): https://lnkd.in/d4dbTz6p
+- Pet project listing (ClawHub): https://lnkd.in/dYuhhN8r
 - Donor reporting case study: https://vassiliylakhonin.github.io/case-study-donor-reporting.html
 - Donor reporting case study (Markdown): https://vassiliylakhonin.github.io/case-study-donor-reporting.md
 - Portfolio audit-readiness case study: https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html
