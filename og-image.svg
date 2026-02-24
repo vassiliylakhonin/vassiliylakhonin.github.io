@@ -1,42 +1,134 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
-  <title id="title">Vassiliy Lakhonin professional profile preview</title>
-  <desc id="desc">Program and portfolio manager profile card with delivery, compliance, and cross-border impact metrics.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
   <defs>
+    <!-- Background gradient -->
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0f172a"/>
-      <stop offset="55%" stop-color="#1f2937"/>
-      <stop offset="100%" stop-color="#0b1324"/>
+      <stop offset="0%" style="stop-color:#0a0f1e"/>
+      <stop offset="60%" style="stop-color:#0d1529"/>
+      <stop offset="100%" style="stop-color:#111e3a"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#22d3ee"/>
-      <stop offset="100%" stop-color="#34d399"/>
+    <!-- Accent gradient for name -->
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e8f0ff"/>
+      <stop offset="100%" style="stop-color:#a8c4ff"/>
     </linearGradient>
+    <!-- Subtle left accent bar -->
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a7fff"/>
+      <stop offset="100%" style="stop-color:#1a3aaa;stop-opacity:0"/>
+    </linearGradient>
+    <!-- Grid pattern -->
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#ffffff" stroke-width="0.3" stroke-opacity="0.04"/>
+    </pattern>
+    <!-- Glow filter for accent elements -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Soft glow for dots -->
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Clip path -->
+    <clipPath id="bounds">
+      <rect width="1200" height="630"/>
+    </clipPath>
   </defs>
 
+  <!-- Background -->
   <rect width="1200" height="630" fill="url(#bg)"/>
-  <circle cx="1040" cy="120" r="190" fill="#22d3ee" opacity="0.12"/>
-  <circle cx="1140" cy="520" r="180" fill="#34d399" opacity="0.12"/>
-  <rect x="70" y="80" width="1060" height="470" rx="18" fill="#0b1222" stroke="#334155" stroke-width="2"/>
-  <rect x="70" y="80" width="1060" height="10" fill="url(#accent)" rx="18"/>
+  <rect width="1200" height="630" fill="url(#grid)"/>
 
-  <text x="120" y="170" fill="#f8fafc" font-size="58" font-family="Georgia, Times New Roman, serif" font-weight="700">
-    Vassiliy Lakhonin
-  </text>
-  <text x="120" y="225" fill="#cbd5e1" font-size="30" font-family="Trebuchet MS, Arial, sans-serif">
-    Program and Portfolio Manager | Evidence and Compliance | Cross-border delivery
-  </text>
+  <!-- Decorative: large faint circle top-right -->
+  <circle cx="1050" cy="80" r="320" fill="none" stroke="#4a7fff" stroke-width="1" stroke-opacity="0.07"/>
+  <circle cx="1050" cy="80" r="240" fill="none" stroke="#4a7fff" stroke-width="0.5" stroke-opacity="0.06"/>
 
-  <text x="120" y="305" fill="#a7f3d0" font-size="28" font-family="Trebuchet MS, Arial, sans-serif">
-    $14M regional program portfolio managed
-  </text>
-  <text x="120" y="355" fill="#a7f3d0" font-size="28" font-family="Trebuchet MS, Arial, sans-serif">
-    8 consecutive on-time donor reporting cycles
-  </text>
-  <text x="120" y="405" fill="#a7f3d0" font-size="28" font-family="Trebuchet MS, Arial, sans-serif">
-    4-country KPI coordination with 15+ partners
-  </text>
+  <!-- Decorative: bottom-left arc -->
+  <circle cx="80" cy="580" r="200" fill="none" stroke="#4a7fff" stroke-width="0.8" stroke-opacity="0.07"/>
 
-  <text x="120" y="500" fill="#94a3b8" font-size="25" font-family="Trebuchet MS, Arial, sans-serif">
-    vassiliylakhonin.github.io
-  </text>
+  <!-- Left accent bar -->
+  <rect x="72" y="100" width="4" height="430" fill="url(#barGrad)" rx="2"/>
+
+  <!-- Top label -->
+  <text x="96" y="146" font-family="Georgia, 'Times New Roman', serif" font-size="14" letter-spacing="4" fill="#4a7fff" fill-opacity="0.9" text-rendering="geometricPrecision">PROGRAM MANAGER · PMO · COMPLIANCE</text>
+
+  <!-- Name -->
+  <text x="96" y="228" font-family="Georgia, 'Times New Roman', serif" font-size="72" font-weight="normal" fill="url(#nameGrad)" letter-spacing="-1" text-rendering="geometricPrecision">Vassiliy Lakhonin</text>
+
+  <!-- Thin separator line -->
+  <line x1="96" y1="254" x2="780" y2="254" stroke="#4a7fff" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Location + availability row -->
+  <!-- Location dot -->
+  <circle cx="96" cy="284" r="4" fill="#4a7fff" filter="url(#softglow)"/>
+  <text x="110" y="289" font-family="Georgia, 'Times New Roman', serif" font-size="16" fill="#8baad4" letter-spacing="0.5" text-rendering="geometricPrecision">Almaty, Kazakhstan · UTC+5 · Open to remote-global, MENA, Europe</text>
+
+  <!-- Key metrics row -->
+  <!-- Metric 1 -->
+  <rect x="96" y="320" width="220" height="80" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#4a7fff" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="116" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" fill="#e8f0ff" text-rendering="geometricPrecision">$14M</text>
+  <text x="116" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">USAID portfolio managed</text>
+  <text x="116" y="388" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">across 4 countries</text>
+
+  <!-- Metric 2 -->
+  <rect x="334" y="320" width="220" height="80" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#4a7fff" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="354" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" fill="#e8f0ff" text-rendering="geometricPrecision">100%</text>
+  <text x="354" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">On-time donor reports</text>
+  <text x="354" y="388" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">8 consecutive quarters</text>
+
+  <!-- Metric 3 -->
+  <rect x="572" y="320" width="220" height="80" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#4a7fff" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="592" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" fill="#e8f0ff" text-rendering="geometricPrecision">0</text>
+  <text x="592" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">Audit findings across</text>
+  <text x="592" y="388" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">2 USAID audits</text>
+
+  <!-- Metric 4 -->
+  <rect x="810" y="320" width="220" height="80" rx="6" fill="#ffffff" fill-opacity="0.04" stroke="#4a7fff" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="830" y="350" font-family="Georgia, 'Times New Roman', serif" font-size="26" font-weight="bold" fill="#e8f0ff" text-rendering="geometricPrecision">15+</text>
+  <text x="830" y="372" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">Implementing partners</text>
+  <text x="830" y="388" font-family="Georgia, 'Times New Roman', serif" font-size="12" fill="#6a8ab4" letter-spacing="0.3" text-rendering="geometricPrecision">coordinated</text>
+
+  <!-- Expertise tags row -->
+  <!-- Tag 1 -->
+  <rect x="96" y="428" width="166" height="30" rx="15" fill="#4a7fff" fill-opacity="0.12" stroke="#4a7fff" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="179" y="448" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#8baad4" letter-spacing="0.3" text-rendering="geometricPrecision">Donor Compliance</text>
+
+  <!-- Tag 2 -->
+  <rect x="274" y="428" width="152" height="30" rx="15" fill="#4a7fff" fill-opacity="0.12" stroke="#4a7fff" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="350" y="448" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#8baad4" letter-spacing="0.3" text-rendering="geometricPrecision">Audit Readiness</text>
+
+  <!-- Tag 3 -->
+  <rect x="438" y="428" width="166" height="30" rx="15" fill="#4a7fff" fill-opacity="0.12" stroke="#4a7fff" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="521" y="448" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#8baad4" letter-spacing="0.3" text-rendering="geometricPrecision">Portfolio Governance</text>
+
+  <!-- Tag 4 -->
+  <rect x="616" y="428" width="168" height="30" rx="15" fill="#4a7fff" fill-opacity="0.12" stroke="#4a7fff" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="700" y="448" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#8baad4" letter-spacing="0.3" text-rendering="geometricPrecision">Cross-Border Delivery</text>
+
+  <!-- Tag 5 -->
+  <rect x="796" y="428" width="148" height="30" rx="15" fill="#4a7fff" fill-opacity="0.12" stroke="#4a7fff" stroke-width="0.8" stroke-opacity="0.4"/>
+  <text x="870" y="448" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#8baad4" letter-spacing="0.3" text-rendering="geometricPrecision">AI-assisted PMO</text>
+
+  <!-- Bottom separator -->
+  <line x1="96" y1="490" x2="1104" y2="490" stroke="#4a7fff" stroke-width="0.5" stroke-opacity="0.2"/>
+
+  <!-- Bottom row: URL left, "AI-ready CV" label right -->
+  <text x="96" y="524" font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#4a7fff" fill-opacity="0.7" letter-spacing="0.5" text-rendering="geometricPrecision">vassiliylakhonin.github.io</text>
+
+  <!-- AI-ready badge right -->
+  <rect x="930" y="506" width="174" height="30" rx="15" fill="#4a7fff" fill-opacity="0.18" stroke="#4a7fff" stroke-width="0.8" stroke-opacity="0.5"/>
+  <circle cx="950" cy="521" r="5" fill="#4aff9f" fill-opacity="0.9" filter="url(#softglow)"/>
+  <text x="962" y="526" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#8baad4" letter-spacing="0.5" text-rendering="geometricPrecision">AI-indexed CV site</text>
+
+  <!-- Decorative dot cluster bottom-right -->
+  <circle cx="1090" cy="570" r="2.5" fill="#4a7fff" fill-opacity="0.3"/>
+  <circle cx="1108" cy="560" r="1.8" fill="#4a7fff" fill-opacity="0.2"/>
+  <circle cx="1100" cy="552" r="1.5" fill="#4a7fff" fill-opacity="0.15"/>
 </svg>

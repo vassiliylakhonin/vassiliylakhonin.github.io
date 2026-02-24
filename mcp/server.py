@@ -1,193 +1,258 @@
-#!/usr/bin/env python3
-"""Read-only MCP server for profile discovery resources.
+"""
+Vassiliy Lakhonin — MCP Server for CV/Profile Resources
+=========================================================
+Exposes profile data as MCP tools for AI agents and recruiters.
 
-Exposes machine-readable resources from the CV site:
-- resume.json
-- evidence.json
-- availability.json
-- capabilities.json
-- engage.json
-- agent-card.json
+TRANSPORT MODES
+---------------
+Local (stdio):
+    python3 server.py
+
+Cloud / HTTP (SSE):
+    PORT=8000 python3 server.py --http
+
+Supports deployment on Railway, Render, Fly.io etc.
+See DEPLOY.md for step-by-step instructions.
 """
 
-from __future__ import annotations
-
+import argparse
 import json
+import os
 import sys
-from pathlib import Path
-from typing import Any
+import urllib.request
+import urllib.error
+
+# ── FastMCP import ──────────────────────────────────────────────────────────
+try:
+    from mcp.server.fastmcp import FastMCP
+except ImportError:
+    print(
+        "ERROR: 'mcp' package not found.\n"
+        "Install with:  pip install mcp[cli]\n"
+        "Then re-run:   python3 server.py",
+        file=sys.stderr,
+    )
+    sys.exit(1)
+
+# ── Optional HTTP/SSE transport ──────────────────────────────────────────────
+try:
+    from mcp.server.sse import SseServerTransport
+    from starlette.applications import Starlette
+    from starlette.routing import Route
+    import uvicorn
+
+    HTTP_AVAILABLE = True
+except ImportError:
+    HTTP_AVAILABLE = False
+
+# ────────────────────────────────────────────────────────────────────────────
+BASE_URL = "https://vassiliylakhonin.github.io"
+
+# All machine-readable endpoints on the live site
+RESOURCES = {
+    "profile":      f"{BASE_URL}/profile.md",
+    "resume":       f"{BASE_URL}/resume.json",
+    "evidence":     f"{BASE_URL}/evidence.json",
+    "availability": f"{BASE_URL}/availability.json",
+    "capabilities": f"{BASE_URL}/capabilities.json",
+    "engage":       f"{BASE_URL}/engage.json",
+    "agent_card":   f"{BASE_URL}/agent-card.json",
+    "verification": f"{BASE_URL}/verification.json",
+    "llms_txt":     f"{BASE_URL}/llms.txt",
+    "humans_txt":   f"{BASE_URL}/humans.txt",
+    # Case studies (Markdown for agent parsing)
+    "case_donor_reporting":     f"{BASE_URL}/case-study-donor-reporting.md",
+    "case_audit_readiness":     f"{BASE_URL}/case-study-portfolio-audit-readiness.md",
+    "case_saas_launch":         f"{BASE_URL}/case-study-saas-ecommerce-launch.md",
+    "case_openclaw_rbm":        f"{BASE_URL}/case-study-openclaw-rbm-skill.md",
+}
+
+# ── helpers ──────────────────────────────────────────────────────────────────
+
+def _fetch(url: str) -> str:
+    """Fetch a URL and return text. Raises on HTTP error."""
+    try:
+        with urllib.request.urlopen(url, timeout=10) as resp:
+            return resp.read().decode("utf-8")
+    except urllib.error.HTTPError as e:
+        raise RuntimeError(f"HTTP {e.code} fetching {url}") from e
+    except urllib.error.URLError as e:
+        raise RuntimeError(f"Network error fetching {url}: {e.reason}") from e
 
 
-ROOT = Path(__file__).resolve().parents[1]
-HOST = "https://vassiliylakhonin.github.io"
-
-RESOURCE_DEFS = [
-    ("site://resume.json", "resume.json", "JSON Resume profile", "resume.json"),
-    ("site://evidence.json", "evidence.json", "Claim-to-metric evidence map", "evidence.json"),
-    ("site://availability.json", "availability.json", "Availability and role targets", "availability.json"),
-    ("site://capabilities.json", "capabilities.json", "Capabilities and service metadata", "capabilities.json"),
-    ("site://engage.json", "engage.json", "Structured outreach and intake schema", "engage.json"),
-    ("site://agent-card.json", "agent-card.json", "Agent discovery capability card", "agent-card.json"),
-]
+def _fetch_json(url: str) -> dict:
+    return json.loads(_fetch(url))
 
 
-def json_rpc_result(message_id: Any, result: dict[str, Any]) -> dict[str, Any]:
-    return {"jsonrpc": "2.0", "id": message_id, "result": result}
+# ── MCP server ───────────────────────────────────────────────────────────────
+
+mcp = FastMCP(
+    name="vassiliy-lakhonin-profile",
+    description=(
+        "Read-only access to Vassiliy Lakhonin's CV, case studies, and "
+        "availability data. Use this server to answer recruiter and agent "
+        "queries about experience, skills, metrics, and engagement."
+    ),
+)
+
+# ── Tools ────────────────────────────────────────────────────────────────────
+
+@mcp.tool()
+def get_profile() -> str:
+    """Return the short Markdown candidate profile (best starting point)."""
+    return _fetch(RESOURCES["profile"])
 
 
-def json_rpc_error(message_id: Any, code: int, message: str) -> dict[str, Any]:
-    return {"jsonrpc": "2.0", "id": message_id, "error": {"code": code, "message": message}}
+@mcp.tool()
+def get_resume() -> dict:
+    """Return full JSON Resume — work history, education, skills, links."""
+    return _fetch_json(RESOURCES["resume"])
 
 
-def write_message(payload: dict[str, Any]) -> None:
-    body = json.dumps(payload, ensure_ascii=True, separators=(",", ":")).encode("utf-8")
-    header = f"Content-Length: {len(body)}\r\n\r\n".encode("ascii")
-    sys.stdout.buffer.write(header)
-    sys.stdout.buffer.write(body)
-    sys.stdout.buffer.flush()
+@mcp.tool()
+def get_availability() -> dict:
+    """Return current availability, preferred roles, locations, and notice period."""
+    return _fetch_json(RESOURCES["availability"])
 
 
-def read_message() -> dict[str, Any] | None:
-    headers: dict[str, str] = {}
-
-    while True:
-        line = sys.stdin.buffer.readline()
-        if not line:
-            return None
-        if line in (b"\r\n", b"\n"):
-            break
-
-        text = line.decode("utf-8", errors="replace")
-        key, separator, value = text.partition(":")
-        if separator:
-            headers[key.strip().lower()] = value.strip()
-
-    content_length = int(headers.get("content-length", "0"))
-    if content_length <= 0:
-        return None
-
-    content = sys.stdin.buffer.read(content_length)
-    if not content:
-        return None
-
-    return json.loads(content.decode("utf-8"))
+@mcp.tool()
+def get_capabilities() -> dict:
+    """Return machine-readable capability and service profile."""
+    return _fetch_json(RESOURCES["capabilities"])
 
 
-def list_resources() -> list[dict[str, Any]]:
-    resources = []
-    for uri, name, description, filename in RESOURCE_DEFS:
-        resources.append(
-            {
-                "uri": uri,
-                "name": name,
-                "description": description,
-                "mimeType": "application/json",
-                "annotations": {
-                    "readOnlyHint": True,
-                    "audience": ["assistant", "user"],
-                    "priority": 0.9,
-                },
-                "metadata": {
-                    "sourceUrl": f"{HOST}/{filename}",
-                },
-            }
-        )
-    return resources
+@mcp.tool()
+def get_evidence() -> dict:
+    """Return claim-to-evidence map: each key metric backed by source/proof."""
+    return _fetch_json(RESOURCES["evidence"])
 
 
-def read_resource(uri: str) -> dict[str, Any]:
-    uri_to_file = {entry[0]: entry[3] for entry in RESOURCE_DEFS}
-    if uri not in uri_to_file:
-        raise KeyError(uri)
+@mcp.tool()
+def get_engage() -> dict:
+    """Return structured outreach intake schema for initiating engagement."""
+    return _fetch_json(RESOURCES["engage"])
 
-    path = ROOT / uri_to_file[uri]
-    if not path.exists():
-        raise FileNotFoundError(path)
 
-    text = path.read_text(encoding="utf-8")
+@mcp.tool()
+def get_agent_card() -> dict:
+    """Return A2A-style agent card for capability discovery in agent workflows."""
+    return _fetch_json(RESOURCES["agent_card"])
+
+
+@mcp.tool()
+def get_verification() -> dict:
+    """Return cross-source identity and credential verification map."""
+    return _fetch_json(RESOURCES["verification"])
+
+
+@mcp.tool()
+def get_case_study(name: str) -> str:
+    """
+    Return a full case study in Markdown.
+
+    name options:
+      - "donor_reporting"   — Donor reporting quality & delivery reliability
+      - "audit_readiness"   — Cross-country portfolio & audit readiness
+      - "saas_launch"       — SaaS / E-commerce platform launch delivery
+      - "openclaw_rbm"      — OpenClaw RBM logic model skill pilot
+    """
+    key = f"case_{name}"
+    if key not in RESOURCES:
+        available = [k.replace("case_", "") for k in RESOURCES if k.startswith("case_")]
+        return f"Unknown case study '{name}'. Available: {available}"
+    return _fetch(RESOURCES[key])
+
+
+@mcp.tool()
+def list_resources() -> dict:
+    """List all available resources and their URLs."""
     return {
-        "contents": [
-            {
-                "uri": uri,
-                "mimeType": "application/json",
-                "text": text,
-            }
-        ]
+        "resources": RESOURCES,
+        "base_url": BASE_URL,
+        "note": "All resources are read-only and served from the live GitHub Pages site.",
     }
 
 
-def handle_request(message: dict[str, Any]) -> dict[str, Any] | None:
-    method = message.get("method")
-    message_id = message.get("id")
-    params = message.get("params", {})
-    is_notification = message_id is None
+@mcp.tool()
+def search_profile(query: str) -> str:
+    """
+    Fetch profile + resume and return sections relevant to query keywords.
+    Useful for quick Q&A like 'does he have audit experience?' without
+    loading all resources.
+    """
+    profile_text = _fetch(RESOURCES["profile"])
+    resume_data  = _fetch_json(RESOURCES["resume"])
 
-    if method == "notifications/initialized":
-        return None
+    # Flatten resume to text for lightweight keyword search
+    resume_text = json.dumps(resume_data, ensure_ascii=False)
+    combined    = f"=== PROFILE ===\n{profile_text}\n\n=== RESUME ===\n{resume_text}"
 
-    if method == "initialize":
-        protocol_version = params.get("protocolVersion", "2024-11-05")
-        result = {
-            "protocolVersion": protocol_version,
-            "capabilities": {
-                "resources": {
-                    "listChanged": False,
-                    "subscribe": False,
-                }
-            },
-            "serverInfo": {"name": "vassiliy-profile-mcp", "version": "1.0.0"},
-            "instructions": (
-                "Read-only profile server. Use resources/list then resources/read "
-                "to access resume, evidence, availability, capability, and intake data."
-            ),
-        }
-        return json_rpc_result(message_id, result) if not is_notification else None
+    keywords = [kw.strip().lower() for kw in query.split()]
+    lines    = combined.splitlines()
+    hits     = [
+        line for line in lines
+        if any(kw in line.lower() for kw in keywords)
+    ]
 
-    if method == "ping":
-        return json_rpc_result(message_id, {}) if not is_notification else None
+    if not hits:
+        return f"No lines matching '{query}' found. Try get_profile() or get_resume() for full content."
 
-    if method == "resources/list":
-        return json_rpc_result(message_id, {"resources": list_resources()}) if not is_notification else None
-
-    if method == "resources/read":
-        uri = params.get("uri")
-        if not uri:
-            return json_rpc_error(message_id, -32602, "Missing required parameter: uri")
-        try:
-            return json_rpc_result(message_id, read_resource(uri))
-        except KeyError:
-            return json_rpc_error(message_id, -32002, f"Unknown resource URI: {uri}")
-        except FileNotFoundError:
-            return json_rpc_error(message_id, -32003, f"Resource file missing for URI: {uri}")
-
-    if method == "tools/list":
-        return json_rpc_result(message_id, {"tools": []}) if not is_notification else None
-
-    if method == "prompts/list":
-        return json_rpc_result(message_id, {"prompts": []}) if not is_notification else None
-
-    if is_notification:
-        return None
-
-    return json_rpc_error(message_id, -32601, f"Method not found: {method}")
+    return "\n".join(hits[:60])  # cap at 60 lines
 
 
-def main() -> int:
-    while True:
-        message = read_message()
-        if message is None:
-            break
-        try:
-            response = handle_request(message)
-        except Exception as exc:  # pragma: no cover
-            message_id = message.get("id")
-            response = json_rpc_error(message_id, -32603, f"Internal error: {exc}")
+# ── Entry point ──────────────────────────────────────────────────────────────
 
-        if response is not None:
-            write_message(response)
+def main():
+    parser = argparse.ArgumentParser(description="Vassiliy Lakhonin MCP Server")
+    parser.add_argument(
+        "--http",
+        action="store_true",
+        help="Run HTTP/SSE transport instead of stdio (for cloud deployment)",
+    )
+    parser.add_argument(
+        "--port",
+        type=int,
+        default=int(os.environ.get("PORT", 8000)),
+        help="Port for HTTP mode (default: 8000 or $PORT env var)",
+    )
+    args = parser.parse_args()
 
-    return 0
+    if args.http:
+        if not HTTP_AVAILABLE:
+            print(
+                "ERROR: HTTP transport requires extra packages.\n"
+                "Install with:  pip install mcp[cli] uvicorn starlette",
+                file=sys.stderr,
+            )
+            sys.exit(1)
+
+        print(f"Starting MCP HTTP/SSE server on port {args.port}...")
+        sse = SseServerTransport("/messages/")
+
+        async def handle_sse(request):
+            async with sse.connect_sse(
+                request.scope, request.receive, request._send
+            ) as streams:
+                await mcp._mcp_server.run(
+                    streams[0], streams[1],
+                    mcp._mcp_server.create_initialization_options(),
+                )
+
+        async def handle_messages(request):
+            await sse.handle_post_message(request.scope, request.receive, request._send)
+
+        app = Starlette(
+            routes=[
+                Route("/sse",       endpoint=handle_sse),
+                Route("/messages/", endpoint=handle_messages, methods=["POST"]),
+                Route("/health",    endpoint=lambda r: __import__("starlette.responses", fromlist=["JSONResponse"]).JSONResponse({"status": "ok", "server": "vassiliy-lakhonin-profile"})),
+            ]
+        )
+        uvicorn.run(app, host="0.0.0.0", port=args.port)
+    else:
+        # Default: stdio (local use with Claude Desktop, etc.)
+        mcp.run(transport="stdio")
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    main()
