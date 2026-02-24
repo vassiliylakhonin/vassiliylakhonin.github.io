@@ -88,7 +88,7 @@ def _fetch_json(url: str) -> dict:
 
 mcp = FastMCP(
     name="vassiliy-lakhonin-profile",
-    description=(
+    instructions=(
         "Read-only access to Vassiliy Lakhonin's CV, case studies, and "
         "availability data. Use this server to answer recruiter and agent "
         "queries about experience, skills, metrics, and engagement."
@@ -230,6 +230,17 @@ def main():
         sse = SseServerTransport("/messages/")
 
         async def handle_sse(request):
+            if request.method == "HEAD":
+                # Some link checkers/monitors probe SSE endpoints with HEAD.
+                return __import__("starlette.responses", fromlist=["Response"]).Response(
+                    status_code=200,
+                    headers={
+                        "cache-control": "no-store",
+                        "x-accel-buffering": "no",
+                        "content-type": "text/event-stream; charset=utf-8",
+                    },
+                )
+
             async with sse.connect_sse(
                 request.scope, request.receive, request._send
             ) as streams:
