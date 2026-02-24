@@ -72,15 +72,28 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `case-study-*.md` - Agent-friendly markdown versions of case studies
 - `case-study-openclaw-rbm-skill.html` - OpenClaw RBM skill pilot case study
 - `article-*.html` - AI-friendly article summaries with source links
-- `mcp/server.py` - Local read-only MCP server for profile resources
+- `mcp/server.py` - MCP server for profile resources (stdio + HTTP/SSE)
+- `mcp/railway.toml` - Railway deploy config (start command + health check)
 - `Vassiliy-Lakhonin_CV.pdf` - Downloadable CV
 
 ## MCP server (local)
 ```bash
 git clone https://github.com/vassiliylakhonin/vassiliylakhonin.github.io.git
 cd vassiliylakhonin.github.io
-python3 mcp/server.py
+python3.13 -m pip install -r mcp/requirements.txt
+python3.13 mcp/server.py
 ```
+
+
+
+## MCP server (remote)
+Provisioned Railway domain (deployment upload currently timing out in CLI; endpoint will work after first successful `railway up`):
+
+- Domain: `https://vassiliy-lakhonin-mcp-production.up.railway.app`
+- SSE endpoint: `https://vassiliy-lakhonin-mcp-production.up.railway.app/sse`
+- Health: `https://vassiliy-lakhonin-mcp-production.up.railway.app/health`
+
+Expected tools include `get_profile`, `get_resume`, `get_availability`, `get_capabilities`, `get_evidence`, `get_case_study`, and `search_profile`.
 
 ## Update workflow
 ```bash

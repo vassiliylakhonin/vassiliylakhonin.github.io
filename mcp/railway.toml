@@ -1,0 +1,3 @@
+[deploy]
+startCommand = "python server.py --http"
+healthcheckPath = "/health"

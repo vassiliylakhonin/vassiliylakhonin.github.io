@@ -8,7 +8,7 @@ Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: February 19, 2026
+Last updated: February 24, 2026
 Private-sector PMO/compliance value: I help organizations establish reporting control, risk visibility, and execution discipline across multi-team and multi-market delivery.
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
@@ -111,6 +111,13 @@ Jan 2014 – Dec 2018
 - [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
+## AI Agent Access
+- [Agent card (A2A-style discovery)](/agent-card.json)
+- [Profile (Markdown)](/profile.md)
+- [LLMs entrypoint](/llms.txt)
+- [Resume JSON](/resume.json), [Evidence JSON](/evidence.json), [Availability JSON](/availability.json), [Capabilities JSON](/capabilities.json), [Verification JSON](/verification.json)
+- MCP server (remote SSE): Railway domain reserved, deployment pending final successful upload (`https://vassiliy-lakhonin-mcp-production.up.railway.app/sse`)
+
 Copyright (c) Vassiliy Lakhonin. All rights reserved.
 GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
 
@@ -119,7 +126,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "url": "https://vassiliylakhonin.github.io/",
-  "dateModified": "2026-02-19",
+  "dateModified": "2026-02-24",
   "hasPart": [
     {
       "@type": "WebPage",
