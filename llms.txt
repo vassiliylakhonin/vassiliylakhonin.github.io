@@ -14,6 +14,8 @@
 - [Engagement intake (JSON)](https://vassiliylakhonin.github.io/engage.json): Structured fields for outreach and role intake.
 - [Verification (JSON)](https://vassiliylakhonin.github.io/verification.json): Identity and proof links across public artifacts.
 - [Capabilities (JSON)](https://vassiliylakhonin.github.io/capabilities.json): Machine-readable service scope, outputs, and contact data.
+- [MCP server (remote SSE)](https://vassiliy-lakhonin-mcp-production.up.railway.app/sse): Live MCP endpoint for AI agents.
+- [MCP server health](https://vassiliy-lakhonin-mcp-production.up.railway.app/health): Health check endpoint.
 - [Services](https://vassiliylakhonin.github.io/services.html): What I can deliver (service areas, outputs, and how to start).
 - [Case study: Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.
 - [Case study: Cross-country portfolio delivery and audit readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html): Delivery control and zero-finding audit outcome across 5 countries.

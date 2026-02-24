@@ -116,7 +116,7 @@ Jan 2014 – Dec 2018
 - [Profile (Markdown)](/profile.md)
 - [LLMs entrypoint](/llms.txt)
 - [Resume JSON](/resume.json), [Evidence JSON](/evidence.json), [Availability JSON](/availability.json), [Capabilities JSON](/capabilities.json), [Verification JSON](/verification.json)
-- MCP server (remote SSE): Railway domain reserved, deployment pending final successful upload (`https://vassiliy-lakhonin-mcp-production.up.railway.app/sse`)
+- MCP server (remote SSE, live): `https://vassiliy-lakhonin-mcp-production.up.railway.app/sse` (health: `https://vassiliy-lakhonin-mcp-production.up.railway.app/health`)
 
 Copyright (c) Vassiliy Lakhonin. All rights reserved.
 GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)

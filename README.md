@@ -87,11 +87,16 @@ python3.13 mcp/server.py
 
 
 ## MCP server (remote)
-Provisioned Railway domain (deployment upload currently timing out in CLI; endpoint will work after first successful `railway up`):
+Railway MCP server (live):
 
 - Domain: `https://vassiliy-lakhonin-mcp-production.up.railway.app`
 - SSE endpoint: `https://vassiliy-lakhonin-mcp-production.up.railway.app/sse`
 - Health: `https://vassiliy-lakhonin-mcp-production.up.railway.app/health`
+
+Quick check:
+```bash
+curl -sS https://vassiliy-lakhonin-mcp-production.up.railway.app/health
+```
 
 Expected tools include `get_profile`, `get_resume`, `get_availability`, `get_capabilities`, `get_evidence`, `get_case_study`, and `search_profile`.
 
