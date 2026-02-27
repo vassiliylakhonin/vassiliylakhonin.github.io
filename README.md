@@ -12,6 +12,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - Availability JSON: https://vassiliylakhonin.github.io/availability.json
 - Engagement intake JSON: https://vassiliylakhonin.github.io/engage.json
 - Verification JSON: https://vassiliylakhonin.github.io/verification.json
+- Skills JSON: https://vassiliylakhonin.github.io/skills.json
 - Services: https://vassiliylakhonin.github.io/services.html
 - Pet project (OpenClaw RBM logic model skill, Git repo): https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub
 - Pet project listing (ClawHub): https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model
@@ -41,7 +42,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `humans.txt` provides a concise human-readable site summary.
 - `capabilities.json` provides machine-readable service and engagement metadata.
 - `agent-card.json` provides A2A-style capability discovery metadata for agent workflows.
-- `resume.json`, `evidence.json`, `availability.json`, `engage.json`, and `verification.json` provide machine-readable hiring, verification, and intake data for AI/retrieval systems.
+- `resume.json`, `evidence.json`, `availability.json`, `engage.json`, `skills.json`, and `verification.json` provide machine-readable hiring, verification, and intake data for AI/retrieval systems.
 - The homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`).
 - Article brief pages include `ScholarlyArticle` JSON-LD.
 - GitHub Actions internal link checks run on push/pull request (`.github/workflows/link-check.yml`) to validate sitemap-to-file integrity and block deprecated sample URLs.
@@ -99,7 +100,7 @@ Quick check:
 curl -sS https://vassiliy-lakhonin-mcp-production.up.railway.app/health
 ```
 
-Expected tools include `get_profile`, `get_resume`, `get_availability`, `get_capabilities`, `get_evidence`, `get_case_study`, and `search_profile`.
+Expected tools include `get_profile`, `get_resume`, `get_availability`, `get_capabilities`, `get_evidence`, `get_engage`, `get_agent_card`, `get_verification`, `get_skills`, `get_case_study`, `list_resources`, and `search_profile`.
 
 ## Update workflow
 ```bash
