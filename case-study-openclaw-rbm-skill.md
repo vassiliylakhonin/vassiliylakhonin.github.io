@@ -29,6 +29,6 @@ Early-stage program design often requires repetitive but high-precision framing:
 Demonstrates practical AI/agent application in consulting workflows: problem structuring, method-consistent drafting, governance-aware iteration, and expert-validated decision support.
 
 ## Project links
-- OpenClaw skill repository: https://lnkd.in/d4dbTz6p
-- ClawHub skill listing: https://lnkd.in/dYuhhN8r
-- Earlier GPT-based prototype: https://lnkd.in/dbmBAXMB
+- OpenClaw skill repository: https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub
+- ClawHub skill listing: https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model
+- Earlier GPT-based prototype: https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor

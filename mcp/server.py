@@ -36,9 +36,9 @@ except ImportError:
 
 # ── Optional HTTP/SSE transport ──────────────────────────────────────────────
 try:
-    from mcp.server.sse import SseServerTransport
     from starlette.applications import Starlette
-    from starlette.routing import Route
+    from starlette.responses import JSONResponse, Response
+    from starlette.routing import Mount, Route
     import uvicorn
 
     HTTP_AVAILABLE = True
@@ -227,46 +227,27 @@ def main():
             sys.exit(1)
 
         print(f"Starting MCP HTTP/SSE server on port {args.port}...")
-        sse = SseServerTransport("/messages/")
+        sse_app = mcp.sse_app()
 
-        async def handle_sse(request):
-            if request.method == "HEAD":
-                # Some link checkers/monitors probe SSE endpoints with HEAD.
-                return __import__(
-                    "starlette.responses", fromlist=["Response"]
-                ).Response(
-                    status_code=200,
-                    headers={
-                        "cache-control": "no-store",
-                        "x-accel-buffering": "no",
-                        "content-type": "text/event-stream; charset=utf-8",
-                    },
-                )
+        async def handle_health(request):
+            return JSONResponse({"status": "ok", "server": "vassiliy-lakhonin-profile"})
 
-            async with sse.connect_sse(
-                request.scope, request.receive, request._send
-            ) as streams:
-                await mcp._mcp_server.run(
-                    streams[0],
-                    streams[1],
-                    mcp._mcp_server.create_initialization_options(),
-                )
-
-        async def handle_messages(request):
-            await sse.handle_post_message(request.scope, request.receive, request._send)
+        async def handle_sse_head(request):
+            # Keep uptime/link check probes happy for HEAD /sse.
+            return Response(
+                status_code=200,
+                headers={
+                    "cache-control": "no-store",
+                    "x-accel-buffering": "no",
+                    "content-type": "text/event-stream; charset=utf-8",
+                },
+            )
 
         app = Starlette(
             routes=[
-                Route("/sse", endpoint=handle_sse),
-                Route("/messages/", endpoint=handle_messages, methods=["POST"]),
-                Route(
-                    "/health",
-                    endpoint=lambda r: __import__(
-                        "starlette.responses", fromlist=["JSONResponse"]
-                    ).JSONResponse(
-                        {"status": "ok", "server": "vassiliy-lakhonin-profile"}
-                    ),
-                ),
+                Route("/health", endpoint=handle_health),
+                Route("/sse", endpoint=handle_sse_head, methods=["HEAD"]),
+                Mount("/", app=sse_app),
             ]
         )
         uvicorn.run(app, host="0.0.0.0", port=args.port)

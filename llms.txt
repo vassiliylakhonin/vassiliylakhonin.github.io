@@ -22,8 +22,8 @@
 - [Case study: SaaS / E-Commerce platform launch delivery control](https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html): PMO-style sprint governance, vendor coordination, and KPI-based rollout tracking.
 - [Case study: OpenClaw RBM logic model skill pilot](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html): Agent-assisted RBM drafting workflow with human-in-the-loop validation.
 - [Case study (Markdown): OpenClaw RBM logic model skill pilot](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.md): Agent-friendly markdown version.
-- [OpenClaw skill repository](https://lnkd.in/d4dbTz6p): Project source.
-- [OpenClaw skill listing on ClawHub](https://lnkd.in/dYuhhN8r): Public listing.
+- [OpenClaw skill repository](https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub): Project source.
+- [OpenClaw skill listing on ClawHub](https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model): Public listing.
 - [Case study (Markdown): Donor reporting](https://vassiliylakhonin.github.io/case-study-donor-reporting.md): Agent-friendly markdown version.
 - [Case study (Markdown): Portfolio audit-readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.md): Agent-friendly markdown version.
 - [Case study (Markdown): SaaS / E-commerce launch](https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.md): Agent-friendly markdown version.
