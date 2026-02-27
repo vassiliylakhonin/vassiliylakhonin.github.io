@@ -50,24 +50,25 @@ BASE_URL = "https://vassiliylakhonin.github.io"
 
 # All machine-readable endpoints on the live site
 RESOURCES = {
-    "profile":      f"{BASE_URL}/profile.md",
-    "resume":       f"{BASE_URL}/resume.json",
-    "evidence":     f"{BASE_URL}/evidence.json",
+    "profile": f"{BASE_URL}/profile.md",
+    "resume": f"{BASE_URL}/resume.json",
+    "evidence": f"{BASE_URL}/evidence.json",
     "availability": f"{BASE_URL}/availability.json",
     "capabilities": f"{BASE_URL}/capabilities.json",
-    "engage":       f"{BASE_URL}/engage.json",
-    "agent_card":   f"{BASE_URL}/agent-card.json",
+    "engage": f"{BASE_URL}/engage.json",
+    "agent_card": f"{BASE_URL}/agent-card.json",
     "verification": f"{BASE_URL}/verification.json",
-    "llms_txt":     f"{BASE_URL}/llms.txt",
-    "humans_txt":   f"{BASE_URL}/humans.txt",
+    "llms_txt": f"{BASE_URL}/llms.txt",
+    "humans_txt": f"{BASE_URL}/humans.txt",
     # Case studies (Markdown for agent parsing)
-    "case_donor_reporting":     f"{BASE_URL}/case-study-donor-reporting.md",
-    "case_audit_readiness":     f"{BASE_URL}/case-study-portfolio-audit-readiness.md",
-    "case_saas_launch":         f"{BASE_URL}/case-study-saas-ecommerce-launch.md",
-    "case_openclaw_rbm":        f"{BASE_URL}/case-study-openclaw-rbm-skill.md",
+    "case_donor_reporting": f"{BASE_URL}/case-study-donor-reporting.md",
+    "case_audit_readiness": f"{BASE_URL}/case-study-portfolio-audit-readiness.md",
+    "case_saas_launch": f"{BASE_URL}/case-study-saas-ecommerce-launch.md",
+    "case_openclaw_rbm": f"{BASE_URL}/case-study-openclaw-rbm-skill.md",
 }
 
 # ── helpers ──────────────────────────────────────────────────────────────────
+
 
 def _fetch(url: str) -> str:
     """Fetch a URL and return text. Raises on HTTP error."""
@@ -96,6 +97,7 @@ mcp = FastMCP(
 )
 
 # ── Tools ────────────────────────────────────────────────────────────────────
+
 
 @mcp.tool()
 def get_profile() -> str:
@@ -181,18 +183,15 @@ def search_profile(query: str) -> str:
     loading all resources.
     """
     profile_text = _fetch(RESOURCES["profile"])
-    resume_data  = _fetch_json(RESOURCES["resume"])
+    resume_data = _fetch_json(RESOURCES["resume"])
 
     # Flatten resume to text for lightweight keyword search
     resume_text = json.dumps(resume_data, ensure_ascii=False)
-    combined    = f"=== PROFILE ===\n{profile_text}\n\n=== RESUME ===\n{resume_text}"
+    combined = f"=== PROFILE ===\n{profile_text}\n\n=== RESUME ===\n{resume_text}"
 
     keywords = [kw.strip().lower() for kw in query.split()]
-    lines    = combined.splitlines()
-    hits     = [
-        line for line in lines
-        if any(kw in line.lower() for kw in keywords)
-    ]
+    lines = combined.splitlines()
+    hits = [line for line in lines if any(kw in line.lower() for kw in keywords)]
 
     if not hits:
         return f"No lines matching '{query}' found. Try get_profile() or get_resume() for full content."
@@ -201,6 +200,7 @@ def search_profile(query: str) -> str:
 
 
 # ── Entry point ──────────────────────────────────────────────────────────────
+
 
 def main():
     parser = argparse.ArgumentParser(description="Vassiliy Lakhonin MCP Server")
@@ -232,7 +232,9 @@ def main():
         async def handle_sse(request):
             if request.method == "HEAD":
                 # Some link checkers/monitors probe SSE endpoints with HEAD.
-                return __import__("starlette.responses", fromlist=["Response"]).Response(
+                return __import__(
+                    "starlette.responses", fromlist=["Response"]
+                ).Response(
                     status_code=200,
                     headers={
                         "cache-control": "no-store",
@@ -245,7 +247,8 @@ def main():
                 request.scope, request.receive, request._send
             ) as streams:
                 await mcp._mcp_server.run(
-                    streams[0], streams[1],
+                    streams[0],
+                    streams[1],
                     mcp._mcp_server.create_initialization_options(),
                 )
 
@@ -254,9 +257,16 @@ def main():
 
         app = Starlette(
             routes=[
-                Route("/sse",       endpoint=handle_sse),
+                Route("/sse", endpoint=handle_sse),
                 Route("/messages/", endpoint=handle_messages, methods=["POST"]),
-                Route("/health",    endpoint=lambda r: __import__("starlette.responses", fromlist=["JSONResponse"]).JSONResponse({"status": "ok", "server": "vassiliy-lakhonin-profile"})),
+                Route(
+                    "/health",
+                    endpoint=lambda r: __import__(
+                        "starlette.responses", fromlist=["JSONResponse"]
+                    ).JSONResponse(
+                        {"status": "ok", "server": "vassiliy-lakhonin-profile"}
+                    ),
+                ),
             ]
         )
         uvicorn.run(app, host="0.0.0.0", port=args.port)

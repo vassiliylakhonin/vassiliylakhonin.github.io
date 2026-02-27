@@ -4,8 +4,8 @@ description: Program/Portfolio Manager focused on evidence, compliance, and cros
 ---
 
 # Vassiliy Lakhonin
-Almaty, Kazakhstan  
-LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
+Almaty, Kazakhstan
+LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
 Last updated: February 24, 2026
@@ -19,8 +19,8 @@ PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 - Response time: usually within 24 hours.
 
 ## Summary
-Target roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, or Compliance Program Manager (Evidence & Compliance, Cross-Border) — onsite or remote.  
-End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.  
+Target roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, or Compliance Program Manager (Evidence & Compliance, Cross-Border) — onsite or remote.
+End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.
 Languages: Russian (native), English (professional working proficiency).
 
 ## I help with
@@ -57,7 +57,7 @@ Languages: Russian (native), English (professional working proficiency).
 ## Work experience
 
 ### Regional Monitoring and Evaluation (Performance) Manager — DAI (Almaty, Kazakhstan)
-Apr 2023 – Apr 2025  
+Apr 2023 – Apr 2025
 Managed performance monitoring and reporting systems for a $14M USAID-funded regional program across four Central Asian countries, ensuring data integrity across 15+ local implementing partners.
 - Delivered 100% on-time quarterly and annual donor reports (8 consecutive quarters) by establishing automated data collection workflows; reduced partner submission delays by 40%.
 - Built partner M&E capacity across 15+ organizations; increased partner self-reported data confidence from 6.2/10 to 8.7/10.
@@ -66,14 +66,14 @@ Managed performance monitoring and reporting systems for a $14M USAID-funded reg
 - Piloted AI-assisted reporting workflows; reduced report preparation time by 25% while maintaining quality controls.
 
 ### Consultant (Multiple Clients & Assignments)
-Apr 2021 – Mar 2023  
+Apr 2021 – Mar 2023
 Delivered project coordination, program design, and facilitation services for international organizations and private-sector clients.
 - SaaS / E-Commerce Platform Launch (Oct 2021 – May 2022) — Product Launch Coordinator: rollout, sprint testing cycles (2-week iterations), performance metrics tracking, vendor coordination.
 - Women in Transportation & Logistics (Apr – Dec 2021) — Program Design Support (CILT Kazakhstan / WiLAT): workshops, LinkedIn community to 100+ members, events/webinars.
 - Youth Civic Engagement (Apr – Jun 2021) — Mentor/Facilitator (U.S. Consulate General, Almaty): weekly hybrid sessions (10 participants), milestone-based mentoring.
 
 ### Project Management Specialist / Training Consultant — DAI (Almaty, Kazakhstan)
-Mar 2019 – Feb 2021  
+Mar 2019 – Feb 2021
 Coordinated a USAID-funded portfolio across 5 Central Asian countries; managed timelines, budgets, and stakeholder relationships.
 - Delivered 25+ deliverables on time over 24 months via proactive risk tracking and weekly coordination.
 - Supported donor audits (2019, 2020) with documentation packages; zero findings.
