@@ -8,7 +8,7 @@ Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: February 24, 2026
+Last updated: February 27, 2026
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
@@ -17,6 +17,11 @@ PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 - Email: [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com)
 - Time zone: Almaty (UTC+5), available for Central Asia, MENA, Europe, and remote-global teams.
 - Response time: usually within 24 hours.
+
+## Open to
+- International program leadership roles (multi-country portfolios, delivery governance, stakeholder alignment).
+- Donor compliance advisory (reporting QA, evidence systems, and audit-readiness controls).
+- AI-enabled monitoring and reporting systems (human-in-the-loop, quality-controlled workflows).
 
 ## Summary
 Target roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, or Compliance Program Manager (Evidence & Compliance, Cross-Border) — onsite or remote.
@@ -114,7 +119,7 @@ Jan 2014 – Dec 2018
 - [Agent card (A2A-style discovery)](/agent-card.json)
 - [Profile (Markdown)](/profile.md)
 - [LLMs entrypoint](/llms.txt)
-- [Resume JSON](/resume.json), [Evidence JSON](/evidence.json), [Availability JSON](/availability.json), [Capabilities JSON](/capabilities.json), [Verification JSON](/verification.json)
+- [Resume JSON](/resume.json), [Evidence JSON](/evidence.json), [Availability JSON](/availability.json), [Capabilities JSON](/capabilities.json), [Skills JSON](/skills.json), [Verification JSON](/verification.json)
 - MCP server (remote SSE, live): `https://vassiliy-lakhonin-mcp-production.up.railway.app/sse` (health: `https://vassiliy-lakhonin-mcp-production.up.railway.app/health`)
 
 Copyright (c) Vassiliy Lakhonin. All rights reserved.
@@ -125,7 +130,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "url": "https://vassiliylakhonin.github.io/",
-  "dateModified": "2026-02-24",
+  "dateModified": "2026-02-27",
   "hasPart": [
     {
       "@type": "WebPage",
@@ -171,6 +176,11 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
       "@type": "DigitalDocument",
       "name": "Engagement Intake JSON",
       "url": "https://vassiliylakhonin.github.io/engage.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Skills JSON",
+      "url": "https://vassiliylakhonin.github.io/skills.json"
     }
   ],
   "mainEntity": {

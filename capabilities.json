@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-02-17",
+  "updated_at": "2026-02-27",
   "profile": {
     "name": "Vassiliy Lakhonin",
     "title": "Program and Portfolio Manager",
@@ -187,6 +187,7 @@
     "evidence": "https://vassiliylakhonin.github.io/evidence.json",
     "availability": "https://vassiliylakhonin.github.io/availability.json",
     "engage": "https://vassiliylakhonin.github.io/engage.json",
-    "verification": "https://vassiliylakhonin.github.io/verification.json"
+    "verification": "https://vassiliylakhonin.github.io/verification.json",
+    "skills": "https://vassiliylakhonin.github.io/skills.json"
   }
 }

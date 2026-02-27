@@ -8,7 +8,7 @@
     "url": "https://vassiliylakhonin.github.io/",
     "contact": "mailto:vassiliy.lakhonin@gmail.com"
   },
-  "version": "2026-02-17",
+  "version": "2026-02-27",
   "authentication": {
     "schemes": [
       "none"
@@ -92,6 +92,7 @@
     "https://vassiliylakhonin.github.io/availability.json",
     "https://vassiliylakhonin.github.io/engage.json",
     "https://vassiliylakhonin.github.io/capabilities.json",
+    "https://vassiliylakhonin.github.io/skills.json",
     "https://vassiliylakhonin.github.io/verification.json"
   ]
 }

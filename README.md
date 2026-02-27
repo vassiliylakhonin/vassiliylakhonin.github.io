@@ -59,6 +59,7 @@ This repository contains the source files for my GitHub Pages profile site (CV, 
 - `humans.txt` - Human-readable site metadata
 - `agent-card.json` - Agent discovery card (A2A-style fields)
 - `capabilities.json` - Machine-readable capability profile
+- `skills.json` - Domain/tools/methods skill graph for AI matching
 - `resume.json` - JSON Resume profile
 - `evidence.json` - Claim and metric evidence map
 - `availability.json` - Role/availability metadata

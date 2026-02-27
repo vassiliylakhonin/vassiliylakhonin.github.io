@@ -16,6 +16,11 @@ Program/Portfolio/PMO profile focused on evidence, compliance, and cross-border 
 - Program Operations Manager
 - Compliance Program Manager
 
+## Open to
+- International program leadership opportunities.
+- Donor compliance advisory and audit-readiness work.
+- AI-enabled monitoring and reporting systems with human-in-the-loop validation.
+
 ## Core strengths
 - Donor reporting quality assurance and evidence governance
 - Cross-country KPI tracking and performance management
@@ -40,3 +45,4 @@ Program/Portfolio/PMO profile focused on evidence, compliance, and cross-border 
 - Verification JSON: https://vassiliylakhonin.github.io/verification.json
 - Agent card JSON: https://vassiliylakhonin.github.io/agent-card.json
 - Capabilities JSON: https://vassiliylakhonin.github.io/capabilities.json
+- Skills JSON: https://vassiliylakhonin.github.io/skills.json

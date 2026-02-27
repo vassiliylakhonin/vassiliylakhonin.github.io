@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vassiliylakhonin.github.io/</loc>
-    <lastmod>2026-02-24</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf</loc>
@@ -10,11 +10,11 @@
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/llms.txt</loc>
-    <lastmod>2026-02-24</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/profile.md</loc>
-    <lastmod>2026-02-19</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/humans.txt</loc>
@@ -22,11 +22,15 @@
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/capabilities.json</loc>
-    <lastmod>2026-02-17</lastmod>
+    <lastmod>2026-02-27</lastmod>
+  </url>
+  <url>
+    <loc>https://vassiliylakhonin.github.io/skills.json</loc>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/agent-card.json</loc>
-    <lastmod>2026-02-17</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/resume.json</loc>
@@ -54,7 +58,7 @@
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/services.html</loc>
-    <lastmod>2026-02-16</lastmod>
+    <lastmod>2026-02-27</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html</loc>

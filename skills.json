@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-02-27",
+  "owner": {
+    "name": "Vassiliy Lakhonin",
+    "url": "https://vassiliylakhonin.github.io/"
+  },
+  "skill_graph": {
+    "domain": [
+      "Program management",
+      "Portfolio management",
+      "PMO operations",
+      "Donor compliance",
+      "Monitoring, Evaluation, and Learning (MEL)",
+      "Audit readiness",
+      "Cross-border delivery"
+    ],
+    "tools": [
+      "M365 Teams",
+      "Outlook",
+      "SharePoint",
+      "OneDrive",
+      "Google Apps",
+      "Trello",
+      "LLM chatbots",
+      "Coding agents"
+    ],
+    "methods": [
+      "Results-based management (RBM)",
+      "KPI governance",
+      "Evidence tracking",
+      "Risk log and mitigation planning",
+      "RAG status reporting",
+      "Stakeholder cadence management",
+      "Human-in-the-loop AI QA"
+    ]
+  },
+  "intent": {
+    "open_to": [
+      "International program leadership",
+      "Donor compliance advisory",
+      "AI-enabled monitoring systems"
+    ]
+  }
+}

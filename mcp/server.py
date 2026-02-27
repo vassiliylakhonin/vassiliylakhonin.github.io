@@ -58,6 +58,7 @@ RESOURCES = {
     "engage": f"{BASE_URL}/engage.json",
     "agent_card": f"{BASE_URL}/agent-card.json",
     "verification": f"{BASE_URL}/verification.json",
+    "skills": f"{BASE_URL}/skills.json",
     "llms_txt": f"{BASE_URL}/llms.txt",
     "humans_txt": f"{BASE_URL}/humans.txt",
     # Case studies (Markdown for agent parsing)
@@ -145,6 +146,12 @@ def get_agent_card() -> dict:
 def get_verification() -> dict:
     """Return cross-source identity and credential verification map."""
     return _fetch_json(RESOURCES["verification"])
+
+
+@mcp.tool()
+def get_skills() -> dict:
+    """Return machine-readable skill graph (domain, tools, methods, intent)."""
+    return _fetch_json(RESOURCES["skills"])
 
 
 @mcp.tool()
