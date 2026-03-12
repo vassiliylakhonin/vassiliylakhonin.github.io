@@ -1,112 +1,114 @@
-# Vassiliy Lakhonin - CV Site (GitHub Pages)
+# vassiliylakhonin.github.io
 
-This repository contains the source files for my GitHub Pages profile site (CV, case studies, article briefs, and supporting links).
+<p align="left">
+  <a href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io/stargazers"><img src="https://img.shields.io/github/stars/vassiliylakhonin/vassiliylakhonin.github.io?style=for-the-badge" alt="Stars"></a>
+  <a href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io/network/members"><img src="https://img.shields.io/github/forks/vassiliylakhonin/vassiliylakhonin.github.io?style=for-the-badge" alt="Forks"></a>
+  <a href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io/issues"><img src="https://img.shields.io/github/issues/vassiliylakhonin/vassiliylakhonin.github.io?style=for-the-badge" alt="Issues"></a>
+  <a href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io/actions"><img src="https://img.shields.io/github/actions/workflow/status/vassiliylakhonin/vassiliylakhonin.github.io/link-check.yml?branch=main&style=for-the-badge" alt="Link Check"></a>
+  <a href="https://vassiliylakhonin.github.io/"><img src="https://img.shields.io/badge/live-site-blue?style=for-the-badge" alt="Live Site"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" alt="License"></a>
+</p>
 
-## Live site
-- Main profile: https://vassiliylakhonin.github.io/
-- Agent profile (Markdown): https://vassiliylakhonin.github.io/profile.md
-- CV PDF: https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf
-- Agent card: https://vassiliylakhonin.github.io/agent-card.json
-- Resume JSON: https://vassiliylakhonin.github.io/resume.json
-- Evidence JSON: https://vassiliylakhonin.github.io/evidence.json
-- Availability JSON: https://vassiliylakhonin.github.io/availability.json
-- Engagement intake JSON: https://vassiliylakhonin.github.io/engage.json
-- Verification JSON: https://vassiliylakhonin.github.io/verification.json
-- Skills JSON: https://vassiliylakhonin.github.io/skills.json
-- Services: https://vassiliylakhonin.github.io/services.html
-- Pet project (OpenClaw RBM logic model skill, Git repo): https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub
-- Pet project listing (ClawHub): https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model
-- Donor reporting case study: https://vassiliylakhonin.github.io/case-study-donor-reporting.html
-- Donor reporting case study (Markdown): https://vassiliylakhonin.github.io/case-study-donor-reporting.md
-- Portfolio audit-readiness case study: https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html
-- Portfolio audit-readiness case study (Markdown): https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.md
-- SaaS / E-commerce launch case study: https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html
-- SaaS / E-commerce launch case study (Markdown): https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.md
-- OpenClaw RBM skill pilot case study: https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html
-- OpenClaw RBM skill pilot case study (Markdown): https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.md
-- Article brief (state scholarships): https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html
-- Article brief (fitness data overload): https://vassiliylakhonin.github.io/article-data-overload-fitness-tracking.html
-- Article brief (regional policy analysis): https://vassiliylakhonin.github.io/article-regional-development-policy-analysis.html
+Personal portfolio and CV site for **Vassiliy Lakhonin**, built for both humans and agents:
+- recruiter-friendly profile + case studies,
+- machine-readable metadata (`resume.json`, `capabilities.json`, `evidence.json`),
+- AI indexing support (`llms.txt`, JSON-LD, `sitemap.xml`),
+- live MCP endpoint for programmatic profile access.
 
-## What’s included
-- One-page CV with quantified outcomes and role variants (development + private-sector PMO/compliance).
-- Proof pages in problem-action-result format (case studies).
-- Markdown-first profile and case-study copies for agent/crawler parsing.
-- AI-friendly article brief pages with plain-language summaries and source links.
-- Work samples (reporting/KPI tracker links).
-- Direct contact path (email + LinkedIn).
+---
 
-## Indexing notes
-- `sitemap.xml` and `robots.txt` support crawler indexing.
-- `llms.txt` provides a curated list of key pages for agents.
-- `humans.txt` provides a concise human-readable site summary.
-- `capabilities.json` provides machine-readable service and engagement metadata.
-- `agent-card.json` provides A2A-style capability discovery metadata for agent workflows.
-- `resume.json`, `evidence.json`, `availability.json`, `engage.json`, `skills.json`, and `verification.json` provide machine-readable hiring, verification, and intake data for AI/retrieval systems.
-- The homepage includes `schema.org` JSON-LD (`ProfilePage` / `Person`).
-- Article brief pages include `ScholarlyArticle` JSON-LD.
-- GitHub Actions internal link checks run on push/pull request (`.github/workflows/link-check.yml`) to validate sitemap-to-file integrity and block deprecated sample URLs.
-- GitHub Actions indexing push (`.github/workflows/indexing-push.yml`) submits site URLs to IndexNow on each push.
-- Optional Google Search Console sitemap submission runs when `GSC_SERVICE_ACCOUNT_JSON` and `GSC_SITE_URL` secrets are configured.
+## Live endpoints
 
-## Crawler policy
-- `robots.txt` explicitly allows `OAI-SearchBot`, `GPTBot`, and standard crawlers for discovery.
-- If policy changes later (for example, blocking model-training crawlers), update `robots.txt` and redeploy.
+- Site: <https://vassiliylakhonin.github.io/>
+- CV PDF: <https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf>
+- Services: <https://vassiliylakhonin.github.io/services.html>
+- Agent profile: <https://vassiliylakhonin.github.io/profile.md>
+- MCP (SSE): <https://vassiliy-lakhonin-mcp-production.up.railway.app/sse>
+- MCP health: <https://vassiliy-lakhonin-mcp-production.up.railway.app/health>
 
-## Key files
-- `index.md` - Homepage content
-- `profile.md` - Short machine-friendly candidate profile
-- `llms.txt` - AI-agent oriented key pages
-- `humans.txt` - Human-readable site metadata
-- `agent-card.json` - Agent discovery card (A2A-style fields)
-- `capabilities.json` - Machine-readable capability profile
-- `skills.json` - Domain/tools/methods skill graph for AI matching
-- `resume.json` - JSON Resume profile
-- `evidence.json` - Claim and metric evidence map
-- `availability.json` - Role/availability metadata
-- `engage.json` - Structured outreach intake schema
-- `verification.json` - Identity and cross-source proof mapping
-- `robots.txt` - Crawl policy
-- `sitemap.xml` - Indexable URL list
-- `b8f4e0b43e38ee17c13c3a4b6cf8ea21.txt` - IndexNow key file
-- `og-image.svg` - Social preview card used by Open Graph/Twitter tags
-- `services.html` - Services and deliverables page
-- `case-study-*.md` - Agent-friendly markdown versions of case studies
-- `case-study-openclaw-rbm-skill.html` - OpenClaw RBM skill pilot case study
-- `article-*.html` - AI-friendly article summaries with source links
-- `mcp/server.py` - MCP server for profile resources (stdio + HTTP/SSE)
-- `mcp/railway.toml` - Railway deploy config (start command + health check)
-- `Vassiliy-Lakhonin_CV.pdf` - Downloadable CV
+Machine-readable:
+- Agent card: <https://vassiliylakhonin.github.io/agent-card.json>
+- Resume JSON: <https://vassiliylakhonin.github.io/resume.json>
+- Capabilities: <https://vassiliylakhonin.github.io/capabilities.json>
+- Evidence: <https://vassiliylakhonin.github.io/evidence.json>
+- Availability: <https://vassiliylakhonin.github.io/availability.json>
+- Engagement intake: <https://vassiliylakhonin.github.io/engage.json>
+- Skills: <https://vassiliylakhonin.github.io/skills.json>
+- Verification: <https://vassiliylakhonin.github.io/verification.json>
 
-## MCP server (local)
+---
+
+## What makes this repo different
+
+- **Dual-surface design**: content optimized for both human readers and AI agents.
+- **Proof-first structure**: case studies in problem/action/result format.
+- **Structured trust layer**: verification + evidence mapping files.
+- **Indexing-ready by default**: `robots.txt`, `sitemap.xml`, `llms.txt`, JSON-LD.
+- **MCP integration**: profile data available via local and hosted server.
+
+---
+
+## Repository structure
+
+```text
+.
+├── index.md
+├── profile.md
+├── services.html
+├── case-study-*.html / case-study-*.md
+├── article-*.html
+├── Vassiliy-Lakhonin_CV.pdf
+├── agent-card.json
+├── resume.json
+├── capabilities.json
+├── evidence.json
+├── availability.json
+├── engage.json
+├── skills.json
+├── verification.json
+├── llms.txt
+├── humans.txt
+├── robots.txt
+├── sitemap.xml
+└── mcp/
+    ├── server.py
+    ├── requirements.txt
+    └── railway.toml
+```
+
+---
+
+## Local development
+
 ```bash
 git clone https://github.com/vassiliylakhonin/vassiliylakhonin.github.io.git
 cd vassiliylakhonin.github.io
+bundle exec jekyll serve
+```
+
+If Ruby/Jekyll is not set up, edit markdown/html/json directly and push to `main`.
+
+---
+
+## MCP server (local)
+
+```bash
 python3.13 -m pip install -r mcp/requirements.txt
 python3.13 mcp/server.py
 ```
 
+Expected tools include: `get_profile`, `get_resume`, `get_availability`, `get_capabilities`, `get_evidence`, `get_engage`, `get_agent_card`, `get_verification`, `get_skills`, `get_case_study`, `list_resources`, `search_profile`.
 
+---
 
-## MCP server (remote)
-Railway MCP server (live):
+## CI / indexing automation
 
-- Domain: `https://vassiliy-lakhonin-mcp-production.up.railway.app`
-- SSE endpoint: `https://vassiliy-lakhonin-mcp-production.up.railway.app/sse`
-- Health: `https://vassiliy-lakhonin-mcp-production.up.railway.app/health`
+- Internal link checks run on push/PR: `.github/workflows/link-check.yml`
+- IndexNow submission on push: `.github/workflows/indexing-push.yml`
+- Optional Google Search Console submission via repository secrets
 
-Quick check:
-```bash
-curl -sS https://vassiliy-lakhonin-mcp-production.up.railway.app/health
-```
+---
 
-Expected tools include `get_profile`, `get_resume`, `get_availability`, `get_capabilities`, `get_evidence`, `get_engage`, `get_agent_card`, `get_verification`, `get_skills`, `get_case_study`, `list_resources`, and `search_profile`.
+## License
 
-## Update workflow
-```bash
-git clone https://github.com/vassiliylakhonin/vassiliylakhonin.github.io.git
-cd vassiliylakhonin.github.io
-git add .
-git commit -m "Update site content"
-git push
-```
+MIT
