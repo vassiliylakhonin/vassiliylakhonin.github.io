@@ -1,6 +1,6 @@
 ---
 title: Vassiliy Lakhonin
-description: Program/Portfolio Manager focused on evidence, compliance, and cross-border delivery. CV, case studies, and proof samples.
+description: I build the layer between AI capability and production reality: reliable, auditable agent systems, ClawHub skills, and production-ready delivery assets.
 ---
 
 # Vassiliy Lakhonin
@@ -8,7 +8,7 @@ Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: February 27, 2026
+Last updated: March 13, 2026
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
@@ -24,9 +24,25 @@ PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 - AI-enabled monitoring and reporting systems (human-in-the-loop, quality-controlled workflows).
 
 ## Summary
+I build the layer between AI capability and production reality.
+
+I work where most projects fail: turning promising AI demos into reliable, auditable systems people can trust.
+
 Target roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, or Compliance Program Manager (Evidence & Compliance, Cross-Border) — onsite or remote.
 End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.
 Languages: Russian (native), English (professional working proficiency).
+
+## What I focus on
+- Agent architecture and orchestration (OpenClaw, Codex-first workflows).
+- Automation reliability (observability, rollback discipline, failure recovery).
+- AI-ready delivery assets (machine-readable profiles, MCP endpoints, structured evidence).
+- Product + operations alignment for real-world deployment.
+
+## Current build mode
+- Shipping practical AgentSkills on ClawHub.
+- Hardening evaluation and change-safety workflows.
+- Designing systems that optimize for signal over hype.
+- Building claw0x-ready utility APIs for repeatable, production use.
 
 ## I help with
 - Donor reporting quality assurance and evidence-ready submission cycles.
@@ -112,6 +128,13 @@ Jan 2014 – Dec 2018
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
+- [Agent Evals Lab (ClawHub listing)](https://clawhub.ai/vassiliylakhonin/agent-evals-lab)
+- [Agent Regression Guard (ClawHub listing)](https://clawhub.ai/vassiliylakhonin/agent-regression-guard)
+- [Agent Change Safety (ClawHub listing)](https://clawhub.ai/vassiliylakhonin/agent-change-safety)
+- [Agent Evals Lab repo](https://github.com/vassiliylakhonin/Agent-Evals-Lab-For-ClawHub)
+- [Agent Regression Guard repo](https://github.com/vassiliylakhonin/Agent-Regression-Guard-For-ClawHub)
+- [Lead Enrichment + Email Validation (claw0x)](https://claw0x.com/skills/lead-enrichment-email-validation)
+- [Lead List Cleaner API repo](https://github.com/vassiliylakhonin/lead-list-cleaner-api)
 - [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
