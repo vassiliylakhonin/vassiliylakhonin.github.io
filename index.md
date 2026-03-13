@@ -128,13 +128,52 @@ Jan 2014 – Dec 2018
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
-- [Agent Evals Lab (ClawHub listing)](https://clawhub.ai/vassiliylakhonin/agent-evals-lab)
-- [Agent Regression Guard (ClawHub listing)](https://clawhub.ai/vassiliylakhonin/agent-regression-guard)
-- [Agent Change Safety (ClawHub listing)](https://clawhub.ai/vassiliylakhonin/agent-change-safety)
-- [Agent Evals Lab repo](https://github.com/vassiliylakhonin/Agent-Evals-Lab-For-ClawHub)
-- [Agent Regression Guard repo](https://github.com/vassiliylakhonin/Agent-Regression-Guard-For-ClawHub)
-- [Lead Enrichment + Email Validation (claw0x)](https://claw0x.com/skills/lead-enrichment-email-validation)
-- [Lead List Cleaner API repo](https://github.com/vassiliylakhonin/lead-list-cleaner-api)
+
+### Agent Evals Lab
+**What it solves:** Teams often ship agent updates without measurable quality evidence.
+
+**What I built:** A practical evaluation skill that scores correctness, relevance, actionability, risk flags, and tool reliability; then returns failure clusters, prioritized fixes, and a regression plan.
+
+**Why it matters:** Converts subjective “looks better” decisions into repeatable quality gates and release discipline.
+
+Links: [ClawHub listing](https://clawhub.ai/vassiliylakhonin/agent-evals-lab) · [Repository](https://github.com/vassiliylakhonin/Agent-Evals-Lab-For-ClawHub)
+
+### Agent Regression Guard
+**What it solves:** Prompt/model/config changes silently degrade behavior if no before/after checks exist.
+
+**What I built:** A regression-first skill that compares baseline vs updated behavior, detects breakage clusters, and returns Go / Conditional Go / Rollback verdicts with remediation actions.
+
+**Why it matters:** Reduces deployment risk and catches failures before they hit production users.
+
+Links: [ClawHub listing](https://clawhub.ai/vassiliylakhonin/agent-regression-guard) · [Repository](https://github.com/vassiliylakhonin/Agent-Regression-Guard-For-ClawHub)
+
+### Agent Change Safety
+**What it solves:** Many incidents happen during configuration and integration changes, not during normal operation.
+
+**What I built:** A production change protocol skill with preflight checks, risk scoring, rollback planning, HITL gates, and post-change validation checkpoints.
+
+**Why it matters:** Adds operational safety guardrails to agent-led system changes.
+
+Links: [ClawHub listing](https://clawhub.ai/vassiliylakhonin/agent-change-safety)
+
+### Lead Enrichment + Email Validation (claw0x)
+**What it solves:** Outbound and CRM workflows lose performance when contact quality is unknown.
+
+**What I built:** A monetizable claw0x skill/API that returns structured lead enrichment output, email quality status, confidence, lead score, fit reasons, and risk flags.
+
+**Why it matters:** Moves teams from raw lead data to action-ready prioritization in one call.
+
+Link: [claw0x skill listing](https://claw0x.com/skills/lead-enrichment-email-validation)
+
+### Lead List Cleaner API
+**What it solves:** Lead imports frequently contain invalid, duplicate, or low-quality records that waste campaigns.
+
+**What I built:** A production-ready API (`/v1/clean`) with dedupe, validation, and keep/drop/review decisioning + scoring for each record.
+
+**Why it matters:** Improves list hygiene and reduces wasted outbound spend.
+
+Link: [Repository](https://github.com/vassiliylakhonin/lead-list-cleaner-api)
+
 - [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
