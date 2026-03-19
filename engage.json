@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-02-18",
+  "updated_at": "2026-03-19",
   "name": "Vassiliy Lakhonin",
   "purpose": "Structured intake for recruiters, clients, and AI agents evaluating fit for program, portfolio, PMO, and compliance roles.",
   "required_fields": [
@@ -76,6 +76,7 @@
       "options": [
         "Central Asia",
         "MENA",
+        "U.S. (partial overlap)",
         "Europe",
         "Remote-global teams"
       ]

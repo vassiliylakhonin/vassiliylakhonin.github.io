@@ -7,14 +7,14 @@ description: Program/Portfolio manager focused on evidence, compliance, cross-bo
 Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
 Contact: vassiliy.lakhonin@gmail.com
-Open to: Central Asia, MENA, U.S., Europe, and remote-global teams (onsite/hybrid/remote).
+Open to: Central Asia, MENA, U.S. (partial overlap), Europe, and remote-global teams (onsite/hybrid/remote).
 Last updated: March 19, 2026
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
 ## Quick contact
 - Email: [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com)
-- Time zone: Almaty (UTC+5), available for Central Asia, MENA, Europe, and remote-global teams.
+- Time zone: Almaty (UTC+5), available for Central Asia, MENA, U.S. (partial overlap), Europe, and remote-global teams.
 - Response time: usually within 24 hours.
 
 ## Open to

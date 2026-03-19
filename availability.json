@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-02-17",
+  "updated_at": "2026-03-19",
   "name": "Vassiliy Lakhonin",
   "target_roles": [
     "Program and Portfolio Manager",
@@ -27,6 +27,7 @@
   "regions": [
     "Central Asia",
     "MENA",
+    "U.S. (partial overlap)",
     "Europe",
     "Remote-global teams"
   ],

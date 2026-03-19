@@ -20,6 +20,7 @@ Program/Portfolio/PMO profile focused on evidence, compliance, and cross-border 
 - International program leadership opportunities.
 - Donor compliance advisory and audit-readiness work.
 - AI-enabled monitoring and reporting systems with human-in-the-loop validation.
+- U.S. opportunities with partial timezone overlap.
 
 ## Core strengths
 - Donor reporting quality assurance and evidence governance
