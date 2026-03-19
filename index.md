@@ -129,12 +129,6 @@ Jan 2014 – Dec 2018
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
 
-- [Case study: Agent Evals Lab](/case-study-agent-evals-lab.html)
-- [Case study: Agent Regression Guard](/case-study-agent-regression-guard.html)
-- [Case study: Agent Change Safety](/case-study-agent-change-safety.html)
-- [Case study: Lead Enrichment + Email Validation (claw0x)](/case-study-lead-enrichment-email-validation.html)
-- [Case study: Lead List Cleaner API](/case-study-lead-list-cleaner-api.html)
-
 - [Sample: Activity report](https://moonlit-bavarois-971054.netlify.app)
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
