@@ -114,8 +114,8 @@ Jan 2014 – Dec 2018
 - JPO internship — MFA Kazakhstan, Dept. of Multilateral Cooperation — 2016
 
 ## Selected articles
-- [Article brief: Digital Transformations to Improve the Work and Distribution of the State Scholarships Programs](/article-state-scholarships-digital-transformation.html) - Includes summary, relevance, and source DOI.
-- [Article brief: Data Overload in Fitness Tracking Technologies](/article-data-overload-fitness-tracking.html) - Includes summary, relevance, and source DOI.
+- [Article brief: Digital Transformations to Improve the Work and Distribution of the State Scholarships Programs](/article-state-scholarships-digital-transformation.html) - Kazakhstan scholarship digital transformation, CRM-style workflow, and smart remote management.
+- [Article brief: Data Overload in Fitness Tracking Technologies](/article-data-overload-fitness-tracking.html) - Fitness tracking overload, information architecture, and user experience.
 - [Article brief: listening to aid recipients in 'aid-development' debate: findings from 'the Listening Project' and Jerge-Tal village in Kyrgyzstan](/article-regional-development-policy-analysis.html) - Includes summary, relevance, and source full-text link.
 
 ## Projects / proof

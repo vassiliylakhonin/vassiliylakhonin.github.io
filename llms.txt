@@ -35,8 +35,8 @@
 - [CustomGPT sample: Development & Humanitarian Aid Advisor](https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor): Domain-specific advisory GPT.
 
 ## Writing
-- [Article brief: State scholarships and digital transformation](https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html): AI-friendly summary + source DOI.
-- [Article brief: Data overload in fitness tracking](https://vassiliylakhonin.github.io/article-data-overload-fitness-tracking.html): AI-friendly summary + source DOI.
+- [Article brief: Digital Transformations to Improve the Work and Distribution of the State Scholarships Programs](https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html): Kazakhstan scholarship digital transformation and CRM-style process redesign.
+- [Article brief: Data Overload in Fitness Tracking Technologies](https://vassiliylakhonin.github.io/article-data-overload-fitness-tracking.html): Fitness-tracking overload, cognitive load, and information architecture.
 - [Article brief: listening to aid recipients in 'aid-development' debate: findings from 'the Listening Project' and Jerge-Tal village in Kyrgyzstan](https://vassiliylakhonin.github.io/article-regional-development-policy-analysis.html): AI-friendly summary + source full text.
 
 ## Focus keywords
