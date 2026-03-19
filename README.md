@@ -36,6 +36,12 @@ Machine-readable:
 - Skills: <https://vassiliylakhonin.github.io/skills.json>
 - Verification: <https://vassiliylakhonin.github.io/verification.json>
 
+## Featured case studies
+
+- [Nonprofit Impact Orchestra](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html): Agent-assisted nonprofit grant orchestration with human checkpoints.
+- [Global Think Tank Analyst](https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html): Structured geopolitical and policy analysis in think-tank style.
+- [Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.
+
 ---
 
 ## What makes this repo different
