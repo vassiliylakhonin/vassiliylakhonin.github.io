@@ -33,10 +33,11 @@ End-to-end lifecycle management; multi-country portfolio coordination; risk mana
 Languages: Russian (native), English (professional working proficiency).
 
 ## What I focus on
-- Agent architecture and orchestration (OpenClaw, Codex-first workflows).
-- Automation reliability (observability, rollback discipline, failure recovery).
-- AI-ready delivery assets (machine-readable profiles, MCP endpoints, structured evidence).
-- Product + operations alignment for real-world deployment.
+- Agent architecture and orchestration (OpenClaw, Codex-first workflows)
+- Nonprofit use-cases #NonprofitTech
+- Automation reliability (observability, rollback discipline, failure recovery)
+- AI-ready delivery assets (machine-readable profiles, MCP endpoints, structured evidence)
+- Product + operations alignment for real-world deployment
 
 ## Current build mode
 - Shipping practical AgentSkills on ClawHub.
