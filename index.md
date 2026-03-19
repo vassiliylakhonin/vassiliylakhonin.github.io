@@ -40,9 +40,8 @@ Languages: Russian (native), English (professional working proficiency).
 
 ## Current build mode
 - Shipping practical AgentSkills on ClawHub.
-- Hardening evaluation and change-safety workflows.
+- Piloting nonprofit use-cases.
 - Designing systems that optimize for signal over hype.
-- Building claw0x-ready utility APIs for repeatable, production use.
 
 ## I help with
 - Donor reporting quality assurance and evidence-ready submission cycles.
