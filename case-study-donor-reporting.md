@@ -20,9 +20,9 @@ Quarterly and annual reporting required high evidence quality, consistent indica
 - Maintained audit-ready documentation and supported 2 USAID audits with zero findings.
 - Reduced report preparation time by 25% while maintaining quality controls.
 
-## Relevance
-Demonstrates readiness for Program/Portfolio Manager and PMO/Compliance roles requiring cross-border coordination, evidence governance, risk control, and executive-ready reporting.
+## Why it matters
+Shows how evidence quality controls, coordinated reporting cadence, and audit-ready documentation support donor-funded delivery.
 
-## Related samples
+## Project links
 - Activity report: https://moonlit-bavarois-971054.netlify.app
 - KPI tracker sample: https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app

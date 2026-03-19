@@ -17,5 +17,9 @@ The launch required synchronized execution across product, testing, and delivery
 - Improved cross-team transparency on dependencies and delivery risk.
 - Provided a PMO-style control layer for sprint cadence, issue escalation, and stakeholder reporting.
 
-## Relevance
-Demonstrates transferable private-sector capability in program operations: cadence governance, KPI-based performance control, cross-team/vendor coordination, and disciplined execution under timeline pressure.
+## Why it matters
+Shows how sprint cadence, dependency tracking, and KPI control support private-sector launch execution.
+
+## Project links
+- Main profile and CV: https://vassiliylakhonin.github.io/
+- Services: https://vassiliylakhonin.github.io/services.html

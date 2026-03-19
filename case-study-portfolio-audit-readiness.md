@@ -18,5 +18,9 @@ Portfolio delivery required strict timeline control across country workstreams, 
 - Supported donor audits in 2019 and 2020 with zero findings.
 - Maintained cross-country execution consistency and reduced deadline risk.
 
-## Relevance
-Demonstrates PMO and compliance-program capability in multi-market environments: governance cadence, risk visibility, audit evidence control, and deadline reliability.
+## Why it matters
+Shows how structured coordination, evidence control, and audit readiness support multi-country portfolio delivery.
+
+## Project links
+- Main profile and CV: https://vassiliylakhonin.github.io/
+- Donor reporting case study: https://vassiliylakhonin.github.io/case-study-donor-reporting.html
