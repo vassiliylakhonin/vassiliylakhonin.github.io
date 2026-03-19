@@ -24,9 +24,6 @@ PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 - AI-enabled monitoring and reporting systems (human-in-the-loop, quality-controlled workflows).
 
 ## Summary
-I build the layer between AI capability and production reality.
-
-I work where most projects fail: turning promising AI demos into reliable, auditable systems people can trust.
 
 Target roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, or Compliance Program Manager (Evidence & Compliance, Cross-Border) — onsite or remote.
 End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.
