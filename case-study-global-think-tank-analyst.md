@@ -1,5 +1,7 @@
 # Case Study: Global Think Tank Analyst
 
+![OpenClaw-oriented workflow concept for structured geopolitical and policy analysis](/case-study-global-think-tank-analyst.jpg)
+
 ## Context
 I packaged the Global Think Tank Analyst skill as a ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis. The goal is to turn ambiguous international questions into clear, think-tank style output that is easier to review, compare, and act on.
 
