@@ -1,13 +1,13 @@
 ---
 title: Vassiliy Lakhonin
-description: I build the layer between AI capability and production reality: reliable, auditable agent systems, ClawHub skills, and production-ready delivery assets.
+description: Program/Portfolio manager focused on evidence, compliance, cross-border delivery, and AI-enabled reporting systems.
 ---
 
 # Vassiliy Lakhonin
 Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
 Contact: vassiliy.lakhonin@gmail.com
-Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
+Open to: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
 Last updated: March 19, 2026
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
@@ -25,8 +25,8 @@ PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
 ## Summary
 
-Target roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, or Compliance Program Manager (Evidence & Compliance, Cross-Border) — onsite or remote.
-End-to-end lifecycle management; multi-country portfolio coordination; risk management, mitigation & compliance; stakeholder engagement (international organizations/donors/investors, government, private sector); budget monitoring & vendor oversight; ethics, cross-cultural communication, facilitation & negotiation.
+Program/Portfolio/PMO leader focused on evidence, compliance, and cross-border delivery across development and private-sector settings.
+I manage multi-country portfolios, risk, stakeholder alignment, budget monitoring, and vendor oversight with an evidence-first approach.
 Languages: Russian (native), English (professional working proficiency).
 
 ## What I focus on
