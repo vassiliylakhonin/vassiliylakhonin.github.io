@@ -120,7 +120,7 @@ Jan 2014 – Dec 2018
 - [Article brief: Regional Development and Policy Analysis](/article-regional-development-policy-analysis.html) - Includes summary, relevance, and source full-text link.
 
 ## Projects / proof
-- [Case study: OpenClaw RBM logic model skill pilot](/case-study-openclaw-rbm-skill.html)
+- [Case study: Nonprofit Impact Orchestra](/case-study-openclaw-rbm-skill.html)
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
@@ -162,7 +162,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
     },
     {
       "@type": "WebPage",
-      "name": "Case Study: OpenClaw RBM Logic Model Skill Pilot",
+      "name": "Case Study: Nonprofit Impact Orchestra",
       "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html"
     },
     {

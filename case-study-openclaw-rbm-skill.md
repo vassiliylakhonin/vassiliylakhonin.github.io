@@ -1,4 +1,4 @@
-# Case Study: OpenClaw RBM Logic Model Skill Pilot
+# Case Study: Nonprofit Impact Orchestra
 
 ## Context
 I built Nonprofit Impact Orchestra, an end-to-end AI orchestrator that turns a short project description into a complete, donor-ready grant package. It runs locally through OpenClaw as a self-hosted AI gateway and uses ClawHub as the skills registry.

@@ -163,7 +163,7 @@ def get_case_study(name: str) -> str:
       - "donor_reporting"   — Donor reporting quality & delivery reliability
       - "audit_readiness"   — Cross-country portfolio & audit readiness
       - "saas_launch"       — SaaS / E-commerce platform launch delivery
-      - "openclaw_rbm"      — OpenClaw RBM logic model skill pilot
+      - "openclaw_rbm"      — Nonprofit Impact Orchestra
     """
     key = f"case_{name}"
     if key not in RESOURCES:
