@@ -116,7 +116,7 @@ Jan 2014 – Dec 2018
 ## Selected articles
 - [Article brief: Digital Transformations to Improve the Work and Distribution of the State Scholarships Programs](/article-state-scholarships-digital-transformation.html) - Includes summary, relevance, and source DOI.
 - [Article brief: Data Overload in Fitness Tracking Technologies](/article-data-overload-fitness-tracking.html) - Includes summary, relevance, and source DOI.
-- [Article brief: Listening to aid recipients in 'aid-development' debate: findings from 'the Listening Project' and Jerge-Tal village in Kyrgyzstan](/article-regional-development-policy-analysis.html) - Includes summary, relevance, and source full-text link.
+- [Article brief: listening to aid recipients in 'aid-development' debate: findings from 'the Listening Project' and Jerge-Tal village in Kyrgyzstan](/article-regional-development-policy-analysis.html) - Includes summary, relevance, and source full-text link.
 
 ## Projects / proof
 - [Case study: Nonprofit Impact Orchestra](/case-study-openclaw-rbm-skill.html)
