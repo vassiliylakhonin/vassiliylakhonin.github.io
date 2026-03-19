@@ -37,7 +37,7 @@
 ## Writing
 - [Article brief: State scholarships and digital transformation](https://vassiliylakhonin.github.io/article-state-scholarships-digital-transformation.html): AI-friendly summary + source DOI.
 - [Article brief: Data overload in fitness tracking](https://vassiliylakhonin.github.io/article-data-overload-fitness-tracking.html): AI-friendly summary + source DOI.
-- [Article brief: Regional development policy analysis](https://vassiliylakhonin.github.io/article-regional-development-policy-analysis.html): AI-friendly summary + source full text.
+- [Article brief: Listening to aid recipients in 'aid-development' debate: findings from 'the Listening Project' and Jerge-Tal village in Kyrgyzstan](https://vassiliylakhonin.github.io/article-regional-development-policy-analysis.html): AI-friendly summary + source full text.
 
 ## Focus keywords
 - MEL/MEAL, Monitoring and Evaluation (M&E), donor reporting, compliance evidence, audit readiness, KPI dashboards.
