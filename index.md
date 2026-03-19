@@ -13,7 +13,6 @@ Last updated: March 19, 2026
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
 ## Quick contact
-- Open roles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Compliance Program Manager.
 - Email: [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com)
 - Time zone: Almaty (UTC+5), available for Central Asia, MENA, Europe, and remote-global teams.
 - Response time: usually within 24 hours.
@@ -56,7 +55,7 @@ Languages: Russian (native), English (professional working proficiency).
 - PM tooling: sprint cadences (2-week iterations), risk logs, action trackers, and vendor coordination workflows.
 - AI-assisted reporting workflows with quality-control checkpoints.
 
-## Search keywords (for recruiters and agents)
+## Search keywords
 - Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager.
 - Focus: donor compliance, audit readiness, internal controls, evidence management, KPI governance, performance management, risk tracking, stakeholder management, vendor oversight, budget monitoring, cross-border delivery.
 - Tools: M365 Teams, Outlook, SharePoint, OneDrive, Google Apps, Trello, LLM chatbots & coding agents.
