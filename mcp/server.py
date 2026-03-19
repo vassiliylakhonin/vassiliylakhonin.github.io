@@ -66,6 +66,7 @@ RESOURCES = {
     "case_audit_readiness": f"{BASE_URL}/case-study-portfolio-audit-readiness.md",
     "case_saas_launch": f"{BASE_URL}/case-study-saas-ecommerce-launch.md",
     "case_openclaw_rbm": f"{BASE_URL}/case-study-openclaw-rbm-skill.md",
+    "case_global_think_tank": f"{BASE_URL}/case-study-global-think-tank-analyst.md",
 }
 
 # ── helpers ──────────────────────────────────────────────────────────────────
@@ -164,6 +165,7 @@ def get_case_study(name: str) -> str:
       - "audit_readiness"   — Cross-country portfolio & audit readiness
       - "saas_launch"       — SaaS / E-commerce platform launch delivery
       - "openclaw_rbm"      — Nonprofit Impact Orchestra
+      - "global_think_tank" — Global Think Tank Analyst
     """
     key = f"case_{name}"
     if key not in RESOURCES:

@@ -8,7 +8,7 @@ Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
 Contact: vassiliy.lakhonin@gmail.com
 Open to opportunities: Central Asia, MENA, Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: March 13, 2026
+Last updated: March 19, 2026
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
@@ -121,6 +121,7 @@ Jan 2014 – Dec 2018
 
 ## Projects / proof
 - [Case study: Nonprofit Impact Orchestra](/case-study-openclaw-rbm-skill.html)
+- [Case study: Global Think Tank Analyst](/case-study-global-think-tank-analyst.html)
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
@@ -143,7 +144,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "url": "https://vassiliylakhonin.github.io/",
-  "dateModified": "2026-02-27",
+  "dateModified": "2026-03-19",
   "hasPart": [
     {
       "@type": "WebPage",
@@ -164,6 +165,11 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
       "@type": "WebPage",
       "name": "Case Study: Nonprofit Impact Orchestra",
       "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Case Study: Global Think Tank Analyst",
+      "url": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html"
     },
     {
       "@type": "DigitalDocument",
