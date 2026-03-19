@@ -36,7 +36,6 @@ Languages: Russian (native), English (professional working proficiency).
 - Agent architecture and orchestration (OpenClaw, Codex-first workflows)
 - Nonprofit use-cases #NonprofitTech
 - Automation reliability (observability, rollback discipline, failure recovery)
-- AI-ready delivery assets (machine-readable profiles, MCP endpoints, structured evidence)
 - Product + operations alignment for real-world deployment
 
 ## Current build mode
