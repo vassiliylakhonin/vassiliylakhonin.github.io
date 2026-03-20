@@ -1,5 +1,27 @@
 # Case Study: Nonprofit Impact Orchestra
 
+## TL;DR
+- Built an end-to-end nonprofit grant orchestration workflow in OpenClaw.
+- Covers full chain: context analysis → RBM logic model → budget → donor adaptation.
+- Added human checkpoints for governance and anti-hallucination control.
+- Output is reusable in markdown/tables/JSON/Excel-ready blocks.
+
+## Evidence
+- Public repo + ClawHub listing linked below.
+- Workflow design is documented as reproducible skill instructions.
+- Related supporting skills are publicly referenced.
+
+## Metrics
+- Output scope: full donor-ready package (not single-draft only).
+- Framework depth: 5-level RBM chain + ToC + SMART + SDG + risk scenarios.
+- Delivery mode: local/self-hosted orchestration with HITL checkpoints.
+
+## Context/Constraint
+- Needed auditability and human control, not black-box generation.
+- Nonprofit teams require donor-specific adaptation under time pressure.
+- Solution had to stay reusable without heavy external dependencies.
+
+
 ## Context
 I built Nonprofit Impact Orchestra, an end-to-end AI orchestrator that turns a short project description into a complete, donor-ready grant package. It runs locally through OpenClaw as a self-hosted AI gateway and uses ClawHub as the skills registry.
 

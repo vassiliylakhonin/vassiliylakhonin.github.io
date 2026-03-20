@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Program/Portfolio/PMO Advisory",
+  "provider": {
+    "@type": "Person",
+    "name": "Vassiliy Lakhonin"
+  },
+  "url": "https://vassiliylakhonin.github.io/services.html"
+}

@@ -1,0 +1,70 @@
+{
+  "entity": {
+    "name": "Vassiliy Lakhonin",
+    "type": "Person",
+    "location": "Almaty, Kazakhstan",
+    "primary_url": "https://vassiliylakhonin.github.io/"
+  },
+  "profiles": [
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/vassiliy-lakhonin/",
+      "relation": "primary_profile"
+    },
+    {
+      "platform": "GitHub",
+      "url": "https://github.com/vassiliylakhonin",
+      "relation": "code_profile"
+    },
+    {
+      "platform": "ClawHub",
+      "url": "https://clawhub.ai/vassiliylakhonin",
+      "relation": "skills_publisher"
+    }
+  ],
+  "public_artifacts": [
+    {
+      "type": "resume",
+      "url": "https://vassiliylakhonin.github.io/resume.json"
+    },
+    {
+      "type": "agent_card",
+      "url": "https://vassiliylakhonin.github.io/agent-card.json"
+    },
+    {
+      "type": "evidence",
+      "url": "https://vassiliylakhonin.github.io/evidence.json"
+    },
+    {
+      "type": "availability",
+      "url": "https://vassiliylakhonin.github.io/availability.json"
+    },
+    {
+      "type": "skills",
+      "url": "https://vassiliylakhonin.github.io/skills.json"
+    }
+  ],
+  "case_studies": [
+    {
+      "name": "Donor reporting quality and delivery reliability",
+      "url": "https://vassiliylakhonin.github.io/case-study-donor-reporting.html"
+    },
+    {
+      "name": "Cross-country portfolio delivery and audit readiness",
+      "url": "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html"
+    },
+    {
+      "name": "SaaS/e-commerce platform launch delivery control",
+      "url": "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    },
+    {
+      "name": "Nonprofit Impact Orchestra",
+      "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html"
+    },
+    {
+      "name": "Global Think Tank Analyst",
+      "url": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html"
+    }
+  ],
+  "last_updated": "2026-03-20"
+}

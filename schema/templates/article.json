@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Case Study Title",
+  "author": {
+    "@type": "Person",
+    "name": "Vassiliy Lakhonin"
+  },
+  "mainEntityOfPage": "https://vassiliylakhonin.github.io/case-study-example.html"
+}

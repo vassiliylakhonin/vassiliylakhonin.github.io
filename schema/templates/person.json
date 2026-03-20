@@ -1,0 +1,10 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Vassiliy Lakhonin",
+  "url": "https://vassiliylakhonin.github.io/",
+  "sameAs": [
+    "https://www.linkedin.com/in/vassiliy-lakhonin/",
+    "https://github.com/vassiliylakhonin"
+  ]
+}

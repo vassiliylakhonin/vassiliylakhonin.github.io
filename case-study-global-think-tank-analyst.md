@@ -1,5 +1,26 @@
 # Case Study: Global Think Tank Analyst
 
+## TL;DR
+- Packaged a think-tank style analysis skill for geopolitical/policy tasks.
+- Enforces explicit assumptions, confidence labels, and alternative hypotheses.
+- Produces decision-useful outputs (briefs, scenarios, risk memos, JSON).
+- Designed for clarity under uncertainty, not generic summarization.
+
+## Evidence
+- Public ClawHub listing available (link below).
+- Structured output format and mode taxonomy documented in the case narrative.
+
+## Metrics
+- Framework coverage: PESTLE, stakeholder/power mapping, scenario/horizon, red-team.
+- Output modes: executive summary, policy brief, risk memo, scenario set, JSON export.
+- Reusability: instruction-only packaging for easy install/update.
+
+## Context/Constraint
+- Policy questions often arrive under-specified and politically ambiguous.
+- Analysts need traceable reasoning structure, not prose-only answers.
+- Uncertainty must remain visible for responsible decision support.
+
+
 ## Context
 I packaged the Global Think Tank Analyst skill as a ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis. The goal is to turn ambiguous international questions into clear, think-tank style output that is easier to review, compare, and act on.
 

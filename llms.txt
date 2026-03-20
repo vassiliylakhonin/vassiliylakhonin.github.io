@@ -13,6 +13,7 @@
 - [Availability (JSON)](https://vassiliylakhonin.github.io/availability.json): Role targets, work modes, region coverage, and response SLA.
 - [Engagement intake (JSON)](https://vassiliylakhonin.github.io/engage.json): Structured fields for outreach and role intake.
 - [Verification (JSON)](https://vassiliylakhonin.github.io/verification.json): Identity and proof links across public artifacts.
+- [Authority signals (JSON)](https://vassiliylakhonin.github.io/authority.json): Consolidated entity/profile/case-study reference graph for AI retrieval.
 - [Capabilities (JSON)](https://vassiliylakhonin.github.io/capabilities.json): Machine-readable service scope, outputs, and contact data.
 - [Skills (JSON)](https://vassiliylakhonin.github.io/skills.json): Domain, tools, and methods for faster agent matching.
 - [MCP server (remote SSE)](https://vassiliy-lakhonin-mcp-production.up.railway.app/sse): Live MCP endpoint for AI agents.

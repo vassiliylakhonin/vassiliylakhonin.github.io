@@ -1,5 +1,29 @@
 # Case Study: Donor Reporting Quality and Delivery Reliability
 
+## TL;DR
+- Built a reporting QA/QC system for a $14M USAID program across 4 countries.
+- Maintained **100% on-time** donor reporting for **8 consecutive quarters**.
+- Reduced partner submission delays by **40%** and cut prep time by **25%**.
+- Supported **2 USAID audits with zero findings** via audit-ready evidence packs.
+
+## Evidence
+- Program scope and role context documented in CV/profile artifacts.
+- Public sample artifacts: activity report and KPI tracker links below.
+- Outcome claims tied to operational reporting cadence and QA controls.
+
+## Metrics
+- On-time reports: **8/8 quarters (100%)**.
+- Partner delay reduction: **40%**.
+- Data confidence improvement: **6.2/10 → 8.7/10**.
+- Audit outcome: **2 audits, zero findings**.
+- Report preparation time: **-25%**.
+
+## Context/Constraint
+- Multi-country partner data maturity was uneven.
+- Donor timelines were fixed and non-negotiable.
+- Quality thresholds had to be maintained while speeding delivery.
+
+
 ## Context
 Regional Monitoring and Evaluation (Performance) Manager at DAI (Apr 2023 - Apr 2025), supporting a $14M USAID-funded program across 4 Central Asian countries with 15+ implementing partners.
 

@@ -3,6 +3,15 @@ title: Vassiliy Lakhonin
 description: Program/Portfolio manager focused on evidence, compliance, cross-border delivery, and AI-enabled reporting systems.
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Vassiliy Lakhonin",
+  "url": "https://vassiliylakhonin.github.io/"
+}
+</script>
+
 # Vassiliy Lakhonin
 Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)

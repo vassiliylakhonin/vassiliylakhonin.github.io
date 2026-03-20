@@ -1,0 +1,39 @@
+name: Schema Coverage Audit
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "*.html"
+      - "index.md"
+      - "scripts/schema_audit.py"
+      - ".github/workflows/schema-audit.yml"
+
+jobs:
+  schema-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run schema audit
+        run: |
+          set -euo pipefail
+          python3 scripts/schema_audit.py
+
+      - name: Upload schema report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: schema-report
+          path: |
+            schema-report.md
+            schema-report.json

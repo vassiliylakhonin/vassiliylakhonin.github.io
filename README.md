@@ -120,6 +120,7 @@ Expected tools include: `get_profile`, `get_resume`, `get_availability`, `get_ca
 - Internal link checks run on push/PR: `.github/workflows/link-check.yml`
 - IndexNow submission on push: `.github/workflows/indexing-push.yml`
 - GEO baseline audit (weekly + key-file changes): `.github/workflows/geo-audit.yml`
+- Schema coverage audit (weekly + content changes): `.github/workflows/schema-audit.yml`
 - Optional Google Search Console submission via repository secrets
 
 Quick GEO audit locally:
