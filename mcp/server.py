@@ -13,6 +13,7 @@ from typing import Any
 
 try:
     from mcp.server.fastmcp import FastMCP
+    from mcp.server.transport_security import TransportSecuritySettings
 except ImportError:
     print(
         "ERROR: 'mcp' package not found.\n"
@@ -114,12 +115,25 @@ def _role_keywords() -> dict[str, list[str]]:
     }
 
 
+_allowed_hosts = [h.strip() for h in os.environ.get("MCP_ALLOWED_HOSTS", "").split(",") if h.strip()]
+if not _allowed_hosts:
+    _allowed_hosts = [
+        "vassiliy-lakhonin-mcp-production.up.railway.app",
+        "127.0.0.1:*",
+        "localhost:*",
+    ]
+
 mcp = FastMCP(
     name="vassiliy-lakhonin-profile",
     instructions=(
         "Read-only access to Vassiliy Lakhonin's CV, case studies, and "
         "availability data. Use this server to answer recruiter and agent "
         "queries about experience, skills, metrics, and engagement."
+    ),
+    transport_security=TransportSecuritySettings(
+        enable_dns_rebinding_protection=True,
+        allowed_hosts=_allowed_hosts,
+        allowed_origins=[],
     ),
 )
 
