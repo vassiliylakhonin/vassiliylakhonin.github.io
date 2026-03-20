@@ -103,6 +103,14 @@ python3.13 -m pip install -r mcp/requirements.txt
 python3.13 mcp/server.py
 ```
 
+Host allowlist for SSE/HTTP transport security:
+
+```bash
+export MCP_ALLOWED_HOSTS='vassiliy-lakhonin-mcp-production.up.railway.app,127.0.0.1:*,localhost:*'
+```
+
+If `MCP_ALLOWED_HOSTS` is not set, the server uses the same safe defaults above. This prevents `Invalid Host header` errors behind Railway while keeping DNS rebinding protection enabled.
+
 Expected tools include: `get_profile`, `get_resume`, `get_availability`, `get_capabilities`, `get_evidence`, `get_engage`, `get_agent_card`, `get_verification`, `get_skills`, `get_case_study`, `list_resources`, `search_profile`.
 
 ---
