@@ -13,7 +13,8 @@ Personal portfolio and CV site for **Vassiliy Lakhonin**, built for both humans 
 - recruiter-friendly profile + case studies,
 - machine-readable metadata (`resume.json`, `capabilities.json`, `evidence.json`),
 - AI indexing support (`llms.txt`, JSON-LD, `sitemap.xml`),
-- live MCP endpoint for programmatic profile access.
+- live MCP endpoint for programmatic profile access,
+- authority/entity signal layer (`authority.json`) for AI retrieval clarity.
 
 ---
 
@@ -35,6 +36,7 @@ Machine-readable:
 - Engagement intake: <https://vassiliylakhonin.github.io/engage.json>
 - Skills: <https://vassiliylakhonin.github.io/skills.json>
 - Verification: <https://vassiliylakhonin.github.io/verification.json>
+- Authority signals: <https://vassiliylakhonin.github.io/authority.json>
 
 ## Featured case studies
 
@@ -47,8 +49,8 @@ Machine-readable:
 ## What makes this repo different
 
 - **Dual-surface design**: content optimized for both human readers and AI agents.
-- **Proof-first structure**: case studies in problem/action/result format.
-- **Structured trust layer**: verification + evidence mapping files.
+- **Citability-first case studies**: each markdown case includes TL;DR, Evidence, Metrics, Context/Constraint blocks.
+- **Structured trust layer**: verification + evidence + authority mapping files.
 - **Indexing-ready by default**: `robots.txt`, `sitemap.xml`, `llms.txt`, JSON-LD.
 - **MCP integration**: profile data available via local and hosted server.
 
@@ -72,10 +74,14 @@ Machine-readable:
 ├── engage.json
 ├── skills.json
 ├── verification.json
+├── authority.json
 ├── llms.txt
 ├── humans.txt
 ├── robots.txt
 ├── sitemap.xml
+├── schema/templates/*.json
+├── scripts/geo_quick_audit.py
+├── scripts/schema_audit.py
 └── mcp/
     ├── server.py
     ├── requirements.txt
