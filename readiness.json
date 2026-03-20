@@ -1,0 +1,24 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-03-20",
+  "weights": {
+    "discoverability": 0.2,
+    "agent_readiness": 0.25,
+    "trust_verification": 0.2,
+    "proof_case_studies": 0.2,
+    "contact_availability": 0.15
+  },
+  "scores": {
+    "discoverability": 95,
+    "agent_readiness": 96,
+    "trust_verification": 94,
+    "proof_case_studies": 92,
+    "contact_availability": 95
+  },
+  "overall_score": 94.5,
+  "top_gaps": [
+    "Automate freshness checks for external sample links in case studies",
+    "Add optional FAQ schema on high-intent pages",
+    "Track readiness trend over time (weekly history snapshots)"
+  ]
+}

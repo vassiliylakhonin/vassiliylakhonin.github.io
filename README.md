@@ -28,6 +28,8 @@ Personal portfolio and CV site for **Vassiliy Lakhonin**, built for both humans 
 - MCP health: <https://vassiliy-lakhonin-mcp-production.up.railway.app/health>
 
 Machine-readable:
+- Agent discovery entrypoint: <https://vassiliylakhonin.github.io/agent-discovery.md>
+- Agent readiness score: <https://vassiliylakhonin.github.io/readiness.json>
 - Agent card: <https://vassiliylakhonin.github.io/agent-card.json>
 - Resume JSON: <https://vassiliylakhonin.github.io/resume.json>
 - Capabilities: <https://vassiliylakhonin.github.io/capabilities.json>
@@ -82,6 +84,7 @@ Machine-readable:
 ├── schema/templates/*.json
 ├── scripts/geo_quick_audit.py
 ├── scripts/schema_audit.py
+├── scripts/build_readiness_report.py
 └── mcp/
     ├── server.py
     ├── requirements.txt
@@ -129,10 +132,12 @@ Expected tools include: `get_profile`, `get_resume`, `get_availability`, `get_ca
 - Schema coverage audit (weekly + content changes): `.github/workflows/schema-audit.yml`
 - Optional Google Search Console submission via repository secrets
 
-Quick GEO audit locally:
+Quick checks locally:
 
 ```bash
 python3 scripts/geo_quick_audit.py
+python3 scripts/schema_audit.py
+python3 scripts/build_readiness_report.py
 ```
 
 See scoring rubric: `docs/GEO_BASELINE.md`
