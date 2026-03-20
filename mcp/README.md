@@ -11,17 +11,21 @@ to MCP-compatible AI agents.
 
 ## What it exposes (tools)
 
-- `get_profile`
+- `get_profile(mode="short"|"full")`
 - `get_resume`
 - `get_availability`
 - `get_capabilities`
 - `get_evidence`
+- `get_metrics` (normalized achievement objects)
 - `get_engage`
 - `get_agent_card`
 - `get_verification`
-- `get_case_study(name)`
+- `get_case_study(name, format="full"|"short"|"bullets")`
 - `list_resources`
 - `search_profile(query)`
+- `match_job(job_text, role_target?)`
+- `generate_pitch(context, format="dm_short"|"email"|"proposal_intro")`
+- `generate_cover_letter(job_text, tone?)`
 
 ## Data sources (live site)
 
