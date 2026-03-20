@@ -1,0 +1,46 @@
+name: GEO Baseline Audit
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "robots.txt"
+      - "llms.txt"
+      - "sitemap.xml"
+      - "agent-card.json"
+      - "resume.json"
+      - "capabilities.json"
+      - "evidence.json"
+      - "availability.json"
+      - "skills.json"
+      - "scripts/geo_quick_audit.py"
+      - ".github/workflows/geo-audit.yml"
+
+jobs:
+  geo-audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run GEO baseline audit
+        run: |
+          set -euo pipefail
+          python3 scripts/geo_quick_audit.py
+
+      - name: Upload GEO report artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: geo-baseline-report
+          path: |
+            geo-report.md
+            geo-report.json
