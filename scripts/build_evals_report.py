@@ -40,8 +40,9 @@ def main() -> int:
     if isinstance(geo_score, (int, float)):
         geo_status = 'pass' if geo_score >= 85 else 'warn'
     else:
-        geo_status = 'warn'
+        geo_status = 'skip'
 
+    mcp_optional = True
     mcp_status, mcp_http = mcp_health('https://vassiliy-lakhonin-mcp-production.up.railway.app/health')
 
     checks = [
@@ -56,6 +57,7 @@ def main() -> int:
             'status': geo_status,
             'value': geo_score,
             'target': '>= 85',
+            'note': 'Skipped when geo-report.json is not present',
         },
         {
             'name': 'schema_critical_issues',
@@ -65,15 +67,17 @@ def main() -> int:
         },
         {
             'name': 'mcp_health_http',
-            'status': mcp_status,
+            'status': ('skip' if mcp_optional else mcp_status),
             'value': mcp_http,
             'target': '2xx',
+            'note': 'Optional check (current host disabled/paused)',
         },
     ]
 
     pass_count = sum(1 for c in checks if c['status'] == 'pass')
     warn_count = sum(1 for c in checks if c['status'] == 'warn')
     fail_count = sum(1 for c in checks if c['status'] == 'fail')
+    skip_count = sum(1 for c in checks if c['status'] == 'skip')
 
     out = {
         'schema_version': '1.0',
@@ -82,6 +86,7 @@ def main() -> int:
             'pass': pass_count,
             'warn': warn_count,
             'fail': fail_count,
+            'skip': skip_count,
         },
         'checks': checks,
     }

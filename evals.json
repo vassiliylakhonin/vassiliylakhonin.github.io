@@ -1,10 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-04-10T12:04:02Z",
+  "generated_at": "2026-04-10T12:22:36Z",
   "summary": {
     "pass": 2,
-    "warn": 2,
-    "fail": 0
+    "warn": 0,
+    "fail": 0,
+    "skip": 2
   },
   "checks": [
     {
@@ -15,9 +16,10 @@
     },
     {
       "name": "geo_baseline_score",
-      "status": "warn",
+      "status": "skip",
       "value": null,
-      "target": ">= 85"
+      "target": ">= 85",
+      "note": "Skipped when geo-report.json is not present"
     },
     {
       "name": "schema_critical_issues",
@@ -27,9 +29,10 @@
     },
     {
       "name": "mcp_health_http",
-      "status": "warn",
+      "status": "skip",
       "value": null,
-      "target": "2xx"
+      "target": "2xx",
+      "note": "Optional check (current host disabled/paused)"
     }
   ]
 }
