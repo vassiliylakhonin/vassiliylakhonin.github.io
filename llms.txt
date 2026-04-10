@@ -16,6 +16,9 @@
 - [Engagement intake (JSON)](https://vassiliylakhonin.github.io/engage.json): Structured fields for outreach and role intake.
 - [Verification (JSON)](https://vassiliylakhonin.github.io/verification.json): Identity and proof links across public artifacts.
 - [Authority signals (JSON)](https://vassiliylakhonin.github.io/authority.json): Consolidated entity/profile/case-study reference graph for AI retrieval.
+- [Freshness snapshot (JSON)](https://vassiliylakhonin.github.io/freshness.json): Last-update signals for core machine-readable artifacts.
+- [Evaluation snapshot (JSON)](https://vassiliylakhonin.github.io/evals.json): Lightweight quality checks across readiness, GEO/schema, and MCP health.
+- [Provenance snapshot (JSON)](https://vassiliylakhonin.github.io/provenance.json): Source/revision/signature-status signal for trust-aware retrieval.
 - [Capabilities (JSON)](https://vassiliylakhonin.github.io/capabilities.json): Machine-readable service scope, outputs, and contact data.
 - [Skills (JSON)](https://vassiliylakhonin.github.io/skills.json): Domain, tools, and methods for faster agent matching.
 - [MCP server (remote SSE)](https://vassiliy-lakhonin-mcp-production.up.railway.app/sse): Live MCP endpoint for AI agents.

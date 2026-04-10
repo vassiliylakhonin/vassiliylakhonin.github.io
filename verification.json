@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-03-19",
+  "updated_at": "2026-04-10",
   "identity": {
     "name": "Vassiliy Lakhonin",
     "canonical_url": "https://vassiliylakhonin.github.io/",
@@ -56,6 +56,18 @@
     {
       "type": "evidence_json",
       "url": "https://vassiliylakhonin.github.io/evidence.json"
+    },
+    {
+      "type": "freshness_json",
+      "url": "https://vassiliylakhonin.github.io/freshness.json"
+    },
+    {
+      "type": "evals_json",
+      "url": "https://vassiliylakhonin.github.io/evals.json"
+    },
+    {
+      "type": "provenance_json",
+      "url": "https://vassiliylakhonin.github.io/provenance.json"
     }
   ]
 }

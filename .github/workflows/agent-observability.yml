@@ -1,0 +1,49 @@
+name: Agent Observability Snapshot
+
+on:
+  schedule:
+    - cron: "0 7 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "readiness.json"
+      - "agent-card.json"
+      - "verification.json"
+      - "authority.json"
+      - "availability.json"
+      - "engage.json"
+      - "llms.txt"
+      - "scripts/build_freshness_report.py"
+      - "scripts/build_evals_report.py"
+      - "scripts/build_provenance_report.py"
+      - ".github/workflows/agent-observability.yml"
+
+jobs:
+  observability:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build snapshots
+        run: |
+          set -euo pipefail
+          python3 scripts/build_freshness_report.py
+          python3 scripts/build_evals_report.py || true
+          python3 scripts/build_provenance_report.py
+
+      - name: Upload observability artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: agent-observability
+          path: |
+            freshness.json
+            evals.json
+            provenance.json

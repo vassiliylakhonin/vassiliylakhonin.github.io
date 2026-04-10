@@ -93,6 +93,9 @@
     "https://vassiliylakhonin.github.io/engage.json",
     "https://vassiliylakhonin.github.io/capabilities.json",
     "https://vassiliylakhonin.github.io/skills.json",
-    "https://vassiliylakhonin.github.io/verification.json"
+    "https://vassiliylakhonin.github.io/verification.json",
+    "https://vassiliylakhonin.github.io/freshness.json",
+    "https://vassiliylakhonin.github.io/evals.json",
+    "https://vassiliylakhonin.github.io/provenance.json"
   ]
 }

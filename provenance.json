@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-04-10T12:03:40Z",
+  "source_repository": "https://github.com/vassiliylakhonin/vassiliylakhonin.github.io",
+  "default_branch": "main",
+  "head": {
+    "sha": "da7e85d0d14e1728f8732e6ae47d56c6c6dc30ff",
+    "committed_at": "2026-03-20T16:45:07+05:00",
+    "signature_status": "unsigned",
+    "signature_flag": "N"
+  },
+  "recommendation": "Enable signed commits/tags for stronger provenance signals in agent trust pipelines."
+}

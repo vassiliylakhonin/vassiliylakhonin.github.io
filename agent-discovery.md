@@ -16,6 +16,7 @@ Purpose: quick entrypoint for humans and agents to understand what this repo is,
 5. `availability.json` + `engage.json` — contact and intake constraints
 6. `evidence.json` + `resume.json` + `skills.json` — validation and matching detail
 7. `case-study-*.md` — proof depth (citability-first format)
+8. `freshness.json` + `evals.json` + `provenance.json` — recency, checks, and provenance signals
 
 ## Readiness domains
 - **discoverability**: llms/sitemap/robots/indexing signals
@@ -40,3 +41,6 @@ python3 scripts/build_readiness_report.py
 ## Output artifacts
 - `agent-readiness-report.md` — human-friendly summary
 - `readiness.json` — machine-readable weighted scoring
+- `freshness.json` — machine-readable recency snapshot for key artifacts
+- `evals.json` — machine-readable evaluation snapshot (readiness/geo/schema/MCP health)
+- `provenance.json` — machine-readable source/provenance snapshot

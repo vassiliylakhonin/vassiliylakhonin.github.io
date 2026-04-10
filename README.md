@@ -39,6 +39,9 @@ Machine-readable:
 - Skills: <https://vassiliylakhonin.github.io/skills.json>
 - Verification: <https://vassiliylakhonin.github.io/verification.json>
 - Authority signals: <https://vassiliylakhonin.github.io/authority.json>
+- Freshness snapshot: <https://vassiliylakhonin.github.io/freshness.json>
+- Evals snapshot: <https://vassiliylakhonin.github.io/evals.json>
+- Provenance snapshot: <https://vassiliylakhonin.github.io/provenance.json>
 
 ## Featured case studies
 
@@ -130,6 +133,7 @@ Expected tools include: `get_profile`, `get_resume`, `get_availability`, `get_ca
 - IndexNow submission on push: `.github/workflows/indexing-push.yml`
 - GEO baseline audit (weekly + key-file changes): `.github/workflows/geo-audit.yml`
 - Schema coverage audit (weekly + content changes): `.github/workflows/schema-audit.yml`
+- Agent observability snapshot (weekly + key changes): `.github/workflows/agent-observability.yml`
 - Optional Google Search Console submission via repository secrets
 
 Quick checks locally:
@@ -138,6 +142,9 @@ Quick checks locally:
 python3 scripts/geo_quick_audit.py
 python3 scripts/schema_audit.py
 python3 scripts/build_readiness_report.py
+python3 scripts/build_freshness_report.py
+python3 scripts/build_evals_report.py
+python3 scripts/build_provenance_report.py
 ```
 
 See scoring rubric: `docs/GEO_BASELINE.md`

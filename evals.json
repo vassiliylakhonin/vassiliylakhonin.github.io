@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-04-10T12:04:02Z",
+  "summary": {
+    "pass": 2,
+    "warn": 2,
+    "fail": 0
+  },
+  "checks": [
+    {
+      "name": "readiness_overall",
+      "status": "pass",
+      "value": 94.5,
+      "target": ">= 90"
+    },
+    {
+      "name": "geo_baseline_score",
+      "status": "warn",
+      "value": null,
+      "target": ">= 85"
+    },
+    {
+      "name": "schema_critical_issues",
+      "status": "pass",
+      "value": 0,
+      "target": "== 0"
+    },
+    {
+      "name": "mcp_health_http",
+      "status": "warn",
+      "value": null,
+      "target": "2xx"
+    }
+  ]
+}

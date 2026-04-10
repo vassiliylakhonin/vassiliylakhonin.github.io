@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-04-10T12:03:39Z",
+  "repository_last_commit_at": "2026-03-20T16:45:07+05:00",
+  "tracked_artifacts_count": 13,
+  "missing_artifacts": [],
+  "artifacts": [
+    {
+      "path": "index.md",
+      "last_commit_at": "2026-03-20T16:32:41+05:00",
+      "size_bytes": 12818
+    },
+    {
+      "path": "profile.md",
+      "last_commit_at": "2026-03-19T12:07:53+05:00",
+      "size_bytes": 2096
+    },
+    {
+      "path": "agent-discovery.md",
+      "last_commit_at": "2026-03-20T16:45:07+05:00",
+      "size_bytes": 2133
+    },
+    {
+      "path": "agent-card.json",
+      "last_commit_at": "2026-03-19T11:51:41+05:00",
+      "size_bytes": 3175
+    },
+    {
+      "path": "readiness.json",
+      "last_commit_at": "2026-03-20T16:45:07+05:00",
+      "size_bytes": 627
+    },
+    {
+      "path": "authority.json",
+      "last_commit_at": "2026-03-20T16:32:41+05:00",
+      "size_bytes": 1987
+    },
+    {
+      "path": "verification.json",
+      "last_commit_at": "2026-03-19T11:51:41+05:00",
+      "size_bytes": 2180
+    },
+    {
+      "path": "capabilities.json",
+      "last_commit_at": "2026-03-19T12:07:53+05:00",
+      "size_bytes": 6588
+    },
+    {
+      "path": "availability.json",
+      "last_commit_at": "2026-03-19T12:07:53+05:00",
+      "size_bytes": 1348
+    },
+    {
+      "path": "engage.json",
+      "last_commit_at": "2026-03-19T12:07:53+05:00",
+      "size_bytes": 3131
+    },
+    {
+      "path": "skills.json",
+      "last_commit_at": "2026-03-19T12:11:01+05:00",
+      "size_bytes": 1015
+    },
+    {
+      "path": "evidence.json",
+      "last_commit_at": "2026-02-18T11:32:42+05:00",
+      "size_bytes": 3825
+    },
+    {
+      "path": "llms.txt",
+      "last_commit_at": "2026-03-20T16:45:07+05:00",
+      "size_bytes": 6455
+    }
+  ]
+}
