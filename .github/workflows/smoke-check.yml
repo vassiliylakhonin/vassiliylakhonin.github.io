@@ -1,0 +1,49 @@
+name: Smoke Check (Published URLs)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "index.md"
+      - "for-recruiters.md"
+      - "recruiter.json"
+      - "llms.txt"
+      - "sitemap.xml"
+      - ".github/workflows/smoke-check.yml"
+  workflow_dispatch:
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+    steps:
+      - name: Wait for Pages propagation and verify HTTP 200
+        run: |
+          set -euo pipefail
+          URLS=(
+            "https://vassiliylakhonin.github.io/"
+            "https://vassiliylakhonin.github.io/for-recruiters.md"
+            "https://vassiliylakhonin.github.io/recruiter.json"
+            "https://vassiliylakhonin.github.io/llms.txt"
+          )
+
+          for url in "${URLS[@]}"; do
+            echo "Checking $url"
+            ok=0
+            for i in {1..20}; do
+              code=$(curl -s -o /dev/null -w "%{http_code}" "$url" || true)
+              if [ "$code" = "200" ]; then
+                ok=1
+                echo "OK $url"
+                break
+              fi
+              echo "Attempt $i: got HTTP $code, retrying in 15s"
+              sleep 15
+            done
+            if [ "$ok" -ne 1 ]; then
+              echo "FAILED: $url did not return 200"
+              exit 1
+            fi
+          done

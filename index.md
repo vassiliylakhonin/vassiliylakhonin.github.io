@@ -17,7 +17,7 @@ Almaty, Kazakhstan
 LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
 Contact: vassiliy.lakhonin@gmail.com
 Open to: Central Asia, MENA, U.S. (partial overlap), Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: March 19, 2026
+Last updated: April 11, 2026
 
 ## Hire me in 60 seconds
 - Best-fit roles: Program Manager, Portfolio Manager, PMO / Program Operations, Compliance Program Manager.
@@ -145,7 +145,8 @@ Jan 2014 – Dec 2018
 - [Agent card (A2A-style discovery)](/agent-card.json)
 - [Profile (Markdown)](/profile.md)
 - [LLMs entrypoint](/llms.txt)
-- [Resume JSON](/resume.json), [Evidence JSON](/evidence.json), [Availability JSON](/availability.json), [Capabilities JSON](/capabilities.json), [Skills JSON](/skills.json), [Verification JSON](/verification.json)
+- [For recruiters](/for-recruiters.md)
+- [Resume JSON](/resume.json), [Evidence JSON](/evidence.json), [Availability JSON](/availability.json), [Capabilities JSON](/capabilities.json), [Skills JSON](/skills.json), [Recruiter JSON](/recruiter.json), [Verification JSON](/verification.json)
 - MCP server (remote SSE, live): `https://vassiliy-lakhonin-mcp-production.up.railway.app/sse` (health: `https://vassiliy-lakhonin-mcp-production.up.railway.app/health`)
 
 Copyright (c) Vassiliy Lakhonin. All rights reserved.
@@ -156,7 +157,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "url": "https://vassiliylakhonin.github.io/",
-  "dateModified": "2026-03-19",
+  "dateModified": "2026-04-11",
   "hasPart": [
     {
       "@type": "WebPage",
@@ -212,6 +213,16 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
       "@type": "DigitalDocument",
       "name": "Skills JSON",
       "url": "https://vassiliylakhonin.github.io/skills.json"
+    },
+    {
+      "@type": "DigitalDocument",
+      "name": "Recruiter JSON",
+      "url": "https://vassiliylakhonin.github.io/recruiter.json"
+    },
+    {
+      "@type": "WebPage",
+      "name": "For Recruiters",
+      "url": "https://vassiliylakhonin.github.io/for-recruiters.md"
     }
   ],
   "mainEntity": {
