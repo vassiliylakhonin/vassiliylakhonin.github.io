@@ -1,0 +1,60 @@
+{
+  "schema_version": "2.0",
+  "updated_at": "2026-04-11",
+  "name": "Vassiliy Lakhonin",
+  "purpose": "Structured intake for recruiters, hiring managers, and AI agents to evaluate role fit quickly.",
+  "required_fields": [
+    "organization_name",
+    "contact_name",
+    "contact_email",
+    "target_role",
+    "industry",
+    "employment_type",
+    "work_mode",
+    "region_scope",
+    "salary_band",
+    "start_date",
+    "must_have"
+  ],
+  "fields": [
+    {"id": "organization_name", "type": "string", "required": true},
+    {"id": "contact_name", "type": "string", "required": true},
+    {"id": "contact_email", "type": "email", "required": true},
+    {
+      "id": "target_role",
+      "type": "enum",
+      "required": true,
+      "options": [
+        "Program Manager",
+        "Portfolio Manager",
+        "PMO Manager",
+        "Program Operations Manager",
+        "Delivery Manager",
+        "Transformation Manager",
+        "Operations Manager",
+        "Compliance Program Manager"
+      ]
+    },
+    {
+      "id": "industry",
+      "type": "enum",
+      "required": true,
+      "options": ["Technology", "SaaS", "Professional Services", "International Development", "Public Sector", "Other"]
+    },
+    {"id": "employment_type", "type": "enum", "required": true, "options": ["Full-time", "Contract", "Consulting"]},
+    {"id": "work_mode", "type": "enum", "required": true, "options": ["Onsite", "Hybrid", "Remote"]},
+    {"id": "region_scope", "type": "array", "required": true},
+    {"id": "salary_band", "type": "string", "required": true, "example": "gross annual range + bonus/equity"},
+    {"id": "start_date", "type": "string", "required": true, "example": "YYYY-MM-DD or within X days"},
+    {"id": "must_have", "type": "array", "required": true},
+    {"id": "nice_to_have", "type": "array", "required": false},
+    {"id": "constraints", "type": "array", "required": false},
+    {"id": "interview_process", "type": "string", "required": false}
+  ],
+  "submission": {
+    "preferred_channel": "email",
+    "address": "vassiliy.lakhonin@gmail.com",
+    "subject_template": "[Role Inquiry] {target_role} - {organization_name}",
+    "response_sla": "Usually within 24 hours"
+  }
+}

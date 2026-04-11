@@ -16,6 +16,10 @@
 - [Evidence (JSON)](https://vassiliylakhonin.github.io/evidence.json): Claim-to-metric mapping with source pages.
 - [Availability (JSON)](https://vassiliylakhonin.github.io/availability.json): Role targets, work modes, region coverage, and response SLA.
 - [Engagement intake (JSON)](https://vassiliylakhonin.github.io/engage.json): Structured fields for outreach and role intake.
+- [Engagement intake v2 (JSON)](https://vassiliylakhonin.github.io/engage.v2.json): Expanded intake with role, industry, salary band, start date, and must-have criteria.
+- [Interview story bank (JSON)](https://vassiliylakhonin.github.io/stories.json): STAR+R stories with measurable outcomes for interview and outreach quality.
+- [Fit score template](https://vassiliylakhonin.github.io/fit-score-template.md): 0-5 weighted role-fit decision framework.
+- [Tracker schema](https://vassiliylakhonin.github.io/tracker-schema.md): Canonical statuses and fields for consistent job-search pipeline tracking.
 - [Verification (JSON)](https://vassiliylakhonin.github.io/verification.json): Identity and proof links across public artifacts.
 - [Authority signals (JSON)](https://vassiliylakhonin.github.io/authority.json): Consolidated entity/profile/case-study reference graph for AI retrieval.
 - [Freshness snapshot (JSON)](https://vassiliylakhonin.github.io/freshness.json): Last-update signals for core machine-readable artifacts.

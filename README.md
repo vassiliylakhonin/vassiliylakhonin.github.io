@@ -36,6 +36,8 @@ Machine-readable:
 - Evidence: <https://vassiliylakhonin.github.io/evidence.json>
 - Availability: <https://vassiliylakhonin.github.io/availability.json>
 - Engagement intake: <https://vassiliylakhonin.github.io/engage.json>
+- Engagement intake v2: <https://vassiliylakhonin.github.io/engage.v2.json>
+- Interview story bank: <https://vassiliylakhonin.github.io/stories.json>
 - Skills: <https://vassiliylakhonin.github.io/skills.json>
 - Verification: <https://vassiliylakhonin.github.io/verification.json>
 - Authority signals: <https://vassiliylakhonin.github.io/authority.json>
@@ -48,6 +50,14 @@ Machine-readable:
 - [Nonprofit Impact Orchestra](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html): Agent-assisted nonprofit grant orchestration with human checkpoints.
 - [Global Think Tank Analyst](https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html): Structured geopolitical and policy analysis in think-tank style.
 - [Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.
+
+## Career Ops package (for higher response quality)
+
+- Fit scoring template: <https://vassiliylakhonin.github.io/fit-score-template.md>
+- Tracker schema: <https://vassiliylakhonin.github.io/tracker-schema.md>
+- Story bank (Markdown): <https://vassiliylakhonin.github.io/stories.md>
+- Story bank (JSON): <https://vassiliylakhonin.github.io/stories.json>
+- Engagement intake v2: <https://vassiliylakhonin.github.io/engage.v2.json>
 
 ---
 

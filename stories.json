@@ -1,0 +1,79 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-04-11",
+  "stories": [
+    {
+      "id": "S1",
+      "title": "Multi-country reporting turnaround",
+      "competencies": ["Program operations", "Reporting QA", "Stakeholder coordination"],
+      "situation": "Inconsistent multi-country reporting quality and deadline risk.",
+      "task": "Stabilize cadence and improve submission reliability.",
+      "actions": [
+        "Standardized templates",
+        "Introduced QA checkpoints",
+        "Implemented weekly risk tracking"
+      ],
+      "results": [
+        "100% on-time reporting across 8 consecutive quarters",
+        "40% reduction in partner submission delays"
+      ],
+      "reflection": "Quality gates plus predictable cadence outperform ad-hoc control."
+    },
+    {
+      "id": "S2",
+      "title": "Audit readiness system",
+      "competencies": ["Compliance", "Internal controls", "Risk governance"],
+      "situation": "Need for consistent evidence quality before external audits.",
+      "task": "Build practical audit-readiness workflow.",
+      "actions": [
+        "Defined evidence taxonomy",
+        "Mapped ownership",
+        "Created pre-audit controls"
+      ],
+      "results": ["2 external audits with zero findings"],
+      "reflection": "Early evidence discipline prevents last-minute fire drills."
+    },
+    {
+      "id": "S3",
+      "title": "KPI governance alignment",
+      "competencies": ["PMO", "KPI governance", "Cross-border delivery"],
+      "situation": "KPI interpretation varied across teams and geographies.",
+      "task": "Align KPI definitions and governance.",
+      "actions": [
+        "Built shared KPI dictionary",
+        "Set reporting cadence",
+        "Created exception protocol"
+      ],
+      "results": ["Reliable KPI tracking across HQ + 4 offices + 15+ partners"],
+      "reflection": "Shared definitions are foundational to reliable analytics."
+    },
+    {
+      "id": "S4",
+      "title": "AI-enabled reporting workflow",
+      "competencies": ["Automation", "Quality control", "Operational design"],
+      "situation": "Manual reporting process was slow.",
+      "task": "Reduce cycle time without lowering quality.",
+      "actions": [
+        "Introduced AI drafting",
+        "Added human QA checkpoints",
+        "Enforced evidence validation"
+      ],
+      "results": ["25% faster report preparation with quality controls maintained"],
+      "reflection": "Human-in-the-loop controls are mandatory in compliance-heavy workflows."
+    },
+    {
+      "id": "S5",
+      "title": "Product launch operations",
+      "competencies": ["Delivery management", "Vendor coordination", "Execution governance"],
+      "situation": "Cross-functional launch required tight coordination.",
+      "task": "Run predictable delivery and risk control.",
+      "actions": [
+        "2-week sprint cadence",
+        "Risk log",
+        "Execution tracker"
+      ],
+      "results": ["25+ deliverables on time over 24 months in prior PM role"],
+      "reflection": "Execution rhythm and visibility reduce delivery variance."
+    }
+  ]
+}
