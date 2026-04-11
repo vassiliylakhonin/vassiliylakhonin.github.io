@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import json
+import os
 import re
 import sys
 import urllib.request
@@ -31,6 +32,7 @@ def exists(url: str, timeout: int = 10) -> bool:
 
 
 def main() -> int:
+    strict_remote = os.getenv("STRICT_REMOTE_CHECKS", "0") in {"1", "true", "TRUE", "yes", "YES"}
     score = 100
     critical = []
     warnings = []
@@ -62,13 +64,15 @@ def main() -> int:
     checks.append(("remote:mcp_sse", sse_ok))
     if not sse_ok:
         score -= 20
-        critical.append("Remote MCP SSE endpoint unreachable")
+        msg = "Remote MCP SSE endpoint unreachable"
+        (critical if strict_remote else warnings).append(msg)
 
     health_ok = exists("https://vassiliy-lakhonin-mcp-production.up.railway.app/health")
     checks.append(("remote:mcp_health", health_ok))
     if not health_ok:
         score -= 12
-        critical.append("Remote MCP health endpoint unreachable")
+        msg = "Remote MCP health endpoint unreachable"
+        (critical if strict_remote else warnings).append(msg)
 
     score = max(score, 0)
 
