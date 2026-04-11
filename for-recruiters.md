@@ -17,18 +17,20 @@ description: Program/Portfolio/PMO candidate profile with measurable results, ro
 - Program Manager
 - Portfolio Manager
 - PMO / Program Operations Manager
+- Delivery / Transformation Manager
+- Operations Manager
 - Compliance Program Manager
 - MEL/MEAL / Monitoring and Evaluation Manager
 
 ## Why shortlist
-- Managed performance and reporting for a **$14M USAID-funded regional program** across 4 countries.
+- Managed performance and reporting for a **$14M multi-country program** across 4 countries.
 - Delivered **100% on-time quarterly and annual donor reports (8 consecutive quarters)**.
 - Reduced partner submission delays by **40%** through structured workflows.
-- Maintained audit-ready documentation for **2 USAID audits with zero findings**.
+- Maintained audit-ready documentation for **2 external audits with zero findings**.
 - Coordinated KPI governance across HQ + 4 country offices + 15+ implementing partners.
 
 ## Core strengths
-- Donor compliance and evidence systems
+- Compliance and evidence systems
 - Audit readiness and internal controls
 - Cross-border delivery governance
 - KPI tracking and reporting QA/QC

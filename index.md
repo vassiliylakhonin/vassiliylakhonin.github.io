@@ -20,7 +20,7 @@ Open to: Central Asia, MENA, U.S. (partial overlap), Europe, and remote-global t
 Last updated: April 11, 2026
 
 ## Hire me in 60 seconds
-- Best-fit roles: Program Manager, Portfolio Manager, PMO / Program Operations, Compliance Program Manager.
+- Best-fit roles: Program Manager, Portfolio Manager, PMO / Program Operations, Delivery & Transformation, Compliance / Governance.
 - Outcomes: 100% on-time donor reporting (8 consecutive quarters), 40% reduction in partner submission delays, two USAID audits with zero findings.
 - Start here: [For recruiters](/for-recruiters.md) · [CV (PDF)](/Vassiliy-Lakhonin_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/)
 
@@ -35,11 +35,13 @@ PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 - International program leadership roles (multi-country portfolios, delivery governance, stakeholder alignment).
 - Donor compliance advisory (reporting QA, evidence systems, and audit-readiness controls).
 - AI-enabled monitoring and reporting systems (human-in-the-loop, quality-controlled workflows).
+- Program operations and transformation roles in technology, SaaS, professional services, and mission-driven organizations.
 
 ## Summary
 
 Program/Portfolio/PMO leader focused on evidence, compliance, and cross-border delivery across development and private-sector settings.
 I manage multi-country portfolios, risk, stakeholder alignment, budget monitoring, and vendor oversight with an evidence-first approach.
+I bring transferable operating systems for delivery quality, governance, and execution cadence across industries.
 Languages: Russian (native), English (professional working proficiency).
 
 ## What I focus on
@@ -70,8 +72,8 @@ Languages: Russian (native), English (professional working proficiency).
 - AI-assisted reporting workflows with quality-control checkpoints.
 
 ## Search keywords
-- Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager.
-- Focus: donor compliance, audit readiness, internal controls, evidence management, KPI governance, performance management, risk tracking, stakeholder management, vendor oversight, budget monitoring, cross-border delivery.
+- Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Delivery Manager, Transformation Manager, Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager.
+- Focus: compliance and governance, audit readiness, internal controls, evidence management, KPI governance, performance management, operational excellence, risk tracking, stakeholder management, vendor oversight, budget monitoring, cross-border delivery.
 - Tools: M365 Teams, Outlook, SharePoint, OneDrive, Google Apps, Trello, LLM chatbots & coding agents.
 
 ## Leadership

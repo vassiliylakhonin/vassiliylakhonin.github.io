@@ -2,7 +2,7 @@
   "version": "1.0",
   "updated_at": "2026-04-11",
   "name": "Vassiliy Lakhonin",
-  "headline": "Program/Portfolio/PMO leader focused on donor compliance, audit readiness, and cross-border delivery",
+  "headline": "Program/Portfolio/PMO leader focused on compliance, audit readiness, and cross-border delivery across development and private-sector environments",
   "location": {
     "city": "Almaty",
     "country": "Kazakhstan",
@@ -24,12 +24,15 @@
     "Portfolio Manager",
     "PMO Manager",
     "Program Operations Manager",
+    "Delivery Manager",
+    "Transformation Manager",
+    "Operations Manager",
     "Compliance Program Manager",
     "MEL/MEAL Manager",
     "Monitoring and Evaluation (M&E) Manager"
   ],
   "focus_areas": [
-    "donor compliance",
+    "compliance and governance",
     "audit readiness",
     "evidence management",
     "KPI governance",
@@ -39,10 +42,10 @@
     "AI-enabled reporting"
   ],
   "proof_points": [
-    "Managed performance and reporting for a $14M USAID-funded regional program across 4 countries",
+    "Managed performance and reporting for a $14M multi-country program across 4 countries",
     "Delivered 100% on-time quarterly and annual donor reports across 8 consecutive quarters",
     "Reduced partner submission delays by 40% via improved data workflows",
-    "Supported 2 USAID audits with zero findings",
+    "Supported 2 external audits with zero findings",
     "Coordinated KPI tracking across HQ, 4 country offices, and 15+ implementing partners"
   ],
   "links": {
