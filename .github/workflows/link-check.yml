@@ -9,6 +9,8 @@ on:
 jobs:
   internal-links:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -24,6 +26,12 @@ jobs:
               target="index.md"
             else
               target="${path#/}"
+              if [ ! -f "$target" ] && [[ "$target" == *.html ]]; then
+                md_target="${target%.html}.md"
+                if [ -f "$md_target" ]; then
+                  target="$md_target"
+                fi
+              fi
             fi
             if [ ! -f "$target" ]; then
               echo "Missing file for $url -> $target"
