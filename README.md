@@ -21,6 +21,7 @@ Personal portfolio and CV site for **Vassiliy Lakhonin**, built for both humans 
 ## Live endpoints
 
 - Site: <https://vassiliylakhonin.github.io/>
+- Recruiter page: <https://vassiliylakhonin.github.io/for-recruiters.html>
 - CV PDF: <https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf>
 - Services: <https://vassiliylakhonin.github.io/services.html>
 - Agent profile: <https://vassiliylakhonin.github.io/profile.md>
@@ -36,6 +37,7 @@ Machine-readable:
 - Evidence: <https://vassiliylakhonin.github.io/evidence.json>
 - Availability: <https://vassiliylakhonin.github.io/availability.json>
 - Engagement intake: <https://vassiliylakhonin.github.io/engage.json>
+- Recruiter profile: <https://vassiliylakhonin.github.io/recruiter.json>
 - Engagement intake v2: <https://vassiliylakhonin.github.io/engage.v2.json>
 - Interview story bank: <https://vassiliylakhonin.github.io/stories.json>
 - Skills: <https://vassiliylakhonin.github.io/skills.json>
@@ -77,6 +79,7 @@ Machine-readable:
 .
 ├── index.md
 ├── profile.md
+├── for-recruiters.md
 ├── services.html
 ├── case-study-*.html / case-study-*.md
 ├── article-*.html
@@ -86,7 +89,13 @@ Machine-readable:
 ├── capabilities.json
 ├── evidence.json
 ├── availability.json
+├── recruiter.json
 ├── engage.json
+├── engage.v2.json
+├── fit-score-template.md
+├── stories.md
+├── stories.json
+├── tracker-schema.md
 ├── skills.json
 ├── verification.json
 ├── authority.json
