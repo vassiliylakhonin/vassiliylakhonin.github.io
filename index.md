@@ -1,6 +1,6 @@
 ---
 title: Vassiliy Lakhonin
-description: Program/Portfolio manager focused on evidence, compliance, cross-border delivery, and AI-enabled reporting systems.
+description: Program Manager, Portfolio Manager, and PMO leader for donor compliance, audit readiness, and cross-border delivery with AI-enabled reporting systems.
 ---
 
 <script type="application/ld+json">
@@ -18,6 +18,11 @@ LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassil
 Contact: vassiliy.lakhonin@gmail.com
 Open to: Central Asia, MENA, U.S. (partial overlap), Europe, and remote-global teams (onsite/hybrid/remote).
 Last updated: March 19, 2026
+
+## Hire me in 60 seconds
+- Best-fit roles: Program Manager, Portfolio Manager, PMO / Program Operations, Compliance Program Manager.
+- Outcomes: 100% on-time donor reporting (8 consecutive quarters), 40% reduction in partner submission delays, two USAID audits with zero findings.
+- Start here: [For recruiters](/for-recruiters.md) · [CV (PDF)](/Vassiliy-Lakhonin_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/)
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 

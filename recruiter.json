@@ -1,0 +1,60 @@
+{
+  "version": "1.0",
+  "updated_at": "2026-04-11",
+  "name": "Vassiliy Lakhonin",
+  "headline": "Program/Portfolio/PMO leader focused on donor compliance, audit readiness, and cross-border delivery",
+  "location": {
+    "city": "Almaty",
+    "country": "Kazakhstan",
+    "timezone": "Asia/Almaty",
+    "utc_offset": "+05:00"
+  },
+  "contact": {
+    "email": "vassiliy.lakhonin@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/vassiliy-lakhonin/",
+    "website": "https://vassiliylakhonin.github.io/"
+  },
+  "availability": {
+    "work_modes": ["onsite", "hybrid", "remote"],
+    "regions": ["Central Asia", "MENA", "Europe", "U.S. (partial overlap)", "Remote-global"],
+    "response_sla": "usually within 24 hours"
+  },
+  "target_roles": [
+    "Program Manager",
+    "Portfolio Manager",
+    "PMO Manager",
+    "Program Operations Manager",
+    "Compliance Program Manager",
+    "MEL/MEAL Manager",
+    "Monitoring and Evaluation (M&E) Manager"
+  ],
+  "focus_areas": [
+    "donor compliance",
+    "audit readiness",
+    "evidence management",
+    "KPI governance",
+    "cross-border delivery",
+    "risk tracking",
+    "stakeholder coordination",
+    "AI-enabled reporting"
+  ],
+  "proof_points": [
+    "Managed performance and reporting for a $14M USAID-funded regional program across 4 countries",
+    "Delivered 100% on-time quarterly and annual donor reports across 8 consecutive quarters",
+    "Reduced partner submission delays by 40% via improved data workflows",
+    "Supported 2 USAID audits with zero findings",
+    "Coordinated KPI tracking across HQ, 4 country offices, and 15+ implementing partners"
+  ],
+  "links": {
+    "cv_pdf": "https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf",
+    "for_recruiters": "https://vassiliylakhonin.github.io/for-recruiters.md",
+    "resume_json": "https://vassiliylakhonin.github.io/resume.json",
+    "skills_json": "https://vassiliylakhonin.github.io/skills.json",
+    "availability_json": "https://vassiliylakhonin.github.io/availability.json",
+    "case_studies": [
+      "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
+      "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
+      "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    ]
+  }
+}
