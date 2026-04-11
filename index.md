@@ -22,7 +22,7 @@ Last updated: April 11, 2026
 ## Hire me in 60 seconds
 - Best-fit roles: Program Manager, Portfolio Manager, PMO / Program Operations, Delivery & Transformation, Compliance / Governance.
 - Outcomes: 100% on-time donor reporting (8 consecutive quarters), 40% reduction in partner submission delays, two USAID audits with zero findings.
-- Start here: [For recruiters](/for-recruiters.md) · [CV (PDF)](/Vassiliy-Lakhonin_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/)
+- Start here: [For recruiters](/for-recruiters.html) · [CV (PDF)](/Vassiliy-Lakhonin_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/)
 
 PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
 
@@ -147,7 +147,7 @@ Jan 2014 – Dec 2018
 - [Agent card (A2A-style discovery)](/agent-card.json)
 - [Profile (Markdown)](/profile.md)
 - [LLMs entrypoint](/llms.txt)
-- [For recruiters](/for-recruiters.md)
+- [For recruiters](/for-recruiters.html)
 - [Resume JSON](/resume.json), [Evidence JSON](/evidence.json), [Availability JSON](/availability.json), [Capabilities JSON](/capabilities.json), [Skills JSON](/skills.json), [Recruiter JSON](/recruiter.json), [Verification JSON](/verification.json)
 - MCP server (remote SSE, live): `https://vassiliy-lakhonin-mcp-production.up.railway.app/sse` (health: `https://vassiliy-lakhonin-mcp-production.up.railway.app/health`)
 
@@ -224,7 +224,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
     {
       "@type": "WebPage",
       "name": "For Recruiters",
-      "url": "https://vassiliylakhonin.github.io/for-recruiters.md"
+      "url": "https://vassiliylakhonin.github.io/for-recruiters.html"
     }
   ],
   "mainEntity": {

@@ -24,7 +24,7 @@ jobs:
           set -euo pipefail
           URLS=(
             "https://vassiliylakhonin.github.io/"
-            "https://vassiliylakhonin.github.io/for-recruiters.md"
+            "https://vassiliylakhonin.github.io/for-recruiters.html"
             "https://vassiliylakhonin.github.io/recruiter.json"
             "https://vassiliylakhonin.github.io/llms.txt"
           )
