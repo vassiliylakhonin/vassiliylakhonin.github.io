@@ -46,3 +46,36 @@ description: Program/Portfolio/PMO candidate profile with measurable results, ro
 - [Case study: Donor reporting quality](/case-study-donor-reporting.html)
 - [Case study: Portfolio audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce launch](/case-study-saas-ecommerce-launch.html)
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What roles is Vassiliy Lakhonin best suited for?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Program Manager, Portfolio Manager, PMO/Program Operations, Delivery/Transformation, and Compliance Program roles in cross-border contexts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What measurable outcomes does he have?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "100% on-time donor reporting for 8 consecutive quarters, 40% reduction in partner submission delays, and two external audits with zero findings."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How quickly can recruiters expect a response?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually within 24 hours via email or LinkedIn."
+      }
+    }
+  ]
+}
+</script>

@@ -37,6 +37,20 @@ jobs:
           python3 scripts/build_freshness_report.py
           python3 scripts/build_evals_report.py || true
           python3 scripts/build_provenance_report.py
+          python3 scripts/build_readiness_report.py
+
+      - name: Commit refreshed snapshots
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- freshness.json evals.json provenance.json agent-readiness-report.md; then
+            echo "No snapshot changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add freshness.json evals.json provenance.json agent-readiness-report.md
+          git commit -m "chore: refresh agent observability snapshots"
+          git push
 
       - name: Upload observability artifacts
         if: always()

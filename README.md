@@ -25,8 +25,9 @@ Personal portfolio and CV site for **Vassiliy Lakhonin**, built for both humans 
 - CV PDF: <https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf>
 - Services: <https://vassiliylakhonin.github.io/services.html>
 - Agent profile: <https://vassiliylakhonin.github.io/profile.md>
-- MCP (SSE): <https://vassiliy-lakhonin-mcp-production.up.railway.app/sse>
+- MCP (SSE): <https://vassiliy-lakhonin-mcp-production.up.railway.app/sse> *(may be paused if hosting billing is off; see `mcp-status.json`)*
 - MCP health: <https://vassiliy-lakhonin-mcp-production.up.railway.app/health>
+- MCP status: <https://vassiliylakhonin.github.io/mcp-status.json>
 
 Machine-readable:
 - Agent discovery entrypoint: <https://vassiliylakhonin.github.io/agent-discovery.md>
@@ -100,6 +101,7 @@ Machine-readable:
 ├── verification.json
 ├── authority.json
 ├── llms.txt
+├── mcp-status.json
 ├── humans.txt
 ├── robots.txt
 ├── sitemap.xml

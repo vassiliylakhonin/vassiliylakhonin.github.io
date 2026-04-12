@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-04-12",
+  "remote": {
+    "status": "paused",
+    "reason": "hosting billing paused",
+    "sse": "https://vassiliy-lakhonin-mcp-production.up.railway.app/sse",
+    "health": "https://vassiliy-lakhonin-mcp-production.up.railway.app/health"
+  },
+  "local": {
+    "status": "available",
+    "run": "python3.13 mcp/server.py"
+  }
+}

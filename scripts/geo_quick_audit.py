@@ -22,6 +22,18 @@ FILES = {
 AI_BOTS = ["OAI-SearchBot", "GPTBot", "ClaudeBot", "PerplexityBot", "Google-Extended"]
 
 
+def mcp_remote_enabled() -> bool:
+    p = Path("mcp-status.json")
+    if not p.exists():
+        return True
+    try:
+        data = json.loads(p.read_text(encoding="utf-8"))
+    except Exception:
+        return True
+    status = str(data.get("remote", {}).get("status", "enabled")).lower()
+    return status not in {"paused", "disabled", "off"}
+
+
 def exists(url: str, timeout: int = 10) -> bool:
     try:
         req = urllib.request.Request(url, method="HEAD")
@@ -60,19 +72,25 @@ def main() -> int:
         score -= 8
         warnings.append("llms.txt missing MCP SSE endpoint")
 
-    sse_ok = exists("https://vassiliy-lakhonin-mcp-production.up.railway.app/sse")
-    checks.append(("remote:mcp_sse", sse_ok))
-    if not sse_ok:
-        score -= 20
-        msg = "Remote MCP SSE endpoint unreachable"
-        (critical if strict_remote else warnings).append(msg)
+    remote_enabled = mcp_remote_enabled()
+    if remote_enabled:
+        sse_ok = exists("https://vassiliy-lakhonin-mcp-production.up.railway.app/sse")
+        checks.append(("remote:mcp_sse", sse_ok))
+        if not sse_ok:
+            score -= 20
+            msg = "Remote MCP SSE endpoint unreachable"
+            (critical if strict_remote else warnings).append(msg)
 
-    health_ok = exists("https://vassiliy-lakhonin-mcp-production.up.railway.app/health")
-    checks.append(("remote:mcp_health", health_ok))
-    if not health_ok:
-        score -= 12
-        msg = "Remote MCP health endpoint unreachable"
-        (critical if strict_remote else warnings).append(msg)
+        health_ok = exists("https://vassiliy-lakhonin-mcp-production.up.railway.app/health")
+        checks.append(("remote:mcp_health", health_ok))
+        if not health_ok:
+            score -= 12
+            msg = "Remote MCP health endpoint unreachable"
+            (critical if strict_remote else warnings).append(msg)
+    else:
+        checks.append(("remote:mcp_sse", True))
+        checks.append(("remote:mcp_health", True))
+        warnings.append("Remote MCP checks skipped (mcp-status.json: paused/disabled)")
 
     score = max(score, 0)
 
