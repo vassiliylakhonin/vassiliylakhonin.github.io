@@ -1,5 +1,8 @@
 name: Agent Observability Snapshot
 
+permissions:
+  contents: write
+
 on:
   schedule:
     - cron: "0 7 * * 1"
