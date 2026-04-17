@@ -76,4 +76,4 @@ Demonstrates product + operations thinking applied to nonprofit workflows: tight
 
 ## Project links
 - ClawHub skill listing: https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model
-- OpenClaw profile context: https://vassiliylakhonin.github.io/profile.md
+- OpenClaw skill repository: https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub
