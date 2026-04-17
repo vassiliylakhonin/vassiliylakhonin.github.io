@@ -11,6 +11,7 @@ All notable changes to this project are documented in this file.
 - GitHub issue templates (bug report and feature request)
 - Pull request template
 - Community health config for issue forms
+- Demo snapshot assets in `docs/assets/` for quick-start, machine-readable endpoints, and MCP flow
 
 ### Changed
 - Repositioned `README.md` to template-first onboarding

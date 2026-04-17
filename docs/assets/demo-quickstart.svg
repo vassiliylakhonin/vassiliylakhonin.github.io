@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Quick Start in 5 Minutes</title>
+  <desc id="desc">Visual of fork edit deploy verify flow.</desc>
+  <rect width="1200" height="630" fill="#0f172a"/>
+  <text x="60" y="95" fill="#e2e8f0" font-size="46" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Quick Start in 5 Minutes</text>
+  <text x="60" y="140" fill="#94a3b8" font-size="24" font-family="Inter,Segoe UI,Arial,sans-serif">Fork → Edit 3 files → Deploy Pages → Verify JSON + MCP</text>
+
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="600">
+    <rect x="60" y="220" rx="14" ry="14" width="240" height="100" fill="#1d4ed8"/>
+    <text x="180" y="280" fill="#fff" text-anchor="middle">1. Fork</text>
+
+    <rect x="340" y="220" rx="14" ry="14" width="240" height="100" fill="#0ea5e9"/>
+    <text x="460" y="280" fill="#fff" text-anchor="middle">2. Edit</text>
+
+    <rect x="620" y="220" rx="14" ry="14" width="240" height="100" fill="#14b8a6"/>
+    <text x="740" y="280" fill="#fff" text-anchor="middle">3. Deploy</text>
+
+    <rect x="900" y="220" rx="14" ry="14" width="240" height="100" fill="#22c55e"/>
+    <text x="1020" y="280" fill="#052e16" text-anchor="middle">4. Verify</text>
+  </g>
+
+  <g stroke="#334155" stroke-width="3" fill="none">
+    <line x1="300" y1="270" x2="340" y2="270"/>
+    <line x1="580" y1="270" x2="620" y2="270"/>
+    <line x1="860" y1="270" x2="900" y2="270"/>
+  </g>
+
+  <text x="60" y="410" fill="#cbd5e1" font-size="22" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">index.md + resume.json + availability.json</text>
+  <text x="60" y="455" fill="#cbd5e1" font-size="22" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/   /resume.json   /agent-card.json   /health</text>
+</svg>

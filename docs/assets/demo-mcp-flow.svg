@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">MCP flow</title>
+  <desc id="desc">Flow from AI clients to MCP server and profile data endpoints.</desc>
+  <rect width="1200" height="630" fill="#020617"/>
+  <text x="60" y="88" fill="#e2e8f0" font-size="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">MCP profile access flow</text>
+  <text x="60" y="130" fill="#94a3b8" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">Agents query tools, server resolves data, user gets grounded output</text>
+
+  <rect x="70" y="240" width="260" height="130" rx="16" fill="#1e293b" stroke="#334155"/>
+  <text x="200" y="305" fill="#f8fafc" text-anchor="middle" font-size="28" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">AI client</text>
+
+  <rect x="470" y="220" width="300" height="170" rx="16" fill="#0f766e"/>
+  <text x="620" y="300" fill="#ecfeff" text-anchor="middle" font-size="30" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">MCP server</text>
+
+  <rect x="910" y="180" width="230" height="90" rx="14" fill="#1d4ed8"/>
+  <text x="1025" y="236" fill="#eff6ff" text-anchor="middle" font-size="23" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/resume.json</text>
+
+  <rect x="910" y="290" width="230" height="90" rx="14" fill="#0ea5e9"/>
+  <text x="1025" y="346" fill="#e0f2fe" text-anchor="middle" font-size="23" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/evidence.json</text>
+
+  <rect x="910" y="400" width="230" height="90" rx="14" fill="#22c55e"/>
+  <text x="1025" y="456" fill="#052e16" text-anchor="middle" font-size="23" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/agent-card.json</text>
+
+  <line x1="330" y1="305" x2="470" y2="305" stroke="#38bdf8" stroke-width="5"/>
+  <line x1="770" y1="250" x2="910" y2="225" stroke="#60a5fa" stroke-width="4"/>
+  <line x1="770" y1="305" x2="910" y2="335" stroke="#38bdf8" stroke-width="4"/>
+  <line x1="770" y1="360" x2="910" y2="445" stroke="#4ade80" stroke-width="4"/>
+
+  <text x="70" y="540" fill="#cbd5e1" font-size="21" font-family="Inter,Segoe UI,Arial,sans-serif">Example tools: get_profile, get_resume, get_evidence, search_profile, match_job</text>
+</svg>

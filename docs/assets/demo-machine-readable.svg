@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">Machine-readable profile endpoints</title>
+  <desc id="desc">Diagram of JSON endpoints used by recruiters and AI agents.</desc>
+  <rect width="1200" height="630" fill="#111827"/>
+  <text x="60" y="90" fill="#f9fafb" font-size="44" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Machine-readable profile endpoints</text>
+  <text x="60" y="132" fill="#9ca3af" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">Single source for human trust + agent retrieval</text>
+
+  <rect x="60" y="190" rx="16" ry="16" width="500" height="360" fill="#1f2937" stroke="#374151"/>
+  <text x="90" y="235" fill="#e5e7eb" font-size="24" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/resume.json</text>
+  <text x="90" y="275" fill="#e5e7eb" font-size="24" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/skills.json</text>
+  <text x="90" y="315" fill="#e5e7eb" font-size="24" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/evidence.json</text>
+  <text x="90" y="355" fill="#e5e7eb" font-size="24" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/verification.json</text>
+  <text x="90" y="395" fill="#e5e7eb" font-size="24" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/availability.json</text>
+  <text x="90" y="435" fill="#e5e7eb" font-size="24" font-family="ui-monospace,SFMono-Regular,Menlo,monospace">/agent-card.json</text>
+
+  <rect x="700" y="220" rx="14" ry="14" width="420" height="120" fill="#0ea5e9"/>
+  <text x="910" y="290" fill="#082f49" text-anchor="middle" font-size="27" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Recruiter workflow</text>
+
+  <rect x="700" y="380" rx="14" ry="14" width="420" height="120" fill="#22c55e"/>
+  <text x="910" y="450" fill="#052e16" text-anchor="middle" font-size="27" font-family="Inter,Segoe UI,Arial,sans-serif" font-weight="700">Agent workflow</text>
+
+  <line x1="560" y1="330" x2="700" y2="280" stroke="#60a5fa" stroke-width="4"/>
+  <line x1="560" y1="390" x2="700" y2="440" stroke="#4ade80" stroke-width="4"/>
+</svg>

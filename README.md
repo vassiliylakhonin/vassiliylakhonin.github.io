@@ -39,6 +39,20 @@ Then test:
 - `http://localhost:8000/health`
 - `http://localhost:8000/sse`
 
+## Demo snapshots
+
+### 1) Quick start flow
+
+![Quick start flow](./docs/assets/demo-quickstart.svg)
+
+### 2) Machine-readable profile layer
+
+![Machine-readable endpoints](./docs/assets/demo-machine-readable.svg)
+
+### 3) MCP integration flow
+
+![MCP integration flow](./docs/assets/demo-mcp-flow.svg)
+
 ## What you get
 
 - Human-friendly profile site (GitHub Pages + Jekyll)
