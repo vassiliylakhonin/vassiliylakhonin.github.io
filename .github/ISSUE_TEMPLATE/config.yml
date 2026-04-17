@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability report
+    url: mailto:vassiliy.lakhonin@gmail.com?subject=%5BSECURITY%5D%20vulnerability%20report
+    about: Please report vulnerabilities privately.
