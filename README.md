@@ -66,6 +66,7 @@ Then test:
 - Site: <https://vassiliylakhonin.github.io/>
 - Recruiter page: <https://vassiliylakhonin.github.io/for-recruiters.html>
 - CV PDF: <https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf>
+- ATS resume (plain): <https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_ATS-Resume.html>
 - Agent card: <https://vassiliylakhonin.github.io/agent-card.json>
 - Resume JSON: <https://vassiliylakhonin.github.io/resume.json>
 - MCP SSE: <https://vassiliy-lakhonin-mcp-production.up.railway.app/sse>

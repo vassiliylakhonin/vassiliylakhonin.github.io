@@ -27,6 +27,7 @@ description: Program/Portfolio/PMO candidate profile with measurable results, ro
 - **Contact:** [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com) · [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/)
 - **Work modes:** onsite, hybrid, remote
 - **Regions:** Central Asia, MENA, Europe, U.S. (partial overlap), remote-global
+- **Work authorization:** Kazakhstan citizen, remote-global friendly; relocation/sponsorship discussion welcome based on role scope
 
 ## Best-fit roles
 - Program Manager
@@ -55,6 +56,7 @@ description: Program/Portfolio/PMO candidate profile with measurable results, ro
 ## Fast links
 - [Main profile](/)
 - [CV (PDF)](/Vassiliy-Lakhonin_CV.pdf)
+- [ATS resume (plain text format)](/Vassiliy-Lakhonin_ATS-Resume.html)
 - [Resume JSON](/resume.json)
 - [Availability JSON](/availability.json)
 - [Skills JSON](/skills.json)

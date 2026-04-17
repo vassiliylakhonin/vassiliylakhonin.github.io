@@ -2,6 +2,16 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.2.2] - 2026-04-17
+
+### Added
+- New ATS-friendly resume page: `Vassiliy-Lakhonin_ATS-Resume.md` (published as `/Vassiliy-Lakhonin_ATS-Resume.html`)
+
+### Changed
+- Recruiter page now includes explicit work authorization and relocation note
+- Recruiter fast links now include ATS resume link
+- Sitemap updated with ATS resume URL
+
 ## [0.2.1] - 2026-04-17
 
 ### Changed
