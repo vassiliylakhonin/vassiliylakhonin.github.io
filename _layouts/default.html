@@ -114,6 +114,37 @@
         font-size: .85rem;
         background: #fff;
       }
+      .panel {
+        background: #ffffff;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: .95rem 1rem;
+        margin: 1rem 0;
+      }
+      .panel h2, .panel h3 { margin-top: 0; }
+      .proof-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: .7rem;
+      }
+      .proof-card {
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: .75rem .8rem;
+        background: #fff;
+      }
+      .proof-card strong { display: block; margin-bottom: .2rem; }
+      .proof-card p { margin: .25rem 0 .45rem; color: var(--muted); }
+      .cta-panel {
+        border-radius: 14px;
+        background: linear-gradient(130deg, #115e59 0%, #0f766e 100%);
+        color: #ecfeff;
+        padding: 1rem;
+        margin: 1rem 0;
+      }
+      .cta-panel h2 { color: #ffffff; margin-top: 0; }
+      .cta-panel p { color: #d1fae5; margin: .35rem 0; }
+      .cta-panel .btn-secondary { border-color: rgba(236, 254, 255, .6); color: #ecfeff; }
 
       @media (max-width: 700px) {
         .site-header { flex-direction: column; align-items: flex-start; }

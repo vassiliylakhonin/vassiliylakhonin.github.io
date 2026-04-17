@@ -38,8 +38,48 @@ description: Program Manager, Portfolio Manager, and PMO leader for donor compli
   <span class="chip">Delivery transformation</span>
 </div>
 
+<section class="cta-panel">
+  <h2>Need delivery reliability, compliance control, and clean reporting?</h2>
+  <p>I can start with a focused diagnostic and first action plan in days, not months.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="mailto:vassiliy.lakhonin@gmail.com?subject=Intro%20Call%20Request">Book intro call</a>
+    <a class="btn btn-secondary" href="/for-recruiters.html">See recruiter snapshot</a>
+    <a class="btn btn-secondary" href="/Vassiliy-Lakhonin_CV.pdf">Download CV</a>
+  </div>
+  <p><strong>Response time:</strong> usually within 24 hours.</p>
+</section>
+
+<section class="panel">
+  <h2>Selected proof with artifacts</h2>
+  <div class="proof-grid">
+    <article class="proof-card">
+      <strong>100% on-time donor reporting (8 quarters)</strong>
+      <p>Built structured reporting cadence and quality controls across multi-country delivery.</p>
+      <a href="/case-study-donor-reporting.html">View case study</a>
+    </article>
+    <article class="proof-card">
+      <strong>Two audits, zero findings</strong>
+      <p>Maintained evidence integrity and audit-readiness documentation controls.</p>
+      <a href="/case-study-portfolio-audit-readiness.html">View case study</a>
+    </article>
+    <article class="proof-card">
+      <strong>AI-assisted reporting, 25% faster prep</strong>
+      <p>Introduced practical human-in-the-loop automation to reduce prep time while preserving quality.</p>
+      <a href="/case-study-openclaw-rbm-skill.html">View implementation example</a>
+    </article>
+  </div>
+</section>
+
+<section class="panel">
+  <h2>Build your own AI-ready profile starter</h2>
+  <p>If you want this exact setup (human page + machine-readable profile + MCP endpoint), fork the open-source starter.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io">Fork on GitHub</a>
+    <a class="btn btn-secondary" href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io#5-minute-quick-start">Open quick start</a>
+  </div>
+</section>
+
 **Contact:** [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com) · [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
-**Response time:** usually within 24 hours.  
 **Last updated:** April 17, 2026
 
 ## Hire me in 60 seconds
