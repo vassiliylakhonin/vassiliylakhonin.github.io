@@ -12,7 +12,6 @@ All notable changes to this project are documented in this file.
 - Refreshed `services.html` with modern visual hierarchy and clearer service framing
 - Added high-conversion CTA panel on homepage with direct intro-call flow
 - Added artifact-backed social proof cards on homepage
-- Added "fork this starter" block on homepage to support stars/forks and template adoption
 
 ## [0.2.0] - 2026-04-17
 

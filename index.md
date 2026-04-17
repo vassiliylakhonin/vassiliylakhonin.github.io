@@ -70,15 +70,6 @@ description: Program Manager, Portfolio Manager, and PMO leader for donor compli
   </div>
 </section>
 
-<section class="panel">
-  <h2>Build your own AI-ready profile starter</h2>
-  <p>If you want this exact setup (human page + machine-readable profile + MCP endpoint), fork the open-source starter.</p>
-  <div class="cta-row">
-    <a class="btn btn-primary" href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io">Fork on GitHub</a>
-    <a class="btn btn-secondary" href="https://github.com/vassiliylakhonin/vassiliylakhonin.github.io#5-minute-quick-start">Open quick start</a>
-  </div>
-</section>
-
 **Contact:** [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com) · [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
 **Last updated:** April 17, 2026
 
