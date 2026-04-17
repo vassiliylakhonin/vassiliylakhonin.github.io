@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.2.4] - 2026-04-17
+
+### Changed
+- Rewrote `case-study-global-think-tank-analyst.md` and `case-study-global-think-tank-analyst.html`
+- Aligned case study with the live ClawHub skill framing (policy-risk memo architecture)
+- Updated narrative toward decision-quality outputs, evidence discipline, and bounded confidence
+
 ## [0.2.3] - 2026-04-17
 
 ### Changed

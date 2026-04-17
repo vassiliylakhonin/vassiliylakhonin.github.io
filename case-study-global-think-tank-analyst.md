@@ -1,82 +1,81 @@
 # Case Study: Global Think Tank Analyst
 
 ## TL;DR
-- Packaged a think-tank style analysis skill for geopolitical/policy tasks.
-- Enforces explicit assumptions, confidence labels, and alternative hypotheses.
-- Produces decision-useful outputs (briefs, scenarios, risk memos, JSON).
-- Designed for clarity under uncertainty, not generic summarization.
+- Repositioned the skill as a **policy-risk memo architect**, not a generic “geopolitics explainer.”
+- Optimized for decision support: clear options, trade-offs, indicators, and bounded confidence.
+- Added strict evidence discipline to separate facts, assumptions, judgment, scenarios, and unknowns.
+- Built mode-based outputs so teams can request quick briefs, standard memos, scenario briefs, or red-team stress tests.
 
 ## Evidence
-- Public ClawHub listing available (link below).
-- Structured output format and mode taxonomy documented in the case narrative.
+- Public ClawHub listing: https://clawhub.ai/vassiliylakhonin/global-think-tank-analyst
+- Public skill contract (purpose, intake, workflow, guardrails, output template).
+- Explicit limits policy: no fabricated sources, no fake certainty, no legal/intelligence-style claims.
 
 ## Metrics
-- Framework coverage: PESTLE, stakeholder/power mapping, scenario/horizon, red-team.
-- Output modes: executive summary, policy brief, risk memo, scenario set, JSON export.
-- Reusability: instruction-only packaging for easy install/update.
+- Output modes: Quick Brief, Standard Memo, Scenario Brief, Red-Team Challenge.
+- Core workflow depth: 9-step analytical sequence (decision framing -> options -> bounded judgment).
+- Confidence protocol: Low / Moderate / High, tied to evidence quality and ambiguity.
+- Decision quality bias: options and trade-offs required, not optional.
 
 ## Context/Constraint
-- Policy questions often arrive under-specified and politically ambiguous.
-- Analysts need traceable reasoning structure, not prose-only answers.
-- Uncertainty must remain visible for responsible decision support.
-
-
-## Context
-I packaged the Global Think Tank Analyst skill as a ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis. The goal is to turn ambiguous international questions into clear, think-tank style output that is easier to review, compare, and act on.
+- Policy requests usually arrive broad and under-specified.
+- Teams need actionable judgment under uncertainty, not long summaries.
+- Analysis had to stay transparent about evidence limits and avoid confidence theater.
 
 ## Problem
-Policy and strategy questions often arrive with too little structure. Teams need analysis that separates facts from judgment, states assumptions, considers alternatives, and keeps uncertainty visible instead of hiding it inside prose.
+Most AI analysis outputs sound polished but are weak for real decisions. They blend fact and inference, understate unknowns, and overuse frameworks without improving choices.
 
 ## Actions
-- Structured the skill around think-tank style analysis rather than generic summarization.
-- Built an intake pattern for topic, region, horizon, actors, audience, and depth.
-- Added framework selection so the model can choose only what the task needs.
-- Incorporated PESTLE, stakeholder analysis, power mapping, scenario planning, horizon scanning, and red-team challenge modes.
-- Added explicit confidence labels and alternative hypotheses.
-- Designed the workflow to produce executive summaries, policy briefs, risk memos, scenarios, and JSON exports.
-- Kept the skill instruction-only so it stays reusable and easy to install from ClawHub.
+- Reframed the skill mission from “think tank style writing” to **decision-space clarification**.
+- Added intake discipline: question, audience, geography, time horizon, actors, domain, depth, evidence mode.
+- Enforced evidence separation and explicit “EVIDENCE ACCESS LIMITED” handling when source access is constrained.
+- Standardized analytical sequence:
+  1) define decision problem,
+  2) context,
+  3) actors/incentives,
+  4) evidence limits,
+  5) competing interpretations,
+  6) risks/trade-offs,
+  7) scenarios,
+  8) options,
+  9) bounded conclusion.
+- Added recommendation rules to prevent vague advice and force trigger-based action guidance.
+- Restricted framework sprawl: tools like PESTLE/SWOT only when they add decision value.
 
-## What it does
-- Produces structured geopolitical, strategic, and policy analysis.
-- Separates sourced facts from expert judgment.
-- States key assumptions and confidence levels.
-- Generates scenario sets and indicators to watch.
-- Supports red-team challenge mode for stress-testing claims.
-- Outputs a clean, decision-useful format for policy and strategy teams.
+## What it does now
+- Produces decision-ready geopolitical and policy memos.
+- Makes uncertainty explicit without collapsing into non-answers.
+- Compares plausible interpretations when ambiguity is real.
+- Returns practical options with downside and implementation friction.
+- Outputs concrete indicators to watch and trigger conditions.
 
 ## Current outputs
-- Executive summary.
-- Situation overview.
-- Strategic drivers.
-- PESTLE scan.
-- Stakeholder analysis and power map.
-- Risk matrix.
-- Scenario set and horizon scan.
-- Alternative hypotheses.
-- Policy or strategy options.
-- Recommendations and indicators to watch.
-- JSON export block.
+- Executive takeaway.
+- Decision context.
+- Known facts and evidence limits.
+- Actor and incentive map.
+- Main assessment.
+- Risks and trade-offs.
+- Options.
+- Indicators to watch.
+- Confidence and key unknowns.
 
 ## Who it is for
-- Policy analysts.
-- Geopolitical researchers.
-- Strategy teams.
-- Risk and foresight professionals.
-- Corporate intelligence teams.
-- Think-tank style writers and brief producers.
+- Policy and geopolitical analysts.
+- Strategy and risk teams.
+- Corporate intelligence and foresight functions.
+- Think-tank and advisory teams producing decision memos.
 
-## Why I built it
-Most AI tools can summarize a topic, but they do not consistently produce analyst-grade structure. This skill is meant to make complex international analysis more readable, testable, and useful for decision-making.
+## Why this version is better
+It is optimized for choices, not prose. The output is tighter, more auditable, and more useful under ambiguity because it forces explicit limits and concrete options.
 
 ## Tech stack
-- ClawHub skill registry for installation and reuse.
-- Template-driven intake and framework selection.
-- Confidence labels to separate facts from judgment.
-- Structured modes for brief, report, risk, scenarios, horizon, red-team, and JSON.
-- Instruction-only design, with no external API dependency.
+- OpenClaw runtime.
+- ClawHub skill distribution.
+- Instruction-first architecture with mode routing and evidence guardrails.
 
 ## Relevance
-Demonstrates practical AI application in policy, strategy, and risk analysis workflows: structured framing, explicit uncertainty, and decision-useful outputs.
+Demonstrates product-grade prompt architecture for high-stakes analysis: clear decision framing, explicit uncertainty, and operator-friendly outputs.
 
 ![OpenClaw-oriented workflow concept for structured geopolitical and policy analysis](/case-study-global-think-tank-analyst.jpg)
 

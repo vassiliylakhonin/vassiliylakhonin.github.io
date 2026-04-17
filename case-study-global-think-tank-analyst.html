@@ -4,11 +4,11 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Case Study: Global Think Tank Analyst</title>
-  <meta name="description" content="Case study by Vassiliy Lakhonin on the Global Think Tank Analyst skill, a ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis." />
+  <meta name="description" content="Case study by Vassiliy Lakhonin on rebuilding Global Think Tank Analyst into a policy-risk memo architect for decision-ready geopolitical analysis." />
   <link rel="canonical" href="https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html" />
   <meta property="og:type" content="article" />
   <meta property="og:title" content="Case Study: Global Think Tank Analyst" />
-  <meta property="og:description" content="A ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis in think-tank style." />
+  <meta property="og:description" content="From generic geopolitical summary to decision-ready policy-risk memo architecture with evidence discipline and bounded confidence." />
   <meta property="og:url" content="https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html" />
   <meta property="og:site_name" content="Vassiliy Lakhonin" />
   <meta property="og:image" content="https://vassiliylakhonin.github.io/og-image.svg" />
@@ -17,7 +17,7 @@
   <meta property="og:image:alt" content="OpenClaw-oriented workflow concept for structured geopolitical and policy analysis" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Case Study: Global Think Tank Analyst" />
-  <meta name="twitter:description" content="A ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis in think-tank style." />
+  <meta name="twitter:description" content="From generic geopolitical summary to decision-ready policy-risk memo architecture with evidence discipline and bounded confidence." />
   <meta name="twitter:image" content="https://vassiliylakhonin.github.io/og-image.svg" />
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; max-width: 860px; line-height: 1.6; color: #111; }
@@ -31,71 +31,64 @@
   <h1>Case Study: Global Think Tank Analyst</h1>
 
   <h2>Context</h2>
-  <p>I packaged the Global Think Tank Analyst skill as a ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis. The goal is to turn ambiguous international questions into clear, think-tank style output that is easier to review, compare, and act on.</p>
+  <p>I rebuilt this skill as a policy-risk memo architect for teams that need decision-ready geopolitical analysis, not narrative-heavy commentary. The production version is published on ClawHub.</p>
 
   <h2>Problem</h2>
-  <p>Policy and strategy questions often arrive with too little structure. Teams need analysis that separates facts from judgment, states assumptions, considers alternatives, and keeps uncertainty visible instead of hiding it inside prose.</p>
+  <p>Most AI outputs in policy domains are readable but operationally weak: unclear decision framing, blurred fact vs judgment boundaries, and generic recommendations with low actionability.</p>
 
   <h2>Actions</h2>
   <ul>
-    <li>Structured the skill around think-tank style analysis rather than generic summarization.</li>
-    <li>Built an intake pattern for topic, region, horizon, actors, audience, and depth.</li>
-    <li>Added framework selection so the model can choose only what the task needs.</li>
-    <li>Incorporated PESTLE, stakeholder analysis, power mapping, scenario planning, horizon scanning, and red-team challenge modes.</li>
-    <li>Added explicit confidence labels and alternative hypotheses.</li>
-    <li>Designed the workflow to produce executive summaries, policy briefs, risk memos, scenarios, and JSON exports.</li>
-    <li>Kept the skill instruction-only so it stays reusable and easy to install from ClawHub.</li>
+    <li>Reframed the purpose around decision support, not think-tank style mimicry.</li>
+    <li>Added strict intake fields: question, audience, geography, horizon, actors, domain, depth, evidence mode.</li>
+    <li>Enforced evidence discipline across facts, assumptions, judgments, scenarios, and unknowns.</li>
+    <li>Implemented a 9-step analysis sequence from decision framing to bounded conclusion.</li>
+    <li>Added mode-based outputs: Quick Brief, Standard Memo, Scenario Brief, and Red-Team Challenge.</li>
+    <li>Added confidence protocol (Low/Moderate/High) tied to evidence quality and ambiguity.</li>
+    <li>Added recommendation rules requiring concrete triggers and trade-offs.</li>
   </ul>
 
-  <h2>What it does</h2>
+  <h2>What it does now</h2>
   <ul>
-    <li>Produces structured geopolitical, strategic, and policy analysis.</li>
-    <li>Separates sourced facts from expert judgment.</li>
-    <li>States key assumptions and confidence levels.</li>
-    <li>Generates scenario sets and indicators to watch.</li>
-    <li>Supports red-team challenge mode for stress-testing claims.</li>
-    <li>Outputs a clean, decision-useful format for policy and strategy teams.</li>
+    <li>Produces decision-ready policy and geopolitical memos.</li>
+    <li>Surfaces uncertainty explicitly without collapsing into vague caveats.</li>
+    <li>Compares competing interpretations when ambiguity is material.</li>
+    <li>Outputs options with practical costs, downsides, and implementation friction.</li>
+    <li>Defines indicators to watch and trigger conditions for posture change.</li>
   </ul>
 
   <h2>Current outputs</h2>
   <ul>
-    <li>Executive summary.</li>
-    <li>Situation overview.</li>
-    <li>Strategic drivers.</li>
-    <li>PESTLE scan.</li>
-    <li>Stakeholder analysis and power map.</li>
-    <li>Risk matrix.</li>
-    <li>Scenario set and horizon scan.</li>
-    <li>Alternative hypotheses.</li>
-    <li>Policy or strategy options.</li>
-    <li>Recommendations and indicators to watch.</li>
-    <li>JSON export block.</li>
+    <li>Executive takeaway.</li>
+    <li>Decision context.</li>
+    <li>Known facts and evidence limits.</li>
+    <li>Actors and incentives.</li>
+    <li>Main assessment.</li>
+    <li>Risks and trade-offs.</li>
+    <li>Options.</li>
+    <li>Indicators to watch.</li>
+    <li>Confidence and key unknowns.</li>
   </ul>
 
   <h2>Who it is for</h2>
   <ul>
-    <li>Policy analysts.</li>
-    <li>Geopolitical researchers.</li>
-    <li>Strategy teams.</li>
-    <li>Risk and foresight professionals.</li>
-    <li>Corporate intelligence teams.</li>
-    <li>Think-tank style writers and brief producers.</li>
+    <li>Policy analysts and geopolitical researchers.</li>
+    <li>Strategy, risk, and foresight teams.</li>
+    <li>Corporate intelligence functions.</li>
+    <li>Advisory teams producing decision memos under uncertainty.</li>
   </ul>
 
-  <h2>Why I built it</h2>
-  <p>Most AI tools can summarize a topic, but they do not consistently produce analyst-grade structure. This skill is meant to make complex international analysis more readable, testable, and useful for decision-making.</p>
+  <h2>Why this version is better</h2>
+  <p>It improves decision quality by enforcing analytical discipline, transparent uncertainty, and actionable option design instead of generic summary output.</p>
 
   <h2>Tech stack</h2>
   <ul>
-    <li>ClawHub skill registry for installation and reuse.</li>
-    <li>Template-driven intake and framework selection.</li>
-    <li>Confidence labels to separate facts from judgment.</li>
-    <li>Structured modes for brief, report, risk, scenarios, horizon, red-team, and JSON.</li>
-    <li>Instruction-only design, with no external API dependency.</li>
+    <li>OpenClaw runtime and orchestration.</li>
+    <li>ClawHub distribution.</li>
+    <li>Instruction-first mode architecture with evidence and confidence guardrails.</li>
   </ul>
 
   <h2>Relevance for future roles</h2>
-  <p>Demonstrates practical AI application in policy, strategy, and risk analysis workflows: structured framing, explicit uncertainty, and decision-useful outputs.</p>
+  <p>Demonstrates practical AI system design for policy and strategic risk workflows where traceability, judgment quality, and explicit limits matter.</p>
 
   <figure style="margin: 1.5rem 0 2rem;">
     <img src="/case-study-global-think-tank-analyst.jpg" alt="OpenClaw workflow visualization for global think tank analysis" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);" />
@@ -112,7 +105,7 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Case Study: Global Think Tank Analyst",
-    "description": "A ClawHub-ready workflow for structured geopolitical, strategic, and policy analysis in think-tank style.",
+    "description": "Global Think Tank Analyst rebuilt as a policy-risk memo architect for decision-ready geopolitical analysis under uncertainty.",
     "url": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html",
     "mainEntityOfPage": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html",
     "author": {
@@ -123,9 +116,9 @@
     "about": [
       "Geopolitics",
       "Policy analysis",
-      "Strategic foresight",
-      "Risk assessment",
-      "Think tank"
+      "Strategic risk",
+      "Scenario planning",
+      "Decision support"
     ]
   }
   </script>
