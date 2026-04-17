@@ -183,7 +183,7 @@ Jan 2014 – Dec 2018
 
 ## Projects / proof
 - [Case Study: Nonprofit Proposal Decision Engine](/case-study-openclaw-rbm-skill.html)
-- [Case study: Global Think Tank Analyst](/case-study-global-think-tank-analyst.html)
+- [Case Study: Policy Risk Memo Architect](/case-study-global-think-tank-analyst.html)
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce platform launch delivery control](/case-study-saas-ecommerce-launch.html)
@@ -230,7 +230,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
     },
     {
       "@type": "WebPage",
-      "name": "Case Study: Global Think Tank Analyst",
+      "name": "Case Study: Policy Risk Memo Architect",
       "url": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html"
     },
     {

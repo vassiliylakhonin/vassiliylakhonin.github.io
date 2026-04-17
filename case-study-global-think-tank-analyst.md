@@ -1,4 +1,4 @@
-# Case Study: Global Think Tank Analyst
+# Case Study: Policy Risk Memo Architect
 
 ## TL;DR
 - Repositioned the skill as a **policy-risk memo architect**, not a generic “geopolitics explainer.”
