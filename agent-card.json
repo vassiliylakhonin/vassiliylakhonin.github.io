@@ -8,7 +8,7 @@
     "url": "https://vassiliylakhonin.github.io/",
     "contact": "mailto:vassiliy.lakhonin@gmail.com"
   },
-  "version": "2026-03-19",
+  "version": "2026-04-17",
   "authentication": {
     "schemes": [
       "none"
@@ -38,12 +38,13 @@
         "recruiting"
       ],
       "examples": [
-        "Summarize candidate fit for PMO/compliance role.",
-        "Return contact and availability details."
+        "Summarize candidate fit for Program Operations or Compliance Program Manager role.",
+        "Return contact, availability, work authorization, and ATS resume link."
       ],
       "output_resources": [
         "https://vassiliylakhonin.github.io/resume.json",
         "https://vassiliylakhonin.github.io/availability.json",
+        "https://vassiliylakhonin.github.io/recruiter.json",
         "https://vassiliylakhonin.github.io/verification.json"
       ]
     },
@@ -58,13 +59,16 @@
       ],
       "examples": [
         "Show evidence for donor reporting impact claims.",
-        "List cross-country delivery metrics with sources."
+        "List cross-country delivery metrics with sources.",
+        "Show case studies for nonprofit proposal decisions and policy-risk memo architecture."
       ],
       "output_resources": [
         "https://vassiliylakhonin.github.io/evidence.json",
         "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
         "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
-        "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+        "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html",
+        "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html",
+        "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html"
       ]
     },
     {
@@ -81,21 +85,52 @@
         "Generate first-contact checklist for candidate evaluation."
       ],
       "output_resources": [
-        "https://vassiliylakhonin.github.io/engage.json"
+        "https://vassiliylakhonin.github.io/engage.json",
+        "https://vassiliylakhonin.github.io/engage.v2.json"
+      ]
+    },
+    {
+      "id": "agent-runtime-discovery",
+      "name": "Agent Runtime Discovery",
+      "description": "Provides machine-readable routing for Claude Code, Codex, OpenClaw, and other agent clients.",
+      "tags": [
+        "agent-discovery",
+        "llms",
+        "mcp"
+      ],
+      "examples": [
+        "Return best entrypoints for agent ingestion.",
+        "List MCP status, agent card, and llms discovery resources."
+      ],
+      "output_resources": [
+        "https://vassiliylakhonin.github.io/agent-discovery.md",
+        "https://vassiliylakhonin.github.io/llms.txt",
+        "https://vassiliylakhonin.github.io/mcp-status.json"
       ]
     }
   ],
   "resources": [
+    "https://vassiliylakhonin.github.io/agent-discovery.md",
     "https://vassiliylakhonin.github.io/llms.txt",
+    "https://vassiliylakhonin.github.io/profile.md",
+    "https://vassiliylakhonin.github.io/for-recruiters.html",
+    "https://vassiliylakhonin.github.io/recruiter.json",
+    "https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_ATS-Resume.html",
     "https://vassiliylakhonin.github.io/resume.json",
     "https://vassiliylakhonin.github.io/evidence.json",
     "https://vassiliylakhonin.github.io/availability.json",
     "https://vassiliylakhonin.github.io/engage.json",
+    "https://vassiliylakhonin.github.io/engage.v2.json",
     "https://vassiliylakhonin.github.io/capabilities.json",
     "https://vassiliylakhonin.github.io/skills.json",
     "https://vassiliylakhonin.github.io/verification.json",
+    "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html",
+    "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html",
     "https://vassiliylakhonin.github.io/freshness.json",
     "https://vassiliylakhonin.github.io/evals.json",
-    "https://vassiliylakhonin.github.io/provenance.json"
+    "https://vassiliylakhonin.github.io/provenance.json",
+    "https://vassiliylakhonin.github.io/mcp-status.json",
+    "https://vassiliy-lakhonin-mcp-production.up.railway.app/sse",
+    "https://vassiliy-lakhonin-mcp-production.up.railway.app/health"
   ]
 }

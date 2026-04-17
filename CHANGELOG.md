@@ -2,6 +2,14 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.2.5] - 2026-04-17
+
+### Changed
+- Hardened `agent-card.json` for better Claude Code, Codex, OpenClaw, and generic agent discovery
+- Expanded agent card resources to include recruiter, ATS, profile markdown, case-study, and MCP endpoints
+- Added `agent-runtime-discovery` skill block with explicit discovery examples and output resources
+- Refreshed agent card version metadata
+
 ## [0.2.4] - 2026-04-17
 
 ### Changed
