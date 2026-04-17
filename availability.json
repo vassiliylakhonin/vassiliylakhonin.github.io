@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-03-19",
+  "updated_at": "2026-04-17",
   "name": "Vassiliy Lakhonin",
   "target_roles": [
     "Program and Portfolio Manager",
@@ -31,6 +31,10 @@
     "Europe",
     "Remote-global teams"
   ],
+  "work_authorization": {
+    "citizenship": "Kazakhstan",
+    "notes": "Remote-global friendly; relocation and sponsorship discussion welcome based on role scope."
+  },
   "time_zone": {
     "iana": "Asia/Almaty",
     "utc_offset": "+05:00"

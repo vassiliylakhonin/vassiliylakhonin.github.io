@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-11",
+  "updated_at": "2026-04-17",
   "name": "Vassiliy Lakhonin",
   "headline": "Program/Portfolio/PMO leader focused on compliance, audit readiness, and cross-border delivery across development and private-sector environments",
   "location": {
@@ -50,10 +50,13 @@
   ],
   "links": {
     "cv_pdf": "https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf",
+    "ats_resume": "https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_ATS-Resume.html",
     "for_recruiters": "https://vassiliylakhonin.github.io/for-recruiters.html",
     "resume_json": "https://vassiliylakhonin.github.io/resume.json",
+    "evidence_json": "https://vassiliylakhonin.github.io/evidence.json",
     "skills_json": "https://vassiliylakhonin.github.io/skills.json",
     "availability_json": "https://vassiliylakhonin.github.io/availability.json",
+    "verification_json": "https://vassiliylakhonin.github.io/verification.json",
     "case_studies": [
       "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
       "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",

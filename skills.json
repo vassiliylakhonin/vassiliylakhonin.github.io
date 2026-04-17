@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-03-19",
+  "updated_at": "2026-04-17",
   "owner": {
     "name": "Vassiliy Lakhonin",
     "url": "https://vassiliylakhonin.github.io/"
@@ -21,9 +21,8 @@
       "SharePoint",
       "OneDrive",
       "Google Apps",
-      "Trello",
-      "LLM chatbots",
-      "Coding agents"
+      "Codex",
+      "OpenClaw"
     ],
     "methods": [
       "Results-based management (RBM)",

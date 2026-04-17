@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-04-10",
+  "updated_at": "2026-04-17",
   "identity": {
     "name": "Vassiliy Lakhonin",
     "canonical_url": "https://vassiliylakhonin.github.io/",
@@ -28,6 +28,16 @@
       "type": "case_study",
       "title": "SaaS / E-Commerce platform launch delivery control",
       "url": "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    },
+    {
+      "type": "case_study",
+      "title": "Nonprofit Proposal Decision Engine",
+      "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html"
+    },
+    {
+      "type": "case_study",
+      "title": "Policy Risk Memo Architect",
+      "url": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html"
     },
     {
       "type": "work_sample",
