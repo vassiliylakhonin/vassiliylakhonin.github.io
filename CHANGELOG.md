@@ -2,6 +2,15 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.2.1] - 2026-04-17
+
+### Changed
+- Upgraded site-wide visual system in `_layouts/default.html` (hero, KPI cards, chips, cleaner navigation)
+- Added reusable top navigation include in `_includes/header.html`
+- Improved homepage first screen in `index.md` with stronger value framing and action CTA
+- Improved recruiter page first screen in `for-recruiters.md` with KPI-driven summary and direct contact CTA
+- Refreshed `services.html` with modern visual hierarchy and clearer service framing
+
 ## [0.2.0] - 2026-04-17
 
 ### Added

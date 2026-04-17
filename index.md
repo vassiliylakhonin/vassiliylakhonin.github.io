@@ -12,24 +12,40 @@ description: Program Manager, Portfolio Manager, and PMO leader for donor compli
 }
 </script>
 
-# Vassiliy Lakhonin
-Almaty, Kazakhstan
-LinkedIn: [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)
-Contact: vassiliy.lakhonin@gmail.com
-Open to: Central Asia, MENA, U.S. (partial overlap), Europe, and remote-global teams (onsite/hybrid/remote).
-Last updated: April 11, 2026
+<section class="hero">
+  <h1>Vassiliy Lakhonin</h1>
+  <p>Program and portfolio leader for donor compliance, audit readiness, and cross-border delivery.</p>
+  <p>Almaty, Kazakhstan (UTC+5) · Available for Central Asia, MENA, Europe, and U.S. overlap roles.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="/for-recruiters.html">For recruiters</a>
+    <a class="btn btn-secondary" href="/Vassiliy-Lakhonin_CV.pdf">Download CV (PDF)</a>
+    <a class="btn btn-secondary" href="https://www.linkedin.com/in/vassiliy-lakhonin/">LinkedIn</a>
+  </div>
+</section>
+
+<div class="kpis">
+  <div class="kpi"><strong>$14M</strong><span>Regional portfolio managed</span></div>
+  <div class="kpi"><strong>100%</strong><span>On-time donor reporting for 8 quarters</span></div>
+  <div class="kpi"><strong>-40%</strong><span>Partner submission delays reduced</span></div>
+  <div class="kpi"><strong>2 audits</strong><span>Zero findings</span></div>
+</div>
+
+<div class="chip-list">
+  <span class="chip">Program Manager</span>
+  <span class="chip">Portfolio Manager</span>
+  <span class="chip">PMO / Program Operations</span>
+  <span class="chip">Compliance and governance</span>
+  <span class="chip">Delivery transformation</span>
+</div>
+
+**Contact:** [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com) · [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
+**Response time:** usually within 24 hours.  
+**Last updated:** April 17, 2026
 
 ## Hire me in 60 seconds
 - Best-fit roles: Program Manager, Portfolio Manager, PMO / Program Operations, Delivery & Transformation, Compliance / Governance.
 - Outcomes: 100% on-time donor reporting (8 consecutive quarters), 40% reduction in partner submission delays, two USAID audits with zero findings.
 - Start here: [For recruiters](/for-recruiters.html) · [CV (PDF)](/Vassiliy-Lakhonin_CV.pdf) · [LinkedIn](https://www.linkedin.com/in/vassiliy-lakhonin/)
-
-PDF download: [Vassiliy-Lakhonin_CV.pdf](/Vassiliy-Lakhonin_CV.pdf)
-
-## Quick contact
-- Email: [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com)
-- Time zone: Almaty (UTC+5), available for Central Asia, MENA, U.S. (partial overlap), Europe, and remote-global teams.
-- Response time: usually within 24 hours.
 
 ## Open to
 - International program leadership roles (multi-country portfolios, delivery governance, stakeholder alignment).

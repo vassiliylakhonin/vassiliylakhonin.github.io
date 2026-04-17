@@ -3,7 +3,22 @@ title: For Recruiters | Vassiliy Lakhonin
 description: Program/Portfolio/PMO candidate profile with measurable results, role fit, and fast contact details.
 ---
 
-# For Recruiters
+<section class="hero">
+  <h1>For Recruiters</h1>
+  <p>Evidence-backed Program/Portfolio/PMO profile with clear impact, role fit, and fast response.</p>
+  <div class="cta-row">
+    <a class="btn btn-primary" href="mailto:vassiliy.lakhonin@gmail.com">Email now</a>
+    <a class="btn btn-secondary" href="/Vassiliy-Lakhonin_CV.pdf">CV (PDF)</a>
+    <a class="btn btn-secondary" href="https://www.linkedin.com/in/vassiliy-lakhonin/">LinkedIn</a>
+  </div>
+</section>
+
+<div class="kpis">
+  <div class="kpi"><strong>$14M</strong><span>Multi-country portfolio scope</span></div>
+  <div class="kpi"><strong>8 quarters</strong><span>100% on-time donor reporting</span></div>
+  <div class="kpi"><strong>-40%</strong><span>Partner delays reduced</span></div>
+  <div class="kpi"><strong>2 audits</strong><span>Zero findings</span></div>
+</div>
 
 ## Snapshot
 - **Name:** Vassiliy Lakhonin

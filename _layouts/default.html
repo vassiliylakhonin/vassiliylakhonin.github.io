@@ -24,9 +24,105 @@
     <meta name="twitter:image" content="{{ social_image }}">
     <title>{{ page.title | default: site.title | default: "Vassiliy Lakhonin" }}</title>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <style>
+      :root {
+        --bg: #f8fafc;
+        --surface: #ffffff;
+        --text: #0f172a;
+        --muted: #475569;
+        --border: #e2e8f0;
+        --brand: #0f766e;
+        --brand-strong: #115e59;
+      }
+      body {
+        background: radial-gradient(circle at top right, #ecfeff 0%, var(--bg) 45%);
+        color: var(--text);
+      }
+      .site-shell {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 1rem 1rem 3rem;
+      }
+      .site-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        padding: .8rem 1rem;
+        margin-bottom: 1.2rem;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        background: rgba(255,255,255,.8);
+        backdrop-filter: blur(6px);
+      }
+      .site-header a { text-decoration: none; }
+      .brand { font-weight: 700; color: var(--text); }
+      .nav { display: flex; gap: .9rem; flex-wrap: wrap; }
+      .nav a { color: var(--muted); font-size: .92rem; }
+      .nav a:hover { color: var(--brand-strong); }
+
+      .hero {
+        background: linear-gradient(130deg, #0f172a 0%, #0b3a3a 60%, #0f766e 100%);
+        color: #f8fafc;
+        border-radius: 18px;
+        padding: 1.3rem 1.2rem;
+        margin: .6rem 0 1.2rem;
+      }
+      .hero h1 { color: #fff; margin: 0 0 .3rem; }
+      .hero p { margin: .45rem 0; color: #dbeafe; }
+
+      .kpis {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: .75rem;
+        margin: 1rem 0 1.1rem;
+      }
+      .kpi {
+        background: var(--surface);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: .8rem .85rem;
+      }
+      .kpi strong {
+        display: block;
+        font-size: 1.15rem;
+        color: var(--text);
+      }
+      .kpi span { color: var(--muted); font-size: .9rem; }
+
+      .cta-row { display: flex; gap: .6rem; flex-wrap: wrap; margin-top: .8rem; }
+      .btn {
+        display: inline-block;
+        padding: .54rem .85rem;
+        border-radius: 10px;
+        text-decoration: none;
+        font-weight: 600;
+        border: 1px solid transparent;
+      }
+      .btn-primary { background: #14b8a6; color: #042f2e; }
+      .btn-primary:hover { background: #0d9488; color: #ecfeff; }
+      .btn-secondary { border-color: rgba(255,255,255,.4); color: #dbeafe; }
+      .btn-secondary:hover { border-color: #fff; color: #fff; }
+
+      .markdown-body h2, .markdown-body h3 { scroll-margin-top: 80px; }
+      .chip-list { display: flex; gap: .45rem; flex-wrap: wrap; margin: .5rem 0 1rem; }
+      .chip {
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        padding: .3rem .65rem;
+        color: var(--muted);
+        font-size: .85rem;
+        background: #fff;
+      }
+
+      @media (max-width: 700px) {
+        .site-header { flex-direction: column; align-items: flex-start; }
+      }
+    </style>
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
+    <div class="site-shell markdown-body">
+      {% include header.html %}
       {{ content }}
     </div>
   </body>
