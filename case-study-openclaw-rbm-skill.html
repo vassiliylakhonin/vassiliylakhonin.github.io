@@ -3,12 +3,12 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Case Study: Nonprofit Impact Orchestra</title>
-  <meta name="description" content="Case study by Vassiliy Lakhonin on Nonprofit Impact Orchestra, an OpenClaw-powered AI orchestrator for donor-ready grant packages and nonprofit RBM logic model development." />
+  <title>Case Study: Nonprofit Proposal Decision Engine</title>
+  <meta name="description" content="Case study by Vassiliy Lakhonin on rebuilding nonprofit proposal support as a decision engine with Go/Conditional Go/No-Go gating, donor-fit logic, and evidence discipline." />
   <link rel="canonical" href="https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Case Study: Nonprofit Impact Orchestra" />
-  <meta property="og:description" content="Nonprofit Impact Orchestra: an OpenClaw-powered AI orchestrator for donor-ready grant packages, RBM logic models, and nonprofit use cases." />
+  <meta property="og:title" content="Case Study: Nonprofit Proposal Decision Engine" />
+  <meta property="og:description" content="From proposal drafting to submission decisions: Go/Conditional Go/No-Go, donor-fit matrix, and evidence traceability." />
   <meta property="og:url" content="https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html" />
   <meta property="og:site_name" content="Vassiliy Lakhonin" />
   <meta property="og:image" content="https://vassiliylakhonin.github.io/og-image.svg" />
@@ -16,8 +16,8 @@
   <meta property="og:image:height" content="630" />
   <meta property="og:image:alt" content="Vassiliy Lakhonin professional profile preview" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Case Study: Nonprofit Impact Orchestra" />
-  <meta name="twitter:description" content="Nonprofit Impact Orchestra: an OpenClaw-powered AI orchestrator for donor-ready grant packages, RBM logic models, and nonprofit use cases." />
+  <meta name="twitter:title" content="Case Study: Nonprofit Proposal Decision Engine" />
+  <meta name="twitter:description" content="From proposal drafting to submission decisions: Go/Conditional Go/No-Go, donor-fit matrix, and evidence traceability." />
   <meta name="twitter:image" content="https://vassiliylakhonin.github.io/og-image.svg" />
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; max-width: 860px; line-height: 1.6; color: #111; }
@@ -28,83 +28,71 @@
 </head>
 <body>
   <p><a href="/">Back to profile</a></p>
-  <h1>Case Study: Nonprofit Impact Orchestra</h1>
+  <h1>Case Study: Nonprofit Proposal Decision Engine</h1>
 
   <h2>Context</h2>
-  <p>I built Nonprofit Impact Orchestra, an end-to-end AI orchestrator that turns a short project description into a complete, donor-ready grant package. It runs locally through OpenClaw as a self-hosted AI gateway and uses ClawHub as the skills registry.</p>
+  <p>I rebuilt this skill around one principle: grant work should be treated as a submission decision system, not just a proposal drafting task. The implementation is published on ClawHub and designed for NGO teams under deadline pressure.</p>
 
   <h2>Problem</h2>
-  <p>Nonprofit and development teams often need to go far beyond a basic proposal draft. The work requires research, planning, budgeting, donor fit, scenario thinking, and narrative polish, while keeping the process auditable and human-reviewed.</p>
+  <p>Many proposal workflows optimize for polished narrative but underperform on decision integrity: weak input discipline, unclear assumptions, poor donor-fit mapping, and missing verification steps.</p>
 
   <h2>Actions</h2>
   <ul>
-    <li>Built a focused OpenClaw skill for nonprofit RBM logic model development.</li>
-    <li>Structured the workflow around a 5-level results chain: Inputs, Activities, Outputs, Outcomes, Impact.</li>
-    <li>Added Theory of Change logic with if/then pathways, assumptions, and risks.</li>
-    <li>Included SMART indicators, SDG alignment, logframe structure, and monitoring plans.</li>
-    <li>Added donor matching and proposal tweaks for funders such as USAID, EU, UN, and World Bank.</li>
-    <li>Built risk matrices, multiple scenarios, and early warning indicators.</li>
-    <li>Kept human checkpoints at major steps so methodology and final decisions stay under control.</li>
-    <li>Designed the output so it can be reused in markdown, tables, JSON, and Excel-ready blocks.</li>
+    <li>Repositioned the skill as a decision engine with a required verdict: <strong>Go / Conditional Go / No-Go</strong>.</li>
+    <li>Added minimum input gating before full drafting (donor, geography, target group, scope, budget, timeline, partners).</li>
+    <li>Implemented explicit operating modes: concept, loi, full, review, donor-fit, express.</li>
+    <li>Standardized outputs into fixed sections: Decision Summary, FAHU split, artifacts, donor-fit matrix, evidence, readiness checklist.</li>
+    <li>Added confidence labels and anti-fabrication rules for evidence handling.</li>
+    <li>Enforced safety guardrails for budget realism, safeguarding, and compliance risk escalation.</li>
   </ul>
 
-  <h2>What it does</h2>
+  <h2>What it does now</h2>
   <ul>
-    <li>Deep contextual analysis: PESTLE, stakeholders, strategic drivers, and scenarios.</li>
-    <li>RBM logic model, Theory of Change, logframe, SMART indicators, and M&E plan.</li>
-    <li>SDG alignment with specific targets.</li>
-    <li>Detailed budget breakdown with admin percentage checks.</li>
-    <li>Human impact narrative, factual and non-fabricated.</li>
-    <li>Final natural-language polish to remove AI/robot patterns.</li>
+    <li>Produces donor-oriented proposal artifacts and a clear submission decision.</li>
+    <li>Separates facts, assumptions, hypotheses, and unknowns in every substantive output.</li>
+    <li>Builds donor-fit gap analysis with concrete fix actions.</li>
+    <li>Creates an Evidence Needed plan when supporting sources are missing.</li>
   </ul>
 
   <h2>Current outputs</h2>
   <ul>
-    <li>Donor-ready grant package draft.</li>
-    <li>5-level RBM results chain draft.</li>
-    <li>Theory of Change draft with assumptions and risk logic.</li>
-    <li>SMART outcome indicator draft set.</li>
-    <li>SDG alignment mapping.</li>
-    <li>Monitoring and data collection plan draft.</li>
-    <li>JSON, markdown, table, and Excel-friendly output blocks.</li>
+    <li>Decision Summary (verdict + confidence + key reasons).</li>
+    <li>RBM/ToC structure and logframe-ready outputs.</li>
+    <li>MEAL mini-plan and budget logic summary.</li>
+    <li>Risk and safeguarding matrix.</li>
+    <li>Donor-fit matrix and submission readiness checklist.</li>
   </ul>
 
   <h2>Who it is for</h2>
   <ul>
-    <li>Nonprofit program managers.</li>
-    <li>MEL/MEAL specialists.</li>
-    <li>Grant writers and NGO consultants.</li>
-    <li>Field workers and small NGOs that need fast, traceable, donor-trusted outputs.</li>
+    <li>NGO grant managers and proposal leads.</li>
+    <li>MEAL/M&amp;E specialists.</li>
+    <li>Nonprofit consultants and bid teams.</li>
+    <li>Program directors who need defensible go/no-go decisions before submission.</li>
   </ul>
 
-  <h2>Why I built it</h2>
-  <p>Most AI tools for nonprofits stop at proposal drafting. This pilot goes end to end: research, planning, budget, donor fit, narrative, and polish, with human checkpoints at every major step. The goal is to keep the workflow fast, traceable, and useful without cloud dependency or expensive consultants.</p>
+  <h2>Why this version is better</h2>
+  <p>It improves decision quality and traceability under time pressure, while explicitly handling uncertainty and evidence gaps instead of masking them with confident prose.</p>
 
   <h2>Tech stack</h2>
   <ul>
-    <li>OpenClaw, used as a self-hosted multi-messenger AI gateway.</li>
-    <li>ClawHub skills registry for publish/install workflow.</li>
-    <li>LLM chaining with strict workflow checkpoints.</li>
-    <li>Integration with earlier skills such as <code>global-think-tank-analyst</code>, Natural Language Editor, and nonprofit-rbm-suite.</li>
-    <li>No external API calls after initial setup.</li>
+    <li>OpenClaw runtime and orchestration.</li>
+    <li>ClawHub skill distribution.</li>
+    <li>Instruction-first architecture with clear contracts and guardrails.</li>
   </ul>
-
-  <h2>Relevance for future roles</h2>
-  <p>Demonstrates practical AI/agent application in consulting workflows: problem structuring, donor-ready drafting, governance-aware iteration, and expert-validated decision support.</p>
 
   <h2>Project links</h2>
   <ul>
-    <li><a href="https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub">OpenClaw skill repository</a></li>
     <li><a href="https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model">ClawHub skill listing</a></li>
-    <li><a href="https://chatgpt.com/g/g-wt6hVocuB-development-and-humanitarian-aid-advisor">Earlier GPT-based prototype</a></li>
+    <li><a href="https://vassiliylakhonin.github.io/profile.md">OpenClaw profile context</a></li>
   </ul>
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Case Study: Nonprofit Impact Orchestra",
-    "description": "Nonprofit Impact Orchestra: an OpenClaw-powered AI orchestrator for donor-ready grant packages and nonprofit RBM logic model development.",
+    "headline": "Case Study: Nonprofit Proposal Decision Engine",
+    "description": "Nonprofit proposal workflow rebuilt as a decision engine with Go/Conditional Go/No-Go gating and evidence traceability.",
     "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html",
     "mainEntityOfPage": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html",
     "author": {
@@ -114,10 +102,10 @@
     },
     "about": [
       "RBM",
-      "Nonprofit program design",
-      "Agentic AI",
-      "Theory of Change",
-      "Monitoring and evaluation"
+      "Nonprofit proposal design",
+      "Submission decision quality",
+      "Donor-fit analysis",
+      "Evidence discipline"
     ]
   }
   </script>

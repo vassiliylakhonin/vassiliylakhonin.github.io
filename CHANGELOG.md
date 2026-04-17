@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented in this file.
 
+## [0.2.3] - 2026-04-17
+
+### Changed
+- Rewrote `case-study-openclaw-rbm-skill.md` and `case-study-openclaw-rbm-skill.html`
+- Repositioned the case study around the live ClawHub skill "Nonprofit Proposal Decision Engine"
+- Updated narrative from generic orchestration story to decision-quality model (Go / Conditional Go / No-Go, donor-fit matrix, evidence discipline)
+
 ## [0.2.2] - 2026-04-17
 
 ### Added
