@@ -9,6 +9,9 @@
     <meta name="description" content="{{ page.description | default: site.description | default: 'Professional profile, CV, and case studies.' }}">
     <meta name="robots" content="index,follow">
     <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <link rel="alternate" type="text/markdown" title="LLMs entrypoint" href="{{ '/llms.txt' | absolute_url }}">
+    <link rel="alternate" type="application/json" title="Candidate match data" href="{{ '/candidate-match.json' | absolute_url }}">
+    <link rel="alternate" type="application/json" title="Agent card" href="{{ '/agent-card.json' | absolute_url }}">
     <meta property="og:type" content="website">
     <meta property="og:title" content="{{ page.title | default: site.title | default: 'Vassiliy Lakhonin' }}">
     <meta property="og:description" content="{{ page.description | default: site.description | default: 'Professional profile, CV, and case studies.' }}">

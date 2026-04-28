@@ -8,6 +8,8 @@ on:
       - "index.md"
       - "for-recruiters.md"
       - "recruiter.json"
+      - "candidate-match.json"
+      - "agent-match.md"
       - "llms.txt"
       - "sitemap.xml"
       - ".github/workflows/smoke-check.yml"
@@ -26,6 +28,8 @@ jobs:
             "https://vassiliylakhonin.github.io/"
             "https://vassiliylakhonin.github.io/for-recruiters.html"
             "https://vassiliylakhonin.github.io/recruiter.json"
+            "https://vassiliylakhonin.github.io/candidate-match.json"
+            "https://vassiliylakhonin.github.io/agent-match.html"
             "https://vassiliylakhonin.github.io/llms.txt"
           )
 

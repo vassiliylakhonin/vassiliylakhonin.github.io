@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-04-28",
+  "candidate": {
+    "name": "Vassiliy Lakhonin",
+    "canonical_url": "https://vassiliylakhonin.github.io/",
+    "location": "Almaty, Kazakhstan",
+    "timezone": "Asia/Almaty",
+    "contact": {
+      "email": "vassiliy.lakhonin@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/vassiliy-lakhonin/",
+      "github": "https://github.com/vassiliylakhonin"
+    }
+  },
+  "agent_matching_summary": {
+    "best_fit": [
+      "Program Manager",
+      "Portfolio Manager",
+      "PMO Manager",
+      "Program Operations Manager",
+      "Compliance Program Manager",
+      "Delivery Manager",
+      "MEL/MEAL Manager",
+      "Monitoring and Evaluation Manager"
+    ],
+    "strongest_domains": [
+      "cross-border program delivery",
+      "donor compliance and reporting",
+      "audit readiness and evidence systems",
+      "KPI governance and performance monitoring",
+      "program operations and PMO cadence",
+      "AI-enabled reporting with human-in-the-loop QA"
+    ],
+    "industries": [
+      "international development",
+      "nonprofit / NGO",
+      "professional services",
+      "SaaS / technology operations",
+      "multi-market operations",
+      "compliance-heavy program environments"
+    ],
+    "seniority_signals": [
+      "managed 14M USD regional portfolio reporting scope",
+      "coordinated delivery across 4-5 Central Asian countries",
+      "worked with 15+ implementing partners",
+      "owned reporting quality and escalation discipline",
+      "supported external audits with zero findings"
+    ]
+  },
+  "role_fit_matrix": [
+    {
+      "role_family": "Program / Portfolio Management",
+      "fit": "high",
+      "why": "Direct multi-country delivery, donor reporting, stakeholder cadence, budget and vendor oversight, and risk tracking experience.",
+      "evidence_urls": [
+        "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
+        "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html"
+      ]
+    },
+    {
+      "role_family": "PMO / Program Operations",
+      "fit": "high",
+      "why": "Strong operating-system profile: KPI governance, reporting cadence, cross-functional coordination, action tracking, and delivery controls.",
+      "evidence_urls": [
+        "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html",
+        "https://vassiliylakhonin.github.io/for-recruiters.html"
+      ]
+    },
+    {
+      "role_family": "Compliance Program Management",
+      "fit": "high",
+      "why": "Evidence management, audit-readiness controls, donor compliance reporting, and quality gates are core repeated patterns.",
+      "evidence_urls": [
+        "https://vassiliylakhonin.github.io/evidence.json",
+        "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html"
+      ]
+    },
+    {
+      "role_family": "AI Operations / Agentic Workflow Implementation",
+      "fit": "medium-high",
+      "why": "Practical AI-enabled reporting, OpenClaw/Codex workflows, agent-skill publishing, and human-in-the-loop QA; strongest when paired with program operations or reporting contexts.",
+      "evidence_urls": [
+        "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html",
+        "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html"
+      ]
+    }
+  ],
+  "screening_keywords": {
+    "titles": [
+      "Program Manager",
+      "Portfolio Manager",
+      "PMO Manager",
+      "Program Operations Manager",
+      "Delivery Manager",
+      "Transformation Manager",
+      "Operations Manager",
+      "Compliance Program Manager",
+      "MEL Manager",
+      "MEAL Manager",
+      "Monitoring and Evaluation Manager"
+    ],
+    "capabilities": [
+      "donor reporting",
+      "USAID reporting",
+      "audit readiness",
+      "evidence management",
+      "internal controls",
+      "KPI governance",
+      "performance monitoring",
+      "risk tracking",
+      "stakeholder management",
+      "vendor oversight",
+      "budget monitoring",
+      "cross-border delivery",
+      "multi-country portfolio",
+      "reporting QA/QC",
+      "human-in-the-loop AI",
+      "agentic workflows"
+    ],
+    "tools": [
+      "M365 Teams",
+      "Outlook",
+      "SharePoint",
+      "OneDrive",
+      "Google Apps",
+      "Codex",
+      "OpenClaw"
+    ]
+  },
+  "hard_constraints": {
+    "location": "Almaty, Kazakhstan",
+    "work_modes": ["onsite", "hybrid", "remote"],
+    "regions": ["Central Asia", "MENA", "Europe", "U.S. partial overlap", "remote-global"],
+    "citizenship": "Kazakhstan",
+    "languages": ["Russian native", "English professional working proficiency"],
+    "response_sla": "usually within 24 hours"
+  },
+  "agent_instructions": {
+    "start_here": [
+      "https://vassiliylakhonin.github.io/for-recruiters.html",
+      "https://vassiliylakhonin.github.io/resume.json",
+      "https://vassiliylakhonin.github.io/evidence.json",
+      "https://vassiliylakhonin.github.io/availability.json"
+    ],
+    "verify_claims_with": [
+      "https://vassiliylakhonin.github.io/evidence.json",
+      "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
+      "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
+      "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    ],
+    "do_not_infer": [
+      "salary expectations",
+      "work authorization beyond the stated citizenship and relocation/sponsorship note",
+      "legal or compliance certification status not explicitly listed"
+    ]
+  }
+}

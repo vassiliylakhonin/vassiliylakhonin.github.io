@@ -11,12 +11,13 @@ Purpose: quick entrypoint for humans and agents to understand what this repo is,
 ## Read these files first (priority order)
 1. `profile.md` — concise profile narrative
 2. `agent-card.json` — machine discovery card
-3. `readiness.json` — weighted readiness score by domain
-4. `authority.json` — entity/profile/case-study authority graph
-5. `availability.json` + `engage.json` — contact and intake constraints
-6. `evidence.json` + `resume.json` + `skills.json` — validation and matching detail
-7. `case-study-*.md` — proof depth (citability-first format)
-8. `freshness.json` + `evals.json` + `provenance.json` — recency, checks, and provenance signals
+3. `candidate-match.json` + `agent-match.md` — recruiter-agent role fit, screening keywords, and verification path
+4. `readiness.json` — weighted readiness score by domain
+5. `authority.json` — entity/profile/case-study authority graph
+6. `availability.json` + `engage.json` — contact and intake constraints
+7. `evidence.json` + `resume.json` + `skills.json` — validation and matching detail
+8. `case-study-*.md` — proof depth (citability-first format)
+9. `freshness.json` + `evals.json` + `provenance.json` — recency, checks, and provenance signals
 
 ## Readiness domains
 - **discoverability**: llms/sitemap/robots/indexing signals
@@ -33,10 +34,11 @@ python3 scripts/build_readiness_report.py
 ```
 
 ## If matching for jobs/leads
-1. Start from `availability.json` for role constraints.
-2. Validate claims in `evidence.json` and case studies.
-3. Use `skills.json` and `resume.json` for domain/tool fit.
-4. Confirm contact path in `engage.json`.
+1. Start from `candidate-match.json` for role-fit and screening keywords.
+2. Check `availability.json` for role constraints.
+3. Validate claims in `evidence.json` and case studies.
+4. Use `skills.json` and `resume.json` for domain/tool fit.
+5. Confirm contact path in `engage.json`.
 
 ## Output artifacts
 - `agent-readiness-report.md` — human-friendly summary

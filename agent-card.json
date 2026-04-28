@@ -8,7 +8,7 @@
     "url": "https://vassiliylakhonin.github.io/",
     "contact": "mailto:vassiliy.lakhonin@gmail.com"
   },
-  "version": "2026-04-17",
+  "version": "2026-04-28",
   "authentication": {
     "schemes": [
       "none"
@@ -46,6 +46,26 @@
         "https://vassiliylakhonin.github.io/availability.json",
         "https://vassiliylakhonin.github.io/recruiter.json",
         "https://vassiliylakhonin.github.io/verification.json"
+      ]
+    },
+    {
+      "id": "candidate-role-matching",
+      "name": "Candidate Role Matching",
+      "description": "Returns role-fit matrix, screening keywords, constraints, and evidence links for recruiter-agent matching workflows.",
+      "tags": [
+        "recruiting",
+        "candidate-matching",
+        "role-fit",
+        "sourcing"
+      ],
+      "examples": [
+        "Score candidate fit for a PMO Manager role.",
+        "List evidence for Compliance Program Manager fit."
+      ],
+      "output_resources": [
+        "https://vassiliylakhonin.github.io/candidate-match.json",
+        "https://vassiliylakhonin.github.io/agent-match.html",
+        "https://vassiliylakhonin.github.io/evidence.json"
       ]
     },
     {
@@ -114,6 +134,8 @@
     "https://vassiliylakhonin.github.io/llms.txt",
     "https://vassiliylakhonin.github.io/profile.md",
     "https://vassiliylakhonin.github.io/for-recruiters.html",
+    "https://vassiliylakhonin.github.io/candidate-match.json",
+    "https://vassiliylakhonin.github.io/agent-match.html",
     "https://vassiliylakhonin.github.io/recruiter.json",
     "https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_ATS-Resume.html",
     "https://vassiliylakhonin.github.io/resume.json",
@@ -132,5 +154,6 @@
     "https://vassiliylakhonin.github.io/mcp-status.json",
     "https://vassiliy-lakhonin-mcp-production.up.railway.app/sse",
     "https://vassiliy-lakhonin-mcp-production.up.railway.app/health"
-  ]
+  ],
+  "updated_at": "2026-04-28"
 }

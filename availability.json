@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-04-17",
+  "updated_at": "2026-04-28",
   "name": "Vassiliy Lakhonin",
   "target_roles": [
     "Program and Portfolio Manager",
@@ -50,5 +50,7 @@
     "linkedin": "https://www.linkedin.com/in/vassiliy-lakhonin/",
     "website": "https://vassiliylakhonin.github.io/",
     "github": "https://github.com/vassiliylakhonin"
-  }
+  },
+  "screening_note": "Best fit for roles requiring cross-border delivery governance, evidence/compliance systems, reporting QA, KPI cadence, and practical AI-enabled operations.",
+  "agent_match_url": "https://vassiliylakhonin.github.io/candidate-match.json"
 }

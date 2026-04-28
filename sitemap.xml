@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://vassiliylakhonin.github.io/</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/Vassiliy-Lakhonin_CV.pdf</loc>
@@ -14,15 +14,15 @@
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/llms.txt</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/for-recruiters.html</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/recruiter.json</loc>
-    <lastmod>2026-04-11</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/engage.v2.json</loc>
@@ -58,15 +58,15 @@
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/skills.json</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/agent-card.json</loc>
-    <lastmod>2026-03-19</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/resume.json</loc>
-    <lastmod>2026-02-17</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/evidence.json</loc>
@@ -74,7 +74,7 @@
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/availability.json</loc>
-    <lastmod>2026-02-17</lastmod>
+    <lastmod>2026-04-28</lastmod>
   </url>
   <url>
     <loc>https://vassiliylakhonin.github.io/engage.json</loc>
@@ -123,5 +123,13 @@
   <url>
     <loc>https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html</loc>
     <lastmod>2026-03-19</lastmod>
+  </url>
+  <url>
+    <loc>https://vassiliylakhonin.github.io/agent-match.html</loc>
+    <lastmod>2026-04-28</lastmod>
+  </url>
+  <url>
+    <loc>https://vassiliylakhonin.github.io/candidate-match.json</loc>
+    <lastmod>2026-04-28</lastmod>
   </url>
 </urlset>

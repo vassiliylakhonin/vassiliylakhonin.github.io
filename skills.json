@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-04-17",
+  "updated_at": "2026-04-28",
   "owner": {
     "name": "Vassiliy Lakhonin",
     "url": "https://vassiliylakhonin.github.io/"
@@ -13,7 +13,10 @@
       "Donor compliance",
       "Monitoring, Evaluation, and Learning (MEL)",
       "Audit readiness",
-      "Cross-border delivery"
+      "Cross-border delivery",
+      "Compliance program management",
+      "AI-enabled reporting operations",
+      "Agentic workflow implementation"
     ],
     "tools": [
       "M365 Teams",
@@ -31,7 +34,10 @@
       "Risk log and mitigation planning",
       "RAG status reporting",
       "Stakeholder cadence management",
-      "Human-in-the-loop AI QA"
+      "Human-in-the-loop AI QA",
+      "Agent-readable profile design",
+      "Machine-readable evidence mapping",
+      "Recruiter-agent matching"
     ]
   },
   "intent": {
@@ -39,6 +45,7 @@
       "International program leadership",
       "Donor compliance advisory",
       "AI-enabled monitoring systems"
-    ]
+    ],
+    "agent_match_url": "https://vassiliylakhonin.github.io/candidate-match.json"
   }
 }

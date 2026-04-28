@@ -71,7 +71,7 @@ description: Program Manager, Portfolio Manager, and PMO leader for donor compli
 </section>
 
 **Contact:** [vassiliy.lakhonin@gmail.com](mailto:vassiliy.lakhonin@gmail.com) · [linkedin.com/in/vassiliy-lakhonin](https://www.linkedin.com/in/vassiliy-lakhonin/)  
-**Last updated:** April 17, 2026
+**Last updated:** April 28, 2026
 
 ## Hire me in 60 seconds
 - Best-fit roles: Program Manager, Portfolio Manager, PMO / Program Operations, Delivery & Transformation, Compliance / Governance.
@@ -119,7 +119,7 @@ Languages: Russian (native), English (professional working proficiency).
 - AI-assisted reporting workflows with quality-control checkpoints.
 
 ## Search keywords
-- Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Delivery Manager, Transformation Manager, Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager.
+- Role titles: Program Manager, Portfolio Manager, PMO Manager, Program Operations Manager, Delivery Manager, Transformation Manager, Operations Manager, Compliance Program Manager, Reporting Manager, MEL/MEAL Manager, Monitoring and Evaluation (M&E) Manager, AI Operations Program Manager, Agentic Workflow Program Manager.
 - Focus: compliance and governance, audit readiness, internal controls, evidence management, KPI governance, performance management, operational excellence, risk tracking, stakeholder management, vendor oversight, budget monitoring, cross-border delivery.
 - Tools: M365 Teams, Outlook, SharePoint, OneDrive, Google Apps, Codex, OpenClaw.
 
@@ -191,6 +191,8 @@ Jan 2014 – Dec 2018
 - [Sample: KPI tracker](https://6969b58d8292274eb8775c89--precious-cobbler-f56f89.netlify.app)
 
 ## AI Agent Access
+- [Agent matching guide](/agent-match.html)
+- [Candidate Match JSON](/candidate-match.json)
 - [Agent card (A2A-style discovery)](/agent-card.json)
 - [Profile (Markdown)](/profile.md)
 - [LLMs entrypoint](/llms.txt)
@@ -206,7 +208,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
   "@context": "https://schema.org",
   "@type": "ProfilePage",
   "url": "https://vassiliylakhonin.github.io/",
-  "dateModified": "2026-04-11",
+  "dateModified": "2026-04-28",
   "hasPart": [
     {
       "@type": "WebPage",
@@ -269,6 +271,16 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
       "url": "https://vassiliylakhonin.github.io/recruiter.json"
     },
     {
+      "@type": "DigitalDocument",
+      "name": "Candidate Match JSON",
+      "url": "https://vassiliylakhonin.github.io/candidate-match.json"
+    },
+    {
+      "@type": "WebPage",
+      "name": "Agent Matching Guide",
+      "url": "https://vassiliylakhonin.github.io/agent-match.html"
+    },
+    {
       "@type": "WebPage",
       "name": "For Recruiters",
       "url": "https://vassiliylakhonin.github.io/for-recruiters.html"
@@ -296,7 +308,10 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
       "KPI governance",
       "Cross-border portfolio delivery",
       "Risk tracking",
-      "Stakeholder management"
+      "Stakeholder management",
+      "AI-enabled reporting",
+      "Agentic workflow implementation",
+      "Program operations"
     ],
     "worksFor": {
       "@type": "Organization",

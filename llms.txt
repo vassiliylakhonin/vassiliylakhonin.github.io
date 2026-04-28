@@ -5,6 +5,9 @@
 ## Key pages
 - [For recruiters](https://vassiliylakhonin.github.io/for-recruiters.html): One-minute recruiter summary with role fit, measurable outcomes, and direct contact.
 - [Recruiter profile (JSON)](https://vassiliylakhonin.github.io/recruiter.json): Structured recruiter/agent-friendly profile for matching and sourcing workflows.
+
+- [Agent matching guide](https://vassiliylakhonin.github.io/agent-match.html): LLM/recruiter-agent matching guide with role-fit matrix and verification path.
+- [Candidate Match JSON](https://vassiliylakhonin.github.io/candidate-match.json): Machine-readable role fit, screening keywords, constraints, and evidence links.
 - [Start here for agents](https://vassiliylakhonin.github.io/agent-discovery.md): Entry map for what to read and validate first.
 - [Agent readiness (JSON)](https://vassiliylakhonin.github.io/readiness.json): Weighted score across discoverability, agent readiness, trust, proof, and contact.
 - [CV (web)](https://vassiliylakhonin.github.io/): One-page CV.

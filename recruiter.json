@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "updated_at": "2026-04-17",
+  "updated_at": "2026-04-28",
   "name": "Vassiliy Lakhonin",
   "headline": "Program/Portfolio/PMO leader focused on compliance, audit readiness, and cross-border delivery across development and private-sector environments",
   "location": {
@@ -15,8 +15,18 @@
     "website": "https://vassiliylakhonin.github.io/"
   },
   "availability": {
-    "work_modes": ["onsite", "hybrid", "remote"],
-    "regions": ["Central Asia", "MENA", "Europe", "U.S. (partial overlap)", "Remote-global"],
+    "work_modes": [
+      "onsite",
+      "hybrid",
+      "remote"
+    ],
+    "regions": [
+      "Central Asia",
+      "MENA",
+      "Europe",
+      "U.S. (partial overlap)",
+      "Remote-global"
+    ],
     "response_sla": "usually within 24 hours"
   },
   "target_roles": [
@@ -61,6 +71,25 @@
       "https://vassiliylakhonin.github.io/case-study-donor-reporting.html",
       "https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html",
       "https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html"
+    ],
+    "candidate_match_json": "https://vassiliylakhonin.github.io/candidate-match.json",
+    "agent_match_markdown": "https://vassiliylakhonin.github.io/agent-match.html"
+  },
+  "agent_match_url": "https://vassiliylakhonin.github.io/candidate-match.json",
+  "agent_matching_summary": {
+    "primary_fit": "Program/Portfolio/PMO, Compliance Program Management, MEL/MEAL, and AI-enabled reporting operations",
+    "best_search_phrases": [
+      "Program Manager donor reporting audit readiness",
+      "PMO Program Operations Manager KPI governance compliance evidence",
+      "Compliance Program Manager cross-border delivery internal controls",
+      "MEL MEAL Manager USAID reporting performance monitoring",
+      "AI-enabled reporting human-in-the-loop QA program operations"
+    ],
+    "verify_with": [
+      "evidence.json",
+      "resume.json",
+      "candidate-match.json",
+      "case-study-donor-reporting.html"
     ]
   }
 }

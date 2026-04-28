@@ -16,6 +16,7 @@ on:
       - "evidence.json"
       - "availability.json"
       - "skills.json"
+      - "candidate-match.json"
       - "scripts/geo_quick_audit.py"
       - ".github/workflows/geo-audit.yml"
 
@@ -27,7 +28,7 @@ jobs:
       STRICT_REMOTE_CHECKS: "0"
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
 
       - name: Setup Python
         uses: actions/setup-python@v5

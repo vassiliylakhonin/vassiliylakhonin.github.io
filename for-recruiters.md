@@ -60,6 +60,8 @@ description: Program/Portfolio/PMO candidate profile with measurable results, ro
 - [Resume JSON](/resume.json)
 - [Availability JSON](/availability.json)
 - [Skills JSON](/skills.json)
+- [Agent matching guide](/agent-match.html)
+- [Candidate Match JSON](/candidate-match.json)
 - [Case study: Donor reporting quality](/case-study-donor-reporting.html)
 - [Case study: Portfolio audit readiness](/case-study-portfolio-audit-readiness.html)
 - [Case study: SaaS / E-Commerce launch](/case-study-saas-ecommerce-launch.html)

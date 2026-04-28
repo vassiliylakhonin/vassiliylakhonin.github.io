@@ -2,10 +2,10 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "Vassiliy Lakhonin",
-    "label": "Program/Portfolio/PMO Manager (Evidence, Compliance, Cross-Border)",
+    "label": "Program/Portfolio/PMO Manager | Compliance, Audit Readiness, Cross-Border Delivery, AI-Enabled Reporting",
     "email": "vassiliy.lakhonin@gmail.com",
     "url": "https://vassiliylakhonin.github.io/",
-    "summary": "Program and portfolio manager focused on evidence, compliance, and cross-border delivery. Experienced in donor reporting, KPI governance, audit readiness, and multi-stakeholder coordination across international and private-sector contexts.",
+    "summary": "Program/Portfolio/PMO manager focused on evidence, compliance, audit readiness, KPI governance, and cross-border delivery. Experienced in donor reporting, multi-stakeholder coordination, program operations, and practical human-in-the-loop AI reporting workflows.",
     "location": {
       "city": "Almaty",
       "region": "Kazakhstan",
@@ -159,6 +159,21 @@
     {
       "language": "English",
       "fluency": "Professional working proficiency"
+    }
+  ],
+  "updated_at": "2026-04-28",
+  "projects": [
+    {
+      "name": "AI-enabled reporting and agent-readable profile systems",
+      "description": "Built practical OpenClaw/Codex workflows, machine-readable profile artifacts, and human-in-the-loop reporting QA patterns for program operations and nonprofit use cases.",
+      "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html",
+      "keywords": [
+        "OpenClaw",
+        "Codex",
+        "agentic workflows",
+        "human-in-the-loop QA",
+        "reporting automation"
+      ]
     }
   ]
 }

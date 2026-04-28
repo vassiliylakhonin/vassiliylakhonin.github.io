@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-04-27T09:12:47Z",
+  "generated_at": "2026-04-28T12:28:50Z",
   "summary": {
-    "pass": 2,
+    "pass": 3,
     "warn": 0,
     "fail": 0,
-    "skip": 2
+    "skip": 1
   },
   "checks": [
     {
@@ -16,8 +16,8 @@
     },
     {
       "name": "geo_baseline_score",
-      "status": "skip",
-      "value": null,
+      "status": "pass",
+      "value": 100,
       "target": ">= 85",
       "note": "Skipped when geo-report.json is not present"
     },
