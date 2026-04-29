@@ -1,79 +1,101 @@
-# Case Study: Nonprofit Proposal Decision Engine
+# Case Study: Nonprofit Proposal Go/No-Go Engine
 
 ## TL;DR
-- Reframed the skill from “proposal drafting assistant” to a **submission decision engine**.
-- Core output is not just text, but a hard verdict: **Go / Conditional Go / No-Go**.
-- Enforced evidence discipline: facts, assumptions, hypotheses, unknowns are always separated.
-- Built for NGO proposal teams that need donor-fit, risk visibility, and traceable decisions under deadline pressure.
+- Built a **decision-grade nonprofit proposal engine** for OpenClaw and Codex.
+- The core product is not a prettier proposal. It is a defensible submission decision: **Go / Conditional Go / No-Go**.
+- The workflow combines donor-fit, RBM/Theory of Change, logframe, MEAL, safeguarding, budget logic, and evidence traceability.
+- The skill is designed for teams that need to decide whether a proposal is worth submitting before they spend scarce time polishing weak logic.
 
 ## Evidence
+- Public GitHub repository: https://github.com/vassiliylakhonin/nonprofit-rbm-skill-for-claw-hub
 - Public ClawHub listing: https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model
-- Public skill contract and instructions (mode system, output structure, evidence guardrails).
-- Explicit safety boundaries: no fabricated citations, no legal/financial sign-off, no guaranteed funding claims.
+- OpenClaw skill: `SKILL.md`.
+- Codex-ready variant: `codex/SKILL.md`.
+- CI workflow and public repository hygiene: license, contribution guide, security policy, PR template.
 
 ## Metrics
-- Decision outputs: Go / Conditional Go / No-Go (mandatory in every substantive run).
-- Mode coverage: concept, loi, full, review, donor-fit, express.
-- Minimum input gate: 8 critical fields before full drafting.
-- Evidence confidence labels: HIGH / MEDIUM / LOW / UNVERIFIED.
+- Verdict system: Go / Conditional Go / No-Go.
+- Output modes: Concept, LOI, Full Proposal, Review, Donor-Fit, Express.
+- Minimum input contract: donor/call, geography, target group, problem, scope, budget, timeline, partners, requested mode.
+- Evidence labels: Fact, Assumption, Hypothesis, Unknown, Verdict.
+- Core proposal components: RBM/ToC, logframe, MEAL mini-plan, risk/safeguarding matrix, donor-fit matrix, readiness checklist.
 
 ## Context/Constraint
-- Nonprofit teams often produce strong narrative but weak submission discipline.
-- Donor proposals fail due to hidden unknowns, weak evidence, or unrealistic budget/timeline logic.
-- Needed a reusable workflow that prioritizes decision quality and traceability over prose volume.
+- Nonprofit teams rarely fail because they cannot write enough text.
+- They fail because the proposal logic is thin, donor fit is assumed, evidence gaps are hidden, or the budget/timeline does not survive review.
+- Under deadline pressure, teams need a hard read before drafting turns into sunk cost.
 
 ## Problem
-Most grant workflows over-optimize for polished narrative and under-optimize for decision integrity.
-That creates avoidable submission risk: unclear assumptions, weak donor-fit mapping, and missing verification steps.
+Most proposal-assistant workflows optimize for narrative production. That is useful, but dangerous when the underlying submission is weak.
+
+A polished proposal can still be a bad submission if it has unsupported targets, unclear assumptions, weak donor alignment, safeguarding gaps, or a budget that does not match the intervention.
 
 ## Actions
-- Defined a strict operating contract: optimize for submission quality, not verbosity.
-- Added explicit input gate (donor/call, geography, target group, problem, scope, budget, timeline, partners, output mode).
-- Implemented mode routing for different job types:
-  - `concept`, `loi`, `full`, `review`, `donor-fit`, `express`.
-- Standardized output into fixed sections:
-  1) Decision Summary,
-  2) Facts/Assumptions/Hypotheses/Unknowns,
-  3) Core Proposal Artifacts,
-  4) Donor-Fit Matrix,
-  5) Evidence and Traceability,
-  6) Submission Readiness Checklist.
-- Added hard evidence rules and confidence labels to prevent fabricated certainty.
-- Added safety guardrails: escalate compliance/safeguarding/budget realism risks early.
+- Reframed the skill from “proposal drafting assistant” to **submission decision engine**.
+- Required every substantive run to support a verdict: **Go**, **Conditional Go**, or **No-Go**.
+- Added a minimum input gate. If two or more critical fields are missing, the skill should not produce a polished proposal.
+- Built six modes:
+  - Concept
+  - LOI
+  - Full Proposal
+  - Review
+  - Donor-Fit
+  - Express
+- Standardized the evidence split:
+  - Fact
+  - Assumption
+  - Hypothesis
+  - Unknown
+  - Verdict
+- Added donor-fit checks instead of vague alignment claims.
+- Added RBM/Theory of Change and logframe structure before prose.
+- Added MEAL, safeguarding, feasibility, and budget-integrity stress tests.
+- Added explicit anti-fabrication rules for donor criteria, citations, baselines, targets, partner commitments, and budget figures.
+- Added a Codex-ready variant so the same discipline can be used outside OpenClaw.
 
 ## What it does now
-- Produces donor-oriented proposal artifacts plus a clear submission decision.
-- Surfaces risk and uncertainty early instead of hiding them behind confident prose.
-- Creates donor-fit gap analysis with concrete fix actions.
-- Forces an evidence plan when source support is missing.
+- Turns rough nonprofit project inputs into a donor-aligned proposal package.
+- Reviews existing drafts for structural weaknesses before submission.
+- Shows donor-fit gaps instead of smoothing them over.
+- Builds RBM/ToC and logframe-ready logic.
+- Marks unsupported claims as evidence needs.
+- Gives a clear submission gate with reasons and required fixes.
 
 ## Current outputs
-- Decision Summary (Go / Conditional Go / No-Go + confidence + reasons).
-- RBM/ToC logic and logframe-ready structure.
-- MEAL mini-plan and budget logic summary.
-- Risk and safeguarding matrix.
-- Donor-fit matrix with gap-to-action mapping.
-- Submission readiness checklist and verification plan.
+- Submission framing block.
+- Decision Summary with verdict and confidence.
+- Facts / Assumptions / Hypotheses / Unknowns.
+- Concept note, LOI, or proposal core sections depending on mode.
+- Donor-fit matrix.
+- RBM/ToC and logframe-ready structure.
+- MEAL mini-plan.
+- Risk, safeguarding, and feasibility checks.
+- Budget logic summary.
+- Evidence and verification plan.
+- Submission readiness checklist.
 
 ## Who it is for
 - NGO grant managers and proposal leads.
 - MEAL/M&E specialists.
 - Nonprofit consultants and bid teams.
-- Program directors who need a defensible decision before submission.
+- Program directors deciding whether to proceed.
+- Small teams that need submission discipline without building a full proposal office.
 
 ## Why this version is better
-- It treats proposal writing as a decision system, not a text-generation task.
-- It improves submission discipline under time pressure.
-- It is transparent about uncertainty, which improves trust and review quality.
+It does not try to make weak proposals sound strong. It exposes the weaknesses early.
+
+That is the point. A Go/No-Go engine is more useful than a drafting assistant when time, credibility, and donor fit matter.
 
 ## Tech stack
-- OpenClaw (execution runtime and orchestration).
-- ClawHub (skill distribution).
-- Instruction-first architecture with explicit contracts and guardrails.
+- OpenClaw skill architecture.
+- Codex-compatible skill variant.
+- GitHub repository with CI and contribution hygiene.
+- ClawHub distribution.
+- Instruction-first design with explicit evidence and readiness gates.
 
 ## Relevance
-Demonstrates product + operations thinking applied to nonprofit workflows: tighter input gates, better risk signaling, and measurable improvement in submission readiness quality.
+This project shows practical agent design for nonprofit operations: turn ambiguous inputs into a structured decision, preserve uncertainty, and prevent polished text from hiding submission risk.
 
 ## Project links
-- ClawHub skill listing: https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model
-- OpenClaw skill repository: https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub
+- GitHub repository: https://github.com/vassiliylakhonin/nonprofit-rbm-skill-for-claw-hub
+- ClawHub listing: https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model

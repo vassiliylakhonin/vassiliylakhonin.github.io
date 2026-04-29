@@ -36,9 +36,9 @@
 - [Case study: Donor reporting quality and delivery reliability](https://vassiliylakhonin.github.io/case-study-donor-reporting.html): Problem-action-result proof with measurable outcomes.
 - [Case study: Cross-country portfolio delivery and audit readiness](https://vassiliylakhonin.github.io/case-study-portfolio-audit-readiness.html): Delivery control and zero-finding audit outcome across 5 countries.
 - [Case study: SaaS / E-Commerce platform launch delivery control](https://vassiliylakhonin.github.io/case-study-saas-ecommerce-launch.html): PMO-style sprint governance, vendor coordination, and KPI-based rollout tracking.
-- [Case Study: Nonprofit Proposal Decision Engine](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html): Agent-assisted nonprofit proposal decision workflow with human-in-the-loop validation.
+- [Case Study: Nonprofit Proposal Go/No-Go Engine](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html): Decision-grade nonprofit proposal engine with donor-fit, RBM/ToC, MEAL, safeguarding, evidence traceability, and Go/No-Go gating.
 - [Case Study: Agenda-Intelligence.md](https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html): Portable markdown protocol for AI agents that analyze public agenda instead of summarizing it badly.
-- [Case Study (Markdown): Nonprofit Proposal Decision Engine](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.md): Agent-friendly markdown version.
+- [Case Study (Markdown): Nonprofit Proposal Go/No-Go Engine](https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.md): Agent-friendly markdown version.
 - [Case Study (Markdown): Agenda-Intelligence.md](https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.md): Agent-friendly markdown version.
 - [OpenClaw skill repository](https://github.com/vassiliylakhonin/Nonprofit-RBM-Skill-For-Claw-Hub): Project source.
 - [OpenClaw skill listing on ClawHub](https://clawhub.ai/vassiliylakhonin/nonprofit-rbm-logic-model): Public listing.

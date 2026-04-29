@@ -182,7 +182,7 @@ Jan 2014 – Dec 2018
 - [Article brief: listening to aid recipients in 'aid-development' debate: findings from 'the Listening Project' and Jerge-Tal village in Kyrgyzstan](/article-regional-development-policy-analysis.html) - Includes summary, relevance, and source full-text link.
 
 ## Projects / proof
-- [Case Study: Nonprofit Proposal Decision Engine](/case-study-openclaw-rbm-skill.html)
+- [Case Study: Nonprofit Proposal Go/No-Go Engine](/case-study-openclaw-rbm-skill.html)
 - [Case Study: Agenda-Intelligence.md](/case-study-global-think-tank-analyst.html)
 - [Case study: Donor reporting quality and delivery reliability](/case-study-donor-reporting.html)
 - [Case study: Cross-country portfolio delivery and audit readiness](/case-study-portfolio-audit-readiness.html)
@@ -227,7 +227,7 @@ GitHub: [github.com/vassiliylakhonin](https://github.com/vassiliylakhonin)
     },
     {
       "@type": "WebPage",
-      "name": "Case Study: Nonprofit Proposal Decision Engine",
+      "name": "Case Study: Nonprofit Proposal Go/No-Go Engine",
       "url": "https://vassiliylakhonin.github.io/case-study-openclaw-rbm-skill.html"
     },
     {
