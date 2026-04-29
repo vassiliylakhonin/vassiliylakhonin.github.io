@@ -3,110 +3,152 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Case Study: Policy Risk Memo Architect</title>
-  <meta name="description" content="Case study by Vassiliy Lakhonin on building Policy Risk Memo Architect for decision-ready geopolitical and policy risk analysis." />
+  <title>Case Study: Agenda-Intelligence.md</title>
+  <meta name="description" content="Case study by Vassiliy Lakhonin on building Agenda-Intelligence.md, a portable markdown protocol for AI agents that analyze public agenda instead of summarizing it badly." />
   <link rel="canonical" href="https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html" />
   <meta property="og:type" content="article" />
-  <meta property="og:title" content="Case Study: Policy Risk Memo Architect" />
-  <meta property="og:description" content="From generic geopolitical summary to decision-ready policy-risk memo architecture with evidence discipline and bounded confidence." />
+  <meta property="og:title" content="Case Study: Agenda-Intelligence.md" />
+  <meta property="og:description" content="A portable markdown protocol for AI agents that classify signal, separate fact from assessment, and produce watch-next indicators." />
   <meta property="og:url" content="https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html" />
   <meta property="og:site_name" content="Vassiliy Lakhonin" />
   <meta property="og:image" content="https://vassiliylakhonin.github.io/og-image.svg" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="OpenClaw-oriented workflow concept for structured geopolitical and policy analysis" />
+  <meta property="og:image:alt" content="Agenda-Intelligence.md workflow concept for agent agenda analysis" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Case Study: Policy Risk Memo Architect" />
-  <meta name="twitter:description" content="From generic geopolitical summary to decision-ready policy-risk memo architecture with evidence discipline and bounded confidence." />
+  <meta name="twitter:title" content="Case Study: Agenda-Intelligence.md" />
+  <meta name="twitter:description" content="A markdown protocol for AI agents that analyze public agenda instead of summarizing it badly." />
   <meta name="twitter:image" content="https://vassiliylakhonin.github.io/og-image.svg" />
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; margin: 2rem; max-width: 860px; line-height: 1.6; color: #111; }
-    h1, h2 { line-height: 1.25; }
+    h1, h2, h3 { line-height: 1.25; }
     a { color: #0a58ca; }
+    code, pre { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace; }
+    pre { background: #f6f8fa; padding: 1rem; overflow-x: auto; border-radius: 10px; }
     .muted { color: #555; }
   </style>
 </head>
 <body>
   <p><a href="/">Back to profile</a></p>
-  <h1>Case Study: Policy Risk Memo Architect</h1>
+  <h1>Case Study: Agenda-Intelligence.md</h1>
 
-  <h2>Context</h2>
-  <p>I rebuilt this skill as a policy-risk memo architect for teams that need decision-ready geopolitical analysis, not narrative-heavy commentary. The production version is published on ClawHub.</p>
+  <h2>TL;DR</h2>
+  <ul>
+    <li>Built <strong>Agenda-Intelligence.md</strong> as a portable markdown protocol for AI agents that analyze public agenda.</li>
+    <li>Repositioned the project away from a tool-specific install flow and toward a plain <code>.md</code> layer any agent can copy, reference, or retrieve.</li>
+    <li>Added regional lens packs for <strong>Central Asia + Caspian</strong> and <strong>Middle East</strong> to make the protocol useful beyond generic news analysis.</li>
+    <li>Optimized the repo for people building research, news, policy, compliance, and risk agents.</li>
+  </ul>
+
+  <h2>Evidence</h2>
+  <ul>
+    <li>Public GitHub repository: <a href="https://github.com/vassiliylakhonin/agenda-intelligence-md">github.com/vassiliylakhonin/agenda-intelligence-md</a></li>
+    <li>Agent-readable orientation file: <code>llms.txt</code>.</li>
+    <li>Base protocol files: <code>analysis-protocol.md</code>, <code>agenda-triage.md</code>, <code>evidence-discipline.md</code>, <code>output-patterns.md</code>.</li>
+    <li>Regional lens packs: <code>regional/central-asia-caspian.md</code>, <code>regional/middle-east.md</code>.</li>
+  </ul>
+
+  <h2>Metrics</h2>
+  <ul>
+    <li>Core protocol files: 4.</li>
+    <li>Regional lens packs: 2.</li>
+    <li>Example briefs: 4.</li>
+    <li>CI validation: repository structure and required protocol files checked on every push.</li>
+    <li>Distribution model: plain markdown, usable outside any single agent runtime.</li>
+  </ul>
+
+  <h2>Context/Constraint</h2>
+  <p>AI agents are getting better at collecting information, but many still write weak news analysis.</p>
+  <p>The common failure mode is simple: they recap events, add confident-sounding commentary, and stop before the answer becomes useful.</p>
+  <p>The project needed to work as a small reusable layer, not as a long prompt that bloats every agent context.</p>
 
   <h2>Problem</h2>
-  <p>Most AI outputs in policy domains are readable but operationally weak: unclear decision framing, blurred fact vs judgment boundaries, and generic recommendations with low actionability.</p>
+  <p>Most AI-generated public-agenda analysis is readable but decision-light. It rarely says what changed, who gained leverage, what remains unknown, or what would falsify the view.</p>
+  <p>That is fine for a summary. It is weak for research, compliance, policy monitoring, investment context, or operating decisions.</p>
 
   <h2>Actions</h2>
   <ul>
-    <li>Reframed the purpose around decision support, not think-tank style mimicry.</li>
-    <li>Added strict intake fields: question, audience, geography, horizon, actors, domain, depth, evidence mode.</li>
-    <li>Enforced evidence discipline across facts, assumptions, judgments, scenarios, and unknowns.</li>
-    <li>Implemented a 9-step analysis sequence from decision framing to bounded conclusion.</li>
-    <li>Added mode-based outputs: Quick Brief, Standard Memo, Scenario Brief, and Red-Team Challenge.</li>
-    <li>Added confidence protocol (Low/Moderate/High) tied to evidence quality and ambiguity.</li>
-    <li>Added recommendation rules requiring concrete triggers and trade-offs.</li>
+    <li>Reframed the project as a <strong>markdown protocol for agenda analysis</strong>, not a news-summary skill.</li>
+    <li>Defined the core separation agents should preserve:</li>
+  </ul>
+  <pre>Fact → Assessment → Assumption → Unknown → Scenario → Indicator to watch</pre>
+  <ul>
+    <li>Added triage categories: noise, weak signal, signal, structural shift, trigger event, compliance-relevant development.</li>
+    <li>Added evidence rules so agents do not imply live verification when none happened.</li>
+    <li>Added output patterns for compact briefs, decision memos, red-team checks, and watchlists.</li>
+    <li>Added regional lens packs for Central Asia + Caspian and Middle East, focused on regional failure modes that generic agents often miss.</li>
+    <li>Removed tool-specific install language from the public README so the repo reads as a universal protocol first.</li>
   </ul>
 
   <h2>What it does now</h2>
   <ul>
-    <li>Produces decision-ready policy and geopolitical memos.</li>
-    <li>Surfaces uncertainty explicitly without collapsing into vague caveats.</li>
-    <li>Compares competing interpretations when ambiguity is material.</li>
-    <li>Outputs options with practical costs, downsides, and implementation friction.</li>
-    <li>Defines indicators to watch and trigger conditions for posture change.</li>
+    <li>Helps agents avoid shallow news summaries.</li>
+    <li>Forces a clear answer to “what changed?”</li>
+    <li>Separates facts from judgments and assumptions.</li>
+    <li>Makes uncertainty visible without turning the answer into vague caveats.</li>
+    <li>Produces watch-next indicators instead of soft endings.</li>
+    <li>Gives regional checklists for higher-context analysis.</li>
   </ul>
 
   <h2>Current outputs</h2>
   <ul>
-    <li>Executive takeaway.</li>
-    <li>Decision context.</li>
-    <li>Known facts and evidence limits.</li>
-    <li>Actors and incentives.</li>
-    <li>Main assessment.</li>
-    <li>Risks and trade-offs.</li>
-    <li>Options.</li>
-    <li>Indicators to watch.</li>
-    <li>Confidence and key unknowns.</li>
+    <li>Bottom line.</li>
+    <li>Signal classification.</li>
+    <li>What changed.</li>
+    <li>Why it matters.</li>
+    <li>Who is affected.</li>
+    <li>Main uncertainty.</li>
+    <li>Scenarios.</li>
+    <li>Watch-next indicators.</li>
   </ul>
+
+  <h2>Regional lens packs</h2>
+  <h3>Central Asia + Caspian</h3>
+  <p>Focused on sanctions routing, corridor politics, Caspian chokepoints, banking/payment exposure, state leverage, energy, minerals, and regional political economy.</p>
+  <h3>Middle East</h3>
+  <p>Focused on escalation risk, energy flows, maritime chokepoints, sovereign capital, sanctions exposure, normalization, and regional power competition.</p>
 
   <h2>Who it is for</h2>
   <ul>
-    <li>Policy analysts and geopolitical researchers.</li>
-    <li>Strategy, risk, and foresight teams.</li>
-    <li>Corporate intelligence functions.</li>
-    <li>Advisory teams producing decision memos under uncertainty.</li>
+    <li>People building research or news agents.</li>
+    <li>Policy and geopolitical analysts.</li>
+    <li>Compliance and sanctions-monitoring workflows.</li>
+    <li>Investors and founders tracking operating-context shifts.</li>
+    <li>NGOs and advisory teams monitoring regional risk.</li>
+    <li>Anyone tired of agents producing fluent but low-value news commentary.</li>
   </ul>
 
   <h2>Why this version is better</h2>
-  <p>It improves decision quality by enforcing analytical discipline, transparent uncertainty, and actionable option design instead of generic summary output.</p>
+  <p>It is small enough to reuse and strict enough to change the output. The protocol does not ask an agent to sound smarter. It asks the agent to classify signal, expose uncertainty, and name what to watch next.</p>
+  <p>That is the part most generic news analysis misses.</p>
 
   <h2>Tech stack</h2>
   <ul>
-    <li>OpenClaw runtime and orchestration.</li>
-    <li>ClawHub distribution.</li>
-    <li>Instruction-first mode architecture with evidence and confidence guardrails.</li>
+    <li>Plain markdown.</li>
+    <li>GitHub repository with CI validation.</li>
+    <li>Agent-readable <code>llms.txt</code>.</li>
+    <li>Optional OpenClaw-compatible wrapper, but the protocol itself is runtime-agnostic.</li>
   </ul>
 
-  <h2>Relevance for future roles</h2>
-  <p>Demonstrates practical AI system design for policy and strategic risk workflows where traceability, judgment quality, and explicit limits matter.</p>
+  <h2>Relevance</h2>
+  <p>This project demonstrates how I think about useful agent infrastructure: small files, explicit reasoning contracts, low context cost, and outputs that improve decisions rather than just sounding polished.</p>
 
   <figure style="margin: 1.5rem 0 2rem;">
-    <img src="/case-study-global-think-tank-analyst.jpg" alt="OpenClaw workflow visualization for global think tank analysis" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);" />
-    <figcaption class="muted" style="margin-top: 0.5rem; font-size: 0.95rem;">OpenClaw-oriented workflow concept for structured geopolitical and policy analysis.</figcaption>
+    <img src="/case-study-global-think-tank-analyst.jpg" alt="Agenda-Intelligence.md workflow concept for agent agenda analysis" style="width: 100%; height: auto; border-radius: 12px; box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);" />
+    <figcaption class="muted" style="margin-top: 0.5rem; font-size: 0.95rem;">Agenda-Intelligence.md workflow concept for agent agenda analysis.</figcaption>
   </figure>
 
   <h2>Project links</h2>
   <ul>
-    <li><a href="https://github.com/vassiliylakhonin/global-think-tank-analyst">GitHub repository</a></li>
-    <li><a href="https://clawhub.ai/vassiliylakhonin/global-think-tank-analyst">ClawHub skill listing</a></li>
+    <li><a href="https://github.com/vassiliylakhonin/agenda-intelligence-md">GitHub repository</a></li>
   </ul>
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Case Study: Policy Risk Memo Architect",
-    "description": "Policy Risk Memo Architect for decision-ready geopolitical and policy analysis under uncertainty.",
+    "headline": "Case Study: Agenda-Intelligence.md",
+    "description": "Agenda-Intelligence.md is a portable markdown protocol for AI agents that analyze public agenda instead of summarizing it badly.",
     "url": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html",
     "mainEntityOfPage": "https://vassiliylakhonin.github.io/case-study-global-think-tank-analyst.html",
     "author": {
@@ -115,11 +157,11 @@
       "url": "https://vassiliylakhonin.github.io/"
     },
     "about": [
-      "Geopolitics",
+      "AI agents",
+      "News analysis",
       "Policy analysis",
-      "Strategic risk",
-      "Scenario planning",
-      "Decision support"
+      "Risk analysis",
+      "Markdown protocols"
     ]
   }
   </script>
